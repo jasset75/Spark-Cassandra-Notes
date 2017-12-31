@@ -1,0 +1,1 @@
+# Notes about computing Cassandra data with Apache Spark
