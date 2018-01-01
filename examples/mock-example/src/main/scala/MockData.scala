@@ -18,7 +18,7 @@ object MockData {
       .select("gender","first_name") //conver to RDD pair with gender and first_name columns
       .map{case (k,v) => (v,1)} //associate 1 point to each male first name
       .reduceByKey{case (v,count) => count + count} //count 
-      .sortByKey
+      .sortByKey()
       .collect
       .foreach(println)
     sc.stop()
