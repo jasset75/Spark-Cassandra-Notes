@@ -1,4 +1,4 @@
-name := "SparkExamples"
+name := "mock-example"
 
 version := "1.0"
 
