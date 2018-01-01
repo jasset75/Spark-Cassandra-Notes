@@ -1,1 +1,1 @@
-# Notes about Cassandra computing data with Apache Spark
+# Notes about Cassandra data computing with Apache Spark
