@@ -1,3 +1,4 @@
+import os
 import locale
 import numpy as np
 from cassandra.cluster import Cluster
@@ -11,7 +12,8 @@ from pandas import read_csv, concat
 from tqdm import tqdm
 
 KEYSPACE = "examples"
-FICHERO_DATOS = "mock_data.csv"
+MOCK_DATA_TABLE = "mock_data"
+FICHERO_DATOS = "./data/mock_data.csv"
 ENCODING="utf-8"
 COLUMNS = ['id','first_name','last_name','email','gender','ip_address','probability','color','smoker_bool','drinker','language','image']
 DTYPES = [str,str,str,str,object,float]
@@ -34,32 +36,30 @@ class MockData(Model):
   language = Text()
   image = Text()
 
-
-### Conectando no Apache Cassandra
+# Apache Cassandra connection
 list_of_ip = ['127.0.0.1']
 cluster = Cluster(list_of_ip,load_balancing_policy=TokenAwarePolicy(RoundRobinPolicy()))
 session = cluster.connect()
 connection.set_session(session)
 
 ## creating keyspace
-session.execute("DROP KEYSPACE " + KEYSPACE)
 session.execute(
   """
-    CREATE KEYSPACE %s
+    CREATE KEYSPACE IF NOT EXISTS %s
     WITH replication = { 'class': 'SimpleStrategy', 'replication_factor': '3' }
   """ % KEYSPACE)
 session.set_keyspace(KEYSPACE)
 
+## for testing reason if table exist then drop it
+session.execute("DROP TABLE IF EXISTS %s" % MOCK_DATA_TABLE)
 
-## create a CQL table
+## create CQL table
 sync_table(MockData)
 
-## lendo CSV from DATASUS RD
-df_go = read_csv(FICHERO_DATOS,header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING,dtype={"dato": float})
+## reading data from csv file
+df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING,dtype={"dato": float})
 
-stress_factor = 1
-df_go = concat(stress_factor * [df_go])
-df_go.fillna(0,inplace=True)
+df.fillna(0,inplace=True)
 
 def convert(x):
   try:
@@ -68,9 +68,8 @@ def convert(x):
     print('error: ',x)
     return None
 
-## send to database
-
-for ind, row in tqdm(df_go.iterrows(), total=df_go.shape[0]):
+## saving data to database
+for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
   MockData.create(
     id = ind,
     first_name = row['first_name'],
@@ -85,4 +84,3 @@ for ind, row in tqdm(df_go.iterrows(), total=df_go.shape[0]):
     language = row['language'],
     image = row['image']
   )
-
