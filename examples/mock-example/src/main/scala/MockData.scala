@@ -46,6 +46,8 @@ object MockData {
     println("Five highest repeated female names:")
     val females_result_high = females_result.sortBy(_._2,false).take(5)
     females_result_high.foreach(println)
+
+    //finish
     sc.stop()
   }
 }
