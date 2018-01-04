@@ -1,4 +1,4 @@
-index
+# Spark-Cassandra solutions Development
 
-[Ruta absoluta](https://github.com/jasset75/spark-cassandra-notes/wiki/mock-example)
-[Ruta relativa](wiki/mock-example)
+## 1. [Setting up the Environment](Environment.md)
+## 2. [Examples](Examples.md)
