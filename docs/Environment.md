@@ -83,7 +83,7 @@ $ ./sbt/sbt -Dscala-2.11=true assembly
 
 ## Using spark-shell
 
-Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find jars dependencies. In this case of Datastax Cassandra Conector, previously compiled, we have to copy into spark-shell search path, It usually is at `$SPARK_HOME/jars/`
+Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find his jars dependencies. In this case is about Datastax Cassandra Conector, previously compiled, we have to copy into spark-shell search path, It usually is at `$SPARK_HOME/jars/`
 
 ```sh
 $ cp ~/spark-cassandra-connector/spark-cassandra-connector/target/full/scala-2.11/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar $SPARK_HOME/jars/
