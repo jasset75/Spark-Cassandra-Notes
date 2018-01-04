@@ -84,3 +84,6 @@ for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
     language = row['language'],
     image = row['image']
   )
+
+## create index on first_name
+# session.execute("create index on {0} ({1})".format(MOCK_DATA_TABLE,'first_name'))
