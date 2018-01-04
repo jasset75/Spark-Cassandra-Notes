@@ -2,9 +2,11 @@
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 
-Path: [/examples/mock-example](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/)
+Path: [/examples/mock-example-ext](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example-ext/)
 
-This example has two parts:
+This examples is based on [mock-example](mock-example.md).
+
+First part is equal:
 
 ### 1. Load data into cassandra table
 
@@ -54,8 +56,4 @@ $ source $VIRTUALENVS_HOME/cassandra/bin/activate
 
 ### 2. Computing Cassandra data with Spark
 
-This example retrieve data from a Cassandra Table called mock-data in *examples* keyspace. Data are retrieved and a filter is applied. As a result only records with "Male" gender left and only "gender" and "first_name" columns are selected in a Pair RDD.
-
-Map male first names into tuple2 (<name>,1)
-Reduced by key (name,count) adding count for equal names. So at least we have a Seq with male names grouping and dataset count 
-
+Second part is a little bit more complex.
