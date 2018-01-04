@@ -60,7 +60,7 @@ echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 ```
 
 ## Python 3.5
-```
+```sh
 $ sudo apt-get install python3
 $ mkdir ~/project
 $ virtualenv -p `which python3` pyspark
@@ -68,10 +68,10 @@ $ source ./pyspark/bin/activate
 ``` 
 
 ## Jupyter 
-*(if necessary)*
+*(... if necessary)*
 ```sh
-$pip install findspark
-$pip install jupyter
+$ pip install findspark
+$ pip install jupyter
 ````
 ## Datastax Spark-Cassandra Connector
 > Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
@@ -80,6 +80,7 @@ $ git clone https://github.com/datastax/spark-cassandra-connector
 $ cd spark-cassandra-connector
 $ ./sbt/sbt -Dscala-2.11=true assembly
 ```
+
 ## Using spark-shell
 
 Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find jars dependencies. In this case of Datastax Cassandra Conector, previously compiled, we have to copy into spark-shell search path, It usually is at `$SPARK_HOME/jars/`
@@ -97,18 +98,18 @@ Shell usage
 
 ```scala
 // stop the Spark Context
-sc.stop
+scala> sc.stop
 
 // library imports
-import com.datastax.spark.connector._
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
+scala> import com.datastax.spark.connector._
+scala> import org.apache.spark.SparkContext
+scala> import org.apache.spark.SparkContext._
+scala> import org.apache.spark.SparkConf
 
 // loading configuration
-val conf = new SparkConf(true).set("spark.cassandra.connection.host", "localhost")
+scala> val conf = new SparkConf(true).set("spark.cassandra.connection.host", "localhost")
 // new context 
-val sc = new SparkContext(conf)
+scala> val sc = new SparkContext(conf)
 ```
 
 ## Using spark-submit
