@@ -45,14 +45,16 @@ sudo apt-get install scala
 scala -version
 ```
 
-## Apache Spark 2.2.1 installation with hadoop 2.7 support
+## Apache Spark 2.2.1 installation 
+*(**with hadoop 2.7 support**)*
 ```sh
 wget http://ftp.cixug.es/apache/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
 tar xvf spark-2.2.1-bin-hadoop2.7.tgz
 sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
 ```
 
-## adding to path
+## Adding to $PATH
+```bs
 echo "export SPARK_HOME=/usr/local/spark-2.2.1"
 echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 ```
@@ -65,43 +67,47 @@ $ virtualenv -p `which python3` pyspark
 $ source ./pyspark/bin/activate
 ``` 
 
-## Jupyter (if necessary)
+## Jupyter 
+*(if necessary)*
+```sh
 $pip install findspark
 $pip install jupyter
-
+````
 ## Datastax Spark-Cassandra Connector
-> Source 
---- [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
-
+> Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
 ```sh
 $ git clone https://github.com/datastax/spark-cassandra-connector
 $ cd spark-cassandra-connector
 $ ./sbt/sbt -Dscala-2.11=true assembly
 ```
+## Using spark-shell
 
-## spark-shell environment
-
-Most times Spark Shell is used in interactive mode. Spark Shell need load jars with
-dependencies; in this case Datastax Cassandra Conector, previously compiled.
+Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find jars dependencies. In this case of Datastax Cassandra Conector, previously compiled, we have to copy into spark-shell search path, It usually is at `$SPARK_HOME/jars/`
 
 ```sh
-$ cp ~/spark-cassandra-connector/spark-cassandra-connector/target/full/scala-2.11/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar /usr/local/spark-2.2.1/jars/
+$ cp ~/spark-cassandra-connector/spark-cassandra-connector/target/full/scala-2.11/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar $SPARK_HOME/jars/
 ```
+
 
 ```sh
 $ spark-shell --jars $SPARK_HOME/jars/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar
 ```
 
-shell commands
+Shell usage
 
 ```scala
+// stop the Spark Context
 sc.stop
+
+// library imports
 import com.datastax.spark.connector._
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 
+// loading configuration
 val conf = new SparkConf(true).set("spark.cassandra.connection.host", "localhost")
+// new context 
 val sc = new SparkContext(conf)
 ```
 
