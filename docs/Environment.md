@@ -111,9 +111,9 @@ val conf = new SparkConf(true).set("spark.cassandra.connection.host", "localhost
 val sc = new SparkContext(conf)
 ```
 
-## spark-submit environment
+## Using spark-submit
 
-In this mode, you could launch applications directly to the cluster. Scala application need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/).
+By this way we could launch packaged applications directly to the cluster. Scala applications need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/).
 
 ```sh
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
