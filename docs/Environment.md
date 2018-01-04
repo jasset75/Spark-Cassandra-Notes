@@ -2,12 +2,11 @@
 
 ## Description
 
-The goal is to set up a development environment. This will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository.
+The goal is to set up a development environment, just to try on the examples. And will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository.
 
 C* NoSQL database which is an...
 
-> "hybrid between a key-value and a column-oriented (or tabular) database management system"
---- [Apache Cassandra. (2018, January 1). Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Apache_Cassandra)
+> "hybrid between a key-value and a column-oriented (or tabular) database management system"--- [Apache Cassandra. (2018, January 1). Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Apache_Cassandra)
 
 * Ubuntu 16.04.3 LTS (Xenial Xerus)
 * Python 3.5.2
