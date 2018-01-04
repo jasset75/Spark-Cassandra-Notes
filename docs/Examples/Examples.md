@@ -1,5 +1,7 @@
 # Examples
 
-Github [repository](https://github.com/jasset75/spark-cassandra-notes)
+## Mock Data Example
+[mock-example](Examples/mock-example.md)
 
-[mock-example](https://github.com/jasset75/spark-cassandra-notes/wiki/mock-example)
+## Mock Data Example (extended)
+[mock-example-ext](Examples/mock-example-ext.md)
