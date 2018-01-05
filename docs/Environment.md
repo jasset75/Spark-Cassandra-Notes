@@ -113,7 +113,7 @@ scala> val sc = new SparkContext(conf)
 
 ## Using spark-submit
 
-By this way we could launch packaged applications directly to the cluster. Scala applications (classes, resources, dependencies, etc.) need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/) and prepare your application in a particular way [more details](scala-app-template.md)
+By this way we could launch packaged applications directly to the cluster. Scala applications (classes, resources, dependencies, etc.) need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/) and prepare your application in a [particular way](scala-app-template.md).
 
 ```sh
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
