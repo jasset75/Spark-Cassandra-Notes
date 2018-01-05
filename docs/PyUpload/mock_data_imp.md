@@ -57,7 +57,6 @@ Using this class you can do object mapping with records into Cassandra table
 
 ```py
 ## Object Mapper
-## Object Mapper
 class MockData(Model):
   __keyspace__ = KEYSPACE
   id = Integer(primary_key=True)
