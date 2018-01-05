@@ -2,12 +2,11 @@
 
 ## Description
 
-The goal is to set up a development environment. This will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository.
+The goal is to set up a development environment, just to try on the examples. And will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository.
 
 C* NoSQL database which is an...
 
-> "hybrid between a key-value and a column-oriented (or tabular) database management system"
---- [Apache Cassandra. (2018, January 1). Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Apache_Cassandra)
+> "hybrid between a key-value and a column-oriented (or tabular) database management system"--- [Apache Cassandra. (2018, January 1). Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Apache_Cassandra)
 
 * Ubuntu 16.04.3 LTS (Xenial Xerus)
 * Python 3.5.2
@@ -45,69 +44,76 @@ sudo apt-get install scala
 scala -version
 ```
 
-## Apache Spark 2.2.1 installation with hadoop 2.7 support
+## Apache Spark 2.2.1 installation 
+*(**with hadoop 2.7 support**)*
 ```sh
 wget http://ftp.cixug.es/apache/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
 tar xvf spark-2.2.1-bin-hadoop2.7.tgz
 sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
 ```
 
-## adding to path
+## Adding to $PATH
+```bs
 echo "export SPARK_HOME=/usr/local/spark-2.2.1"
 echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 ```
 
 ## Python 3.5
-```
+```sh
 $ sudo apt-get install python3
 $ mkdir ~/project
 $ virtualenv -p `which python3` pyspark
 $ source ./pyspark/bin/activate
 ``` 
 
-## Jupyter (if necessary)
-$pip install findspark
-$pip install jupyter
-
+## Jupyter 
+*(... if necessary)*
+```sh
+$ pip install findspark
+$ pip install jupyter
+````
 ## Datastax Spark-Cassandra Connector
-> Source 
---- [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
-
+> Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
 ```sh
 $ git clone https://github.com/datastax/spark-cassandra-connector
 $ cd spark-cassandra-connector
 $ ./sbt/sbt -Dscala-2.11=true assembly
 ```
 
-## spark-shell environment
+## Using spark-shell
 
-Most times Spark Shell is used in interactive mode. Spark Shell need load jars with
-dependencies; in this case Datastax Cassandra Conector, previously compiled.
+Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find his jars dependencies. In this case is about Datastax Cassandra Conector, previously compiled, we have to copy it into spark-shell search path. They usually are at `$SPARK_HOME/jars/`
 
 ```sh
-$ cp ~/spark-cassandra-connector/spark-cassandra-connector/target/full/scala-2.11/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar /usr/local/spark-2.2.1/jars/
+$ cp ~/spark-cassandra-connector/spark-cassandra-connector/target/full/scala-2.11/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar $SPARK_HOME/jars/
 ```
+
 
 ```sh
 $ spark-shell --jars $SPARK_HOME/jars/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar
 ```
 
-shell commands
+Shell usage
 
 ```scala
-sc.stop
-import com.datastax.spark.connector._
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
+// stop the Spark Context
+scala> sc.stop
 
-val conf = new SparkConf(true).set("spark.cassandra.connection.host", "localhost")
-val sc = new SparkContext(conf)
+// library imports
+scala> import com.datastax.spark.connector._
+scala> import org.apache.spark.SparkContext
+scala> import org.apache.spark.SparkContext._
+scala> import org.apache.spark.SparkConf
+
+// loading configuration
+scala> val conf = new SparkConf(true).set("spark.cassandra.connection.host", "localhost")
+// new context 
+scala> val sc = new SparkContext(conf)
 ```
 
-## spark-submit environment
+## Using spark-submit
 
-In this mode, you could launch applications directly to the cluster. Scala application need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/).
+By this way we could launch packaged applications directly to the cluster. Scala applications need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/).
 
 ```sh
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list

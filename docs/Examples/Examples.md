@@ -1,7 +1,7 @@
 # Examples
 
 ## Mock Data Example
-[mock-example](Examples/mock-example.md)
+[mock-example](mock-example.md)
 
 ## Mock Data Example (extended)
-[mock-example-ext](Examples/mock-example-ext.md)
+[mock-example-ext](mock-example-ext.md)

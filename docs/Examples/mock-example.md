@@ -4,6 +4,8 @@ Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 
 Path: [/examples/mock-example](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/)
 
+> Previous Requirements [Setting up the Environment](../Environment.md)
+
 This example has two parts:
 
 ### 1. Load data into cassandra table
