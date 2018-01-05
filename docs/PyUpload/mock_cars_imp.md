@@ -44,7 +44,7 @@ I use python pandas library to load CSV file into memory and to be able to work 
 ```py
 df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING)
 ```
->`read_csv` is a powerfull and flexible method into pandas API to do multiple things. Load data into Dataframe structure, that is similar with Spark Dataframe; an important difference is that the last one is a distributed dataset and in pandas is locally stored in memory, but is relatively easy to convert each other so, you could work with both at your convenience.
+>`read_csv` is very flexible method into the powerfull **pandas** library to do multiple things. Load data into Dataframe structure, that is similar with Spark Dataframe; an important difference is that the last one is a distributed dataset and in pandas is locally stored in memory, but is relatively easy to convert each other so, you could work with both at your convenience.
 
 ## Storing into Cassandra
 
