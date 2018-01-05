@@ -1,0 +1,1001 @@
+car_id,registration,car_make,car_model,car_model_year,color,id_owner
+9b90c0ef-3442-4672-b14f-d973f0a68b56,3917-NGW,Dodge,Grand Caravan,2002,Maroon,1
+7f2d109c-2158-4d56-bc64-122df1ec5b3c,7247-LRK,Hyundai,Equus,2013,Mauv,2
+35aafb18-4624-40f6-8bb5-69341b4643c8,9124-FWQ,Ford,LTD Crown Victoria,1988,Green,3
+b507aeff-f208-4e45-9da3-5c67ee8bd4a8,8162-HAE,Ford,Aerostar,1996,Maroon,4
+11bd937b-610d-43f1-b4a5-870b262948f0,9315-TDX,Lotus,Elise,2008,Turquoise,5
+3d1c60eb-6d5e-4368-9c14-43216c22a98e,4852-AFY,Volvo,V70,2010,Indigo,6
+affa75b5-4cfb-408a-9a6b-a736eed2bdef,9256-IAZ,GMC,Sierra 1500,2009,Khaki,7
+7055ec25-cd9f-4f35-a518-e1beb8afcd86,8704-WFS,Saab,9000,1987,Violet,8
+3e0fe080-e976-4985-a84f-2538ec93285f,4692-SUL,Pontiac,Grand Am,1993,Pink,9
+12b923eb-a400-4fda-90d8-653aabcba535,6666-ULE,Porsche,928,1988,Turquoise,10
+d7b51cf4-e0f6-422f-a35e-c9edc663114c,0958-UCB,Dodge,Ram Van 1500,2000,Blue,11
+36d6c13b-ca72-424f-87af-be4ce68899a2,6947-GDX,BMW,3 Series,1992,Blue,12
+f138b7fe-3e8e-4ac7-864b-20b7e32a207a,3529-QCJ,Maybach,Landaulet,2012,Pink,13
+dfcfb2a2-f33c-4beb-b8fc-738da8636572,6719-BRZ,Toyota,Land Cruiser,2013,Aquamarine,14
+716cf0bb-a260-4769-bb0d-448e3cbf288b,6625-PZJ,Volkswagen,Type 2,1991,Pink,15
+cbf5dc79-3ab5-4db1-b497-ba71a4c82960,8825-AZE,Dodge,D250,1993,Pink,16
+b80c8b22-58ce-4c87-91bc-6b56e26641b7,7457-RED,Chevrolet,Silverado 2500,2006,Fuscia,17
+8a249968-994e-4649-9129-e3c346555d92,9102-OZZ,Dodge,Dakota Club,1996,Goldenrod,18
+39d30f97-c1ba-4487-9286-a26bee46ccac,8194-DMK,Ford,Bronco II,1987,Crimson,19
+adc3f25b-b789-46ad-9e10-f447a05e6806,0057-CVB,Daihatsu,Rocky,1992,Maroon,20
+f7b175cb-1e72-4247-b907-09b76ad52596,5092-LUB,Mazda,B-Series Plus,2001,Violet,21
+a9a1b48d-dc88-4d2b-ab5c-432a03701579,2905-JHT,Volkswagen,Cabriolet,1985,Orange,22
+877fbbca-2336-492f-8cbc-4f799ed26229,0387-RRA,GMC,Sonoma,2002,Teal,23
+c0ebeed5-3aa4-47c3-a229-fbc8bbe28541,6230-DNA,Lincoln,Continental,2001,Violet,24
+3d4814f8-4312-49c2-b665-c1b40ec072d0,0349-GZG,Hyundai,Sonata,1999,Crimson,25
+5154213c-5875-40d6-9546-17255c8e278e,5273-PZU,Mercedes-Benz,CL-Class,2010,Maroon,26
+c4f4282d-b7fb-4cd0-a800-9f9485c01cb1,0033-NSP,Toyota,Paseo,1993,Green,27
+3f0b59fd-d405-4cd7-93b5-2b43ce615172,6265-LDM,Nissan,Titan,2006,Pink,28
+41705846-518a-4afd-9738-76cb6424a4e1,7112-QGE,Cadillac,Escalade,2002,Aquamarine,29
+1bd8197c-cac9-4857-92b7-2fd40c8eada8,1940-MCN,Buick,Terraza,2005,Yellow,30
+21907015-5313-45c4-9294-8af6a132bcc0,3505-JNM,Pontiac,Aztek,2003,Maroon,31
+8a067823-ee3b-414b-8c0d-867ac528eb9d,4170-PGZ,Honda,CR-V,2005,Yellow,32
+0c7b07c0-52c4-4897-b918-cccb0984f7a9,2750-MWE,Dodge,Charger,2007,Turquoise,33
+14c0b0a7-d7c4-46e1-ac59-230a02294300,8936-VKJ,Buick,Century,1991,Orange,34
+86b1eb21-2997-4096-a40a-25cc32de5fc6,7569-TMT,Saab,900,1986,Puce,35
+e2832da3-14a7-43a2-b913-933897eb9ee6,9396-TPA,Mazda,MX-5,2003,Goldenrod,36
+589e4d07-2e34-4272-b6ba-0a206c1b0742,5320-BQZ,Nissan,Quest,1997,Aquamarine,37
+64c15fce-5c98-42a0-a414-be9a7877ffab,3796-BLH,GMC,Savana,2009,Aquamarine,38
+5b58b5b1-3402-4232-ad13-d514dd8f9899,8466-GJG,Subaru,Outback,2006,Aquamarine,39
+d19dd4c3-8116-48ab-b531-c1d5984a6b92,9749-TMF,Mazda,Protege,1994,Fuscia,40
+8c50e032-70b7-422d-a3c7-f785c00b323b,6651-BEN,Buick,Park Avenue,2000,Teal,41
+5acf6fde-56ca-4cd5-b76c-68997081fa2d,0189-BMC,Honda,S2000,2005,Blue,42
+39684fad-fbd5-4c3e-a927-e7b6407de293,0917-IHW,Jeep,Grand Cherokee,1994,Orange,43
+d9b75b12-6889-4344-8521-fc8e48d64d6f,7445-MPH,Dodge,Ram Van 2500,2003,Red,44
+3152581e-8958-46c7-bc31-c8c3cd52cdae,4523-BFJ,Honda,Prelude,1998,Purple,45
+ba2fbed2-8982-4e50-a288-a2818ab60a39,2286-GNP,Volvo,C30,2010,Mauv,46
+c02abac1-573b-457e-94df-88607dfbcba5,3383-KNN,Jaguar,XK,2012,Maroon,47
+7a840d76-9867-4218-ac66-96da3351dce3,5930-OVD,Toyota,Prius Plug-in,2012,Teal,48
+67f20d10-28d3-41f6-84ef-0fd55944341d,7190-ZJT,Lincoln,Continental Mark VII,1985,Violet,49
+4dee2d3f-433f-457d-a4cc-da37afc4e52d,0187-PJM,Toyota,MR2,1992,Green,50
+957ddf9d-e01b-496d-88ef-6a0b6023345c,9004-UBK,Dodge,Ram 3500,2004,Green,51
+f52a0f09-0e2d-46b6-b79c-588305afb489,3104-ELC,Ferrari,612 Scaglietti,2006,Blue,52
+a56327ed-4a43-4910-a18e-d4545d285bbe,1120-WYB,Mazda,RX-7,1991,Yellow,53
+e3da3969-629b-43a6-a424-7fe0dc74e3e9,4938-SMM,Pontiac,6000,1989,Orange,54
+9bdae2e1-7feb-4aea-ab4d-a8f41dc73d28,6056-REU,Subaru,Forester,1999,Fuscia,55
+c4a5b518-256e-4777-ade6-66dfad3a6f65,7840-NNF,Subaru,Impreza,2012,Crimson,56
+386f264c-42c4-4ca2-a0f3-d60ab7544a22,4904-VKM,Mazda,Miata MX-5,1995,Mauv,57
+1ede6365-c9fe-4e9d-bf48-d2f97f24967b,1837-ADS,Nissan,Quest,2007,Mauv,58
+28ac61fa-5438-4fa5-a8ee-7e070412ca05,9385-UEY,Mitsubishi,Challenger,2001,Mauv,59
+b3729738-65ff-4d1c-b0e1-afcd9a139b8c,5499-WOD,Volkswagen,Passat,1987,Teal,60
+ff1d6842-83a3-4347-9f08-c9de54d0beed,4913-MSS,Audi,5000CS,1988,Red,61
+2f0bb122-f3cc-4f77-b0cc-7cc668369533,8730-HAP,Pontiac,Torrent,2007,Violet,62
+b7ab43a9-545b-4750-9662-6bb9b8c1f685,2635-OJW,Mercury,Tracer,1995,Violet,63
+b48e39e3-fdb5-418e-8fc2-84d6b52f70a9,2861-SOW,Chevrolet,Tahoe,1995,Khaki,64
+db71ad3f-73c6-4b44-bf30-960061d4e49f,9069-FFY,Mitsubishi,Sigma,1989,Indigo,65
+b6c9b14f-16ab-4bc6-989a-0ce1a420b9a3,4170-QRK,Chevrolet,Monza,1975,Fuscia,66
+0660a94e-59fa-48b3-8ac6-1c7542bcad35,5603-POA,Subaru,Legacy,1997,Khaki,67
+d1a45d2c-bab1-48a4-90b2-ee06e4b971dc,6918-NNL,Kia,Spectra,2006,Violet,68
+582ce3c7-45a6-4cd1-8651-f407eea08898,2839-JUM,Volkswagen,GLI,2008,Puce,69
+79f2d2ee-7277-4f5b-a7f0-950fae48a9bf,6384-PQV,Mazda,MPV,1996,Teal,70
+c7783f65-234c-4587-90b2-74614a140500,6541-EJV,Kia,Spectra5,2006,Pink,71
+a2f844da-b6af-4bc5-a4b4-476f64f48bf6,5690-KCQ,BMW,Z4 M Roadster,2009,Violet,72
+a7aa0185-9fd3-4944-bd28-994ae352b567,6898-XNW,Chevrolet,Sportvan G30,1994,Purple,73
+c27d2c43-6e5a-459a-ba76-213d9978d5d8,3996-CMV,Chevrolet,Classic,2005,Goldenrod,74
+ae76e48c-19b0-4fea-8dae-edbf9ea850f1,1944-JUY,Chrysler,Imperial,1926,Yellow,75
+e6e6a3d4-3283-4adc-ad19-bb00c2d48495,5382-OQM,Subaru,Forester,2007,Blue,76
+db12a8c2-4ed3-481e-b063-5d91229777dd,1438-QGR,Honda,Insight,2001,Red,77
+e6c7493a-0886-4f82-9218-39c0042be1de,6488-BJN,Dodge,Grand Caravan,2002,Orange,78
+bb3e69f1-6737-4e59-83c6-7e16b8f0d37f,1878-UXK,Mercury,Topaz,1993,Turquoise,79
+85bccccc-0b82-4861-af6e-35e30d552b41,2667-ARW,Bentley,Arnage,2008,Teal,80
+b33e932c-45e4-4aa6-9f41-375a0fca53a3,0828-NJG,Buick,Century,2000,Turquoise,81
+7fb61422-df0b-44c1-8a49-effdaa688b30,9348-FRK,Hummer,H1,1997,Orange,82
+c75d77f5-6b8d-43ff-9e8a-475e1742ddad,9223-API,Jeep,Grand Cherokee,1994,Yellow,83
+9ad097c9-2970-4480-b15b-c2098f8e6141,0644-VPD,Ford,Explorer Sport Trac,2002,Yellow,84
+f4165422-7120-4b17-ba53-66fb58f81f84,1466-LBZ,Mazda,MX-6,1991,Indigo,85
+c73802db-c188-4c7b-a8bf-e1bc7c63cf47,5643-HTM,Lotus,Esprit,1997,Maroon,86
+1b5c393c-9f64-4869-b15b-7800ac12d58d,5831-LCT,Chevrolet,Tahoe,2003,Mauv,87
+b1875875-ed1b-4c1f-89d4-bc822e4f5a92,4438-ORA,Nissan,Armada,2012,Fuscia,88
+a7d897fd-022a-4ba6-83c2-f2fc002417a5,8066-LLB,Lexus,ES,1997,Purple,89
+10df6811-2fd7-42d2-b461-c09c5731fe58,3283-RRR,Maserati,Coupe,2005,Orange,90
+9a55904e-755d-455e-9bb0-36235c74ef72,6580-NLO,Suzuki,SJ,1989,Indigo,91
+21f40a89-06fc-4f59-8ec0-0440b8f031db,9399-UKF,Suzuki,Grand Vitara,2008,Teal,92
+a8958437-e03c-451f-a7c4-de341362ab11,2342-URD,Mazda,Familia,1985,Puce,93
+ce6fc14e-16e7-4510-998b-30f94131bdc0,9483-JMA,Mitsubishi,Diamante,2001,Khaki,94
+d240ec23-8342-449f-98b8-78fa722512a5,1340-ISA,Honda,Ridgeline,2011,Green,95
+67b2a4c0-1609-41de-81d8-e0b0f2aa14b3,6334-ZFX,Ford,F150,1999,Crimson,96
+3e7a1fcb-9113-4358-af2d-8324bbdcc083,0512-AOT,Subaru,Forester,2012,Pink,97
+f697e7b8-38a1-43e5-85fc-7761a6ed8326,5212-KBP,Mazda,RX-8,2007,Violet,98
+819fb204-ca5c-4488-af6a-c50b4e24b2d6,8346-TBT,Alfa Romeo,Spider,1994,Aquamarine,99
+1ff685d3-7952-415f-80b5-b6d72d17ed72,2094-PVY,Isuzu,Rodeo Sport,2001,Puce,100
+9d4c7c23-bad8-48c6-91e0-efeea8707ce2,1034-CUP,Mercedes-Benz,C-Class,1996,Turquoise,101
+caba07b4-e509-409c-b714-a6ff3502fc1b,5361-GFZ,Ford,Mustang,1964,Indigo,102
+936ffeb7-e1b1-49f6-920a-9accbf5a985d,1518-LAX,GMC,Sierra 2500,2005,Puce,103
+7cb7e588-d37c-4a54-a713-ca0052825a48,2483-UMB,Nissan,GT-R,2009,Orange,104
+3f44899c-ac88-4530-bb86-0fcc3183203e,6515-XFN,Pontiac,Grand Am,1987,Maroon,105
+e97c2135-b69a-4195-96e9-eddc23478bbd,7922-PAI,Ford,EXP,1984,Turquoise,106
+0edb48ee-6856-481f-b48f-0b4e15ac253b,9836-IQN,Honda,CR-X,1988,Mauv,107
+6b965d8a-237b-40bd-a4f9-9276ee6ea596,2034-SPW,Mercedes-Benz,M-Class,2000,Puce,108
+a0cdc28b-46bd-42b9-bb5b-61d2ee2bcaea,0829-WFU,Chevrolet,Avalanche 1500,2006,Orange,109
+61dd9879-1952-4a58-a8ba-6606136e4f47,1936-GQI,Mazda,MX-5,1992,Red,110
+59d2f3a2-a7cf-4da1-bfe0-40b89323caa9,8025-MET,GMC,Sierra 1500,2002,Mauv,111
+17778d1e-7de0-4e9e-9cff-ee85b7fa92e3,1547-CAW,Lexus,RX,2013,Maroon,112
+68222264-4000-4d2e-a2f9-3853340d1251,6263-VFH,Nissan,350Z,2008,Teal,113
+7b64e871-259e-4ed7-847b-978e23169e35,2437-XHU,Ford,Freestar,2007,Violet,114
+e08af065-a191-464a-b56b-bdaabc5d7138,7784-JWF,Chevrolet,Silverado,2008,Mauv,115
+9e8e7ba5-664a-4509-a763-eb325174e9b5,8186-HCL,Mazda,929,1992,Teal,116
+f911cdcb-f271-40a2-af08-58523c6e5d19,6833-PDT,Nissan,300ZX,1995,Purple,117
+5c37d133-76b3-43fd-9a1d-d980387a2d59,8336-NMZ,Aston Martin,DB9,2007,Crimson,118
+60b34fd8-f56f-43af-99e9-e67495de47d7,2034-GXM,BMW,650,2006,Aquamarine,119
+0e549cb4-7e15-479a-8f11-597b782d58dd,8628-GQJ,Ford,Econoline E150,2001,Maroon,120
+32194d6d-589c-4b84-89a2-13ef6f2d3194,7608-FIJ,Ford,Laser,1988,Mauv,121
+4dc711af-6dd7-4333-a323-c5d19038cdab,4300-ZIU,Jeep,Liberty,2002,Green,122
+31b1b542-0d91-41ae-8ab0-fd0505a04313,1470-GNR,Mercedes-Benz,SL-Class,1995,Yellow,123
+f15a81bc-ea18-40d7-8d95-e8e5a484322a,3986-FJP,Toyota,4Runner,2012,Indigo,124
+df7256ab-d310-44cb-9171-f319a1d1f167,4243-XXK,Pontiac,Firefly,1985,Teal,125
+247a1ce7-03ec-4c47-890e-497c8f2f7d98,1475-RTR,GMC,Savana 1500,2003,Fuscia,126
+7ceeda0b-48e3-49ca-95bd-4a0a7c9bc0d2,9403-SYX,Mazda,RX-7,1989,Turquoise,127
+33b07a75-2507-4d14-923c-87f8c17e034b,2505-PIM,Acura,NSX,1996,Blue,128
+cb9391ff-fb09-474b-bce1-c17e1632d4ef,2437-FKE,Oldsmobile,Bravada,2002,Fuscia,129
+6cd546ad-f24d-4de5-a8b2-d12489ac3325,6014-YDA,Rolls-Royce,Ghost,2012,Indigo,130
+24435da5-5aee-4d20-96a6-50d5328c5e3a,1621-XDW,Volkswagen,Fox,1993,Purple,131
+9b8232f2-7c9d-49c7-92f9-f3f85240f2b0,6667-HTI,Ford,F450,2011,Pink,132
+1cbbf3ac-1de9-4921-86a2-c0e8794a45c5,4507-MNE,Mercury,Capri,1994,Violet,133
+aa7d2ecb-4d44-4a00-8ddb-3f64d7ad3c82,0616-DXH,Jaguar,S-Type,2004,Crimson,134
+8478f861-35fb-444b-a624-c082654367d3,5156-TPO,Nissan,Altima,1993,Blue,135
+395c1530-32f2-4084-ae12-217cd44e7893,6414-AIX,Ford,Crown Victoria,2000,Violet,136
+1e0f9937-065f-4ee2-af64-f3f483d5e075,5456-IMV,Ford,Focus,2008,Violet,137
+d2bd20fc-a2fc-4a77-af45-cfd821226dae,4910-GVZ,Chevrolet,Suburban 2500,2007,Purple,138
+eafd7b8b-6f65-4549-99de-858fcc82f26c,6085-QET,Chevrolet,Impala,1994,Red,139
+c90814b1-c8c9-4b7c-8124-f590d97f6c0c,3937-ZGK,Honda,Odyssey,1996,Puce,140
+d3d6d687-b4f2-416c-b511-b34d73bfe262,3961-IDW,Mitsubishi,Pajero,2004,Fuscia,141
+f5d040a4-af68-4fe3-ac2d-09ef9e0e3bea,0348-KFB,Dodge,Ram 1500,2007,Crimson,142
+b631dada-00d5-4d33-bc11-05edc6195148,0585-OBM,Cadillac,Escalade EXT,2002,Khaki,143
+09bd0353-56e4-41a1-a54d-b0d6745fb18c,4071-PSN,Infiniti,FX,2010,Goldenrod,144
+ea355147-0401-4572-b881-b139b8ff6327,7590-NTT,Hyundai,Elantra,2003,Blue,145
+af362e0b-bb1b-403c-97ef-71f11e4a7f79,1345-JXP,Cadillac,XLR-V,2007,Orange,146
+51d1c558-d321-4e7d-93bf-8a2c3af79124,7025-ZHH,Ford,Mustang,1972,Indigo,147
+1afc0aef-ba6a-4f6b-8dd5-d0dfa7f76c41,6140-IPO,Lexus,LS,1991,Purple,148
+25c0bd13-c560-4421-b958-1122bd3771a0,8461-MWI,Chevrolet,S10,1996,Yellow,149
+f24f3d6d-c660-4a5a-89ed-f43c14cb74f8,9710-JXC,Suzuki,Vitara,2003,Khaki,150
+dc4decde-d97e-4cb7-8e5d-0c2022bf237a,3500-ERQ,Hyundai,Elantra,1992,Violet,151
+a3629e0f-1467-403c-953c-880283d94d70,4406-YZF,Audi,S4,2012,Goldenrod,152
+b367318d-d80e-4f4f-bdd6-7cd0cd1a15ac,3766-ZMQ,Chevrolet,1500,1992,Teal,153
+426b129f-81c6-468e-b7b7-430a752d6a1b,8274-NVE,Volvo,C70,2008,Blue,154
+8e57ec83-e910-4ddf-8228-b902072ac706,7311-YNA,Nissan,350Z,2007,Goldenrod,155
+ecfdb740-26cd-47f7-9e8f-91ac04f52bc2,6134-HRD,Mitsubishi,Mirage,1984,Green,156
+cdb24687-8225-48e2-8466-d2d30c8bad54,1595-VKL,Mitsubishi,Pajero,1996,Turquoise,157
+2cb8a470-9fa5-4f04-831b-ecf6f788e9c7,8326-PGM,Chevrolet,Equinox,2007,Green,158
+8818c957-eff4-410d-9d9b-8b26b47253f9,9650-UDZ,Honda,Passport,2001,Violet,159
+7a8fc0b6-5ee4-4732-a6b3-1b63cc89a186,5127-OLK,Honda,CR-V,1999,Turquoise,160
+8231cafc-a44a-4699-a8c7-868e4999c3cf,5620-JRV,Chevrolet,Equinox,2007,Turquoise,161
+2d2e5608-49a2-4d3d-a162-8a38870ff432,0835-QUK,Mazda,MX-5,1990,Purple,162
+29985ab1-0999-469c-b08e-ea3fafd0f30f,7934-GXI,Ford,E250,2008,Blue,163
+4103d397-906c-444e-a996-86c59dffe37c,2840-KTJ,Porsche,Boxster,2005,Green,164
+79288894-df3a-442c-9ba8-8f1cea937bcf,8629-NAU,BMW,330,2005,Purple,165
+b8b47db9-658a-4f4c-9728-c4ab21dd6596,0990-IPD,Chevrolet,Suburban 2500,1994,Mauv,166
+06496df5-578f-4927-a56a-f722ef437e92,4145-LJP,Dodge,Ram Van 3500,1999,Green,167
+f1e491e1-e6e5-45d0-8d51-b4da1331ef1b,1206-QCU,Mercedes-Benz,190E,1993,Violet,168
+675bb350-b77a-4567-9f03-491c79da1ad6,5942-DUI,Suzuki,SJ,1992,Fuscia,169
+12de4144-7ad6-4b23-835e-33be61d26721,0393-UFY,BMW,525,2005,Turquoise,170
+891588a4-741e-4296-84ab-c64b842024a2,3294-GZU,Volkswagen,Cabriolet,1995,Khaki,171
+c7511c3e-1cef-4a1d-98f6-4454e0e7c3f2,0584-TLJ,Mazda,CX-7,2010,Crimson,172
+8e6e3b49-9dd5-4092-afe1-d37560483567,0726-MTA,Nissan,Altima,2002,Crimson,173
+b2e3d1f7-68ea-4431-938b-1c83285720fa,0375-SHO,Dodge,Intrepid,2004,Puce,174
+ddb65ebd-c781-433d-a08d-9aa5c394a9be,2448-JYZ,Eagle,Talon,1990,Green,175
+1292235a-4ca8-40ea-9d16-29852b4d4f8f,6267-TCX,Kia,Sephia,1999,Yellow,176
+6317a0f5-280e-4de3-849f-39d428255c15,5657-JHG,GMC,Sonoma Club Coupe,1994,Maroon,177
+ba7404d4-acd6-4729-b6ae-1a2b0fb48207,3130-YTG,Toyota,Supra,1993,Crimson,178
+67647c0c-475b-4642-9d9e-fd90e7268546,0169-LOX,Ford,Expedition,2002,Purple,179
+0c7fa20d-d0ee-45fc-b034-04e955ef496a,3973-LDQ,Nissan,Pathfinder,1995,Puce,180
+d414400f-291e-47d8-a1f7-dd3b40c58a81,3954-KMW,Lexus,RX,2013,Orange,181
+366a369c-b6ae-4e2d-a94e-c92c14f45b20,7891-QWU,Chevrolet,Equinox,2005,Red,182
+e33e8188-784d-4cab-aa80-a3f781467fa9,0768-UZT,Toyota,Ipsum,2000,Green,183
+d80f066b-4565-4cbe-ad41-24034a6131be,9509-NPG,Toyota,Tacoma,2008,Purple,184
+46a14981-3479-4882-81ff-a176c90790e6,7161-KRR,Pontiac,Trans Sport,1994,Turquoise,185
+385de761-0a2b-47ec-8aec-a91fd5d3e467,3077-NEX,Subaru,Forester,2006,Puce,186
+262f9ed6-1b20-49df-be94-1e91a6cf5ab3,2515-SLJ,Chevrolet,Suburban,2008,Turquoise,187
+b0491de8-6e6e-4021-836c-2e52b5884a8a,9268-MHF,GMC,Savana 3500,2008,Khaki,188
+8ca9ad46-f681-4028-a6d0-deb3f5e6cb43,3472-PNS,GMC,Savana 2500,2007,Mauv,189
+d2639e0f-9555-4bcc-8127-7f4bca436c4e,5494-WEA,Nissan,Sentra,1999,Crimson,190
+11c20c2f-1732-4857-b28b-c802f72a072b,2431-BVT,Chevrolet,Express 3500,2004,Aquamarine,191
+36fc0a58-0700-4c86-8b3f-977a27de7875,9903-NSG,Honda,Civic,1990,Orange,192
+d2aa505f-2d09-429e-a0b4-2499a1751895,8100-GOO,BMW,Z3,1999,Orange,193
+7aceca17-2b44-4c5b-a463-f6594d0d685a,2231-UQY,Volvo,XC70,2007,Khaki,194
+1021c755-c279-42b7-8209-716c1a135162,9118-TGN,Cadillac,CTS-V,2011,Purple,195
+4f8a281a-723c-4028-a8aa-945612d0d51a,8854-NXW,Chrysler,PT Cruiser,2010,Indigo,196
+afa249ae-5730-47b3-8fb2-e13fa050a455,7995-NDX,Chevrolet,Beretta,1994,Fuscia,197
+a06b109f-eb10-42e1-9cc0-106fd2bf52c4,1080-PAX,Ford,Escort,1990,Pink,198
+48926ac2-6259-4767-858c-4180b9eee896,2418-VOF,Audi,S4,1994,Blue,199
+4e1c886a-3187-4183-9fe1-83b7bddbdbe3,6365-HYN,Honda,Prelude,1994,Red,200
+e0c7eac6-4a56-4bd9-b97d-10b4417be11c,8750-WWN,Pontiac,Aztek,2003,Purple,201
+a45ab008-df56-44a7-812c-4abb9cca62b7,4712-OUR,Mazda,Tribute,2005,Green,202
+f8b86ad4-6e45-43ef-ab5b-fca11c3da48a,5653-VSN,Mercury,Cougar,1990,Blue,203
+9dbcd773-3804-4c02-84f5-b49bd5650b91,6198-EIL,Lotus,Esprit,1993,Indigo,204
+4c078886-7d32-479a-9afc-41ba014ec6a8,8452-SOR,Dodge,Stealth,1993,Orange,205
+0f3a4635-4a93-44f6-a24c-0601a1829c72,7571-VNN,GMC,Yukon XL 2500,2004,Puce,206
+b3e24fbc-2044-4689-b0da-94af84ae21e9,5129-MSA,Ford,Taurus,2008,Indigo,207
+62d0341e-1dd0-4fab-a4c1-e6d2ce59004f,0441-VIN,Toyota,Avalon,2004,Turquoise,208
+19e1d8f8-dc44-4c6f-ab43-76c3f84b422f,0729-EOW,Mercedes-Benz,CLS-Class,2008,Aquamarine,209
+8d7ad0b5-8cec-4ce3-9523-a7ba3fbf5ab0,2818-SVB,Chevrolet,Monte Carlo,2004,Violet,210
+4836950f-68c4-4673-a79a-d45e67b40f5f,0078-NLW,Plymouth,Neon,1998,Khaki,211
+ce602eea-1da1-4a70-be0a-353be0181a60,5404-BTW,Pontiac,Grand Prix,1963,Blue,212
+0d464b4d-457d-4a77-9a23-9609ae9ae750,8438-TYJ,Subaru,XT,1988,Turquoise,213
+7c3e89bb-839c-44a4-8f4f-48478b570b24,6004-HVM,Jeep,Liberty,2010,Orange,214
+7495b0ea-539e-47df-886a-6b74c58d98a7,8611-YBT,Toyota,Tundra,2010,Puce,215
+988188f2-bea1-43a6-a15d-7d870238cbee,7351-URG,Honda,Civic,1995,Violet,216
+f8703a25-42d0-40f2-b41b-798dbb9239aa,7420-QSP,Porsche,Cayman,2012,Mauv,217
+20815e0c-0877-4cdf-b61f-48f95f9510ea,8069-LHJ,Mazda,Tribute,2011,Mauv,218
+59734331-b8a1-4a98-a915-f386d5c7e862,2430-SET,Mazda,Tribute,2006,Khaki,219
+df649ccd-6efc-4e5d-9340-0390e5426a3f,2005-EIM,Land Rover,LR2,2009,Indigo,220
+0cf7150e-9933-4b9b-94b2-b40af3c8bc75,7962-ZPP,Subaru,XT,1985,Crimson,221
+ff22c811-abd5-45f0-ac28-fc39bcaf4243,5453-XXK,Ford,Focus,2002,Aquamarine,222
+1a8c51d5-a4fb-4f9f-946e-8ab5b0add613,3071-PDH,Mercury,Mountaineer,2003,Red,223
+64dae6fc-dafe-4ea3-8e39-b156feb59f01,6920-HBP,Volvo,C70,2010,Crimson,224
+646f88ba-091a-42e8-8fca-ee9a49a9c28e,8075-UVJ,Volvo,S60,2004,Fuscia,225
+47d16b62-40c1-4195-9207-56c8b05999ce,9040-QQB,Toyota,Tercel,1998,Violet,226
+935822db-ab4f-453e-8b20-37192c8f8f13,2649-RJO,Lincoln,MKS,2011,Maroon,227
+0379274d-7cff-4dcc-97d0-a70edfa7af54,8782-WPZ,Eagle,Talon,1998,Orange,228
+fee57f8a-22a6-4978-82db-422a72f767b6,9722-SQL,Mercury,Grand Marquis,1985,Goldenrod,229
+bc3e072d-608d-42ab-a19c-5176f9db1045,1041-TBE,Pontiac,Bonneville,1997,Mauv,230
+6025fff5-b649-460c-b55f-3d0d4e449655,7224-BCG,Saturn,Ion,2003,Red,231
+756495cd-1527-4865-a628-ab99af35a371,0296-PGD,Honda,Ridgeline,2011,Blue,232
+dfef6677-8ba7-49b5-bcdd-fa1d45888fcf,4201-THO,Ford,E350,2012,Orange,233
+02521c84-3599-4f35-b5a5-8217c161a51a,2115-ZEE,Audi,A6,1995,Aquamarine,234
+e4e06670-8bcb-4912-a23e-55e797457bbe,3626-UFY,Chrysler,Sebring,2000,Teal,235
+2e7b25e4-9792-48d6-a915-37153743a277,8067-CAR,GMC,3500,1998,Yellow,236
+1d28445c-31f3-440b-ba4f-a1777e3268ad,7143-WGI,Chevrolet,Prizm,2002,Blue,237
+6fe9db12-1e23-47ab-ba3c-f84fab7dda40,1585-COM,Mercedes-Benz,SLK-Class,1999,Pink,238
+6defd931-2292-4b7f-8d66-25dbdfb03210,6740-XYP,Land Rover,Range Rover,1986,Goldenrod,239
+eba93664-8105-4998-ad8b-8cbcb0beacfe,3857-UIW,Mercedes-Benz,S-Class,2008,Indigo,240
+78a5c5bb-89e9-4922-b3a7-3d1444aa0261,5263-DQS,Mercedes-Benz,G-Class,2006,Blue,241
+f450639a-e77c-48db-9958-0fe5da016bd8,7998-CHZ,Chevrolet,Monte Carlo,2004,Purple,242
+fba67c08-34a5-45c3-a4c9-fd23a84ffb4e,9653-NST,Chevrolet,Aveo,2011,Blue,243
+3672e503-c925-459d-ba40-1852fc989391,4211-AQK,Chevrolet,Silverado 3500,2006,Turquoise,244
+f7c9172f-9f94-4905-8bbc-c9d9f8e02309,5056-UFX,Suzuki,SJ,1986,Pink,245
+85de6fba-b6dc-4ca2-a65a-2e220eda9959,1472-UMJ,Hyundai,Tucson,2007,Crimson,246
+3663bdfc-941a-449e-8a2e-ae7343ae3448,8663-TLM,Buick,Somerset,1986,Orange,247
+7a0f216a-a28a-43d8-adf4-3fff53d4f994,1796-HRT,Jaguar,XK,2007,Mauv,248
+144c36fc-6bbf-45c0-b0fd-5d2b6460cb01,3335-NGK,Buick,Park Avenue,1993,Puce,249
+5067648a-4a54-4e34-91ea-05a945e69b78,1580-ZID,Cadillac,Allante,1992,Violet,250
+03b490c6-a87f-40b8-bdee-0d70995c4a98,6469-STU,Lamborghini,Diablo,1995,Indigo,251
+495c47fc-1e24-42cd-9bd1-283b9a8d6c0f,8278-QNF,Chrysler,Sebring,2003,Khaki,252
+e20b0e82-9826-4d26-9dea-d302e32a9f0a,0541-AXZ,Mitsubishi,Mirage,1992,Purple,253
+75f1657c-1976-43ea-8579-5e14235de63c,8969-DTV,Lexus,LX,2011,Goldenrod,254
+1b5d41f8-7b81-412a-9398-78f9125e859c,5592-XUM,Chevrolet,S10,2001,Aquamarine,255
+719aba30-90fe-46dc-b992-b23da6236665,6402-KJB,Mitsubishi,Starion,1985,Indigo,256
+800a6113-14da-45a5-9dfc-f9e02de5ad87,5731-TTP,Toyota,Solara,2001,Orange,257
+169d1441-621f-4e91-933d-96f7d56c43fe,3482-UVU,Ford,Torino,1970,Pink,258
+172b3353-2183-483a-b155-1afd2be454e2,1980-EKM,Volkswagen,Cabriolet,1999,Purple,259
+d7afc765-3e72-46f3-997b-385675856405,8885-MGV,Chevrolet,Cobalt SS,2007,Crimson,260
+f14668f1-1dad-4ef3-825a-75d3d2d7beee,8428-UGG,Dodge,Ram 1500,1998,Turquoise,261
+95779575-62fe-432d-adfc-5a57f5627caf,8870-NSS,Oldsmobile,Bravada,1996,Teal,262
+e665eda6-f758-47a0-ae3b-253bc1eb81a0,8675-OGG,BMW,3 Series,2005,Turquoise,263
+d8bb4ff0-ca25-4520-84e4-979b5fe1d765,8655-OSL,Mazda,Miata MX-5,2004,Maroon,264
+cf6fea1e-ac6e-4168-ad67-044c5dbc7df3,5804-ZJM,Ford,Escort,1994,Pink,265
+7378adb7-a965-4795-ae7d-aebf469511e4,4461-VVR,Oldsmobile,Achieva,1994,Puce,266
+c8a358dc-3a5b-48e1-9252-251dc2fa90f2,5546-QBY,Volvo,S60,2012,Crimson,267
+c2d71a87-f395-46a8-b5c2-12fae7027926,1322-ZAK,MINI,Cooper Clubman,2009,Maroon,268
+a621d5b0-906e-4d71-a2b6-486f8e7a0e7c,8001-GJT,Porsche,Cayman,2008,Aquamarine,269
+1781a7b3-87cb-4020-94ff-b0c85d085105,1891-DKI,Pontiac,Grand Prix,1973,Violet,270
+12955ad9-5905-479a-a5d9-2c74a12a62cf,2765-IJS,Pontiac,Bonneville,1966,Pink,271
+df98c875-1df7-456b-8972-2fdeb5b996d6,1826-JOU,Mazda,Mazdaspeed6,2007,Indigo,272
+b938766e-a65e-4adb-b0f3-763ac449a0ca,6207-DEG,Chrysler,300,2007,Mauv,273
+d5e8e7f8-6e9d-4f7d-85dd-22482c8d810c,7662-VBK,Ford,Fairlane,1967,Mauv,274
+ff8236b5-48f3-4d53-a14f-3d5a3ad5de4e,1829-OJQ,Buick,LeSabre,2005,Green,275
+aa6fff29-47d9-4f7a-b4ef-4359e821eb27,8857-WUQ,Dodge,Grand Caravan,2005,Fuscia,276
+4862b1b4-9b32-4b2d-9eaf-97cf4d557267,3254-TUS,Pontiac,Aztek,2003,Orange,277
+92c4e22d-6179-4e0f-8af7-0cd125adbddd,7849-OUO,Buick,Century,1985,Purple,278
+ea6dcb16-b481-426e-9199-df8214fce9c9,0449-IIJ,Maserati,Coupe,2006,Maroon,279
+b0f73fb3-61dc-4000-ba6f-1fc294d6dee8,1827-RUH,Audi,200,1991,Turquoise,280
+e68bc731-93b2-4d96-99ec-4cb7bafd900b,4106-DFO,Lincoln,Town Car,2002,Khaki,281
+b087c80a-1dae-42a0-b73d-fae929a9bea9,7157-NOX,Land Rover,Discovery,1994,Orange,282
+d04545c8-f22d-4274-bb42-49995a1feab3,6354-WSD,Mercury,Topaz,1988,Teal,283
+745a7758-e6d4-42eb-9cda-6e08062cc1c2,2995-RUA,Mercedes-Benz,300TE,1993,Khaki,284
+0c5b9ccc-8e91-4f4e-83df-7c1bdbc26c34,8041-EFE,BMW,3 Series,2004,Pink,285
+570234a5-abaf-4ca9-b14a-143e44421d18,9884-JTL,Volvo,XC70,2011,Turquoise,286
+a710e283-5c6c-41c4-a760-19120b54f120,6193-TUV,Suzuki,SX4,2011,Green,287
+9838326c-746b-4010-8e72-0a4519fa1ce4,2813-VMK,Toyota,Matrix,2009,Pink,288
+aee8345f-d6b6-41fe-95c8-8610c6e795df,4205-EFF,Mercedes-Benz,W201,1993,Indigo,289
+c0f3f0a7-1949-4c78-af57-f7afbf7aa079,9653-OKC,GMC,2500,1994,Purple,290
+3ef7b7ec-d8fa-41c6-b046-13d677b29a43,6529-PQW,Acura,MDX,2007,Turquoise,291
+8aa22a7b-4f3f-4dbb-9f50-7dccb810ee87,6976-WAR,Ford,Aspire,1995,Puce,292
+008cba57-a499-44bf-8cc5-0d43e5cfa485,4223-LBK,Chevrolet,Tracker,2004,Maroon,293
+7d11ed9f-ec2b-4e6e-8965-a6677ebd77f3,4833-MAV,Hyundai,Sonata,2009,Aquamarine,294
+1e38d768-6fe1-40ae-85af-054078ea2eb4,5690-EPG,BMW,X5,2002,Green,295
+9d7a491a-7f54-49e6-87bd-3c4fcff28a1c,1486-RHT,Suzuki,XL7,2006,Maroon,296
+a3a3b2c6-2027-4742-8080-b0c2a9b16210,1241-NZH,Chevrolet,Astro,1993,Goldenrod,297
+dc69dec9-92e9-4f9a-ba6c-bdd5ded74319,6585-DNE,Lincoln,Town Car,1985,Maroon,298
+3a539824-1524-4296-b41a-e4b930528f50,3980-KMN,Ford,Thunderbird,1988,Teal,299
+00ffac9e-e52c-4d78-9420-ca4801e679a1,7259-TUN,Chevrolet,Malibu,1999,Aquamarine,300
+9d6258a2-4605-416d-8d73-50effa6314f2,2588-TES,Dodge,Ram 1500,2001,Aquamarine,301
+98ddfe24-25e9-49b9-b791-42a886ef8752,5920-LXZ,Mitsubishi,Chariot,1987,Violet,302
+4539d72a-0c56-4e3f-9b73-04244a991fa6,6807-WGS,Dodge,Ram 3500 Club,1995,Teal,303
+38f4aafe-8fde-45d5-9b73-dc456d1ee26b,7934-CUG,Saturn,VUE,2010,Aquamarine,304
+1d929291-5904-4810-939e-e2ed5326795d,8849-UTF,GMC,Savana 1500,2000,Violet,305
+cf2e2fe0-8b97-4025-b41f-0537cbd5c3aa,0144-DUQ,Ford,Ranger,1989,Maroon,306
+76b1472c-922d-4c8b-8ee9-383636d207cd,9741-WOV,Oldsmobile,Silhouette,2001,Maroon,307
+ebad87db-18f0-4131-87c7-dc05d7f87711,7804-GJR,Mercedes-Benz,SL-Class,2000,Khaki,308
+75222abc-f8c1-4707-bae4-d14d26cc81c5,8184-LPC,Chevrolet,Malibu,2007,Khaki,309
+0988abdb-ce20-4894-a687-caa596c382eb,4247-GDK,BMW,Z3,1999,Turquoise,310
+fe4fcd0f-c338-470e-bbb7-77a582c9df7b,0826-UFA,Jaguar,X-Type,2007,Violet,311
+e20e6c71-94ef-4bac-a98c-e1e7d2ee729c,3111-TDY,Lexus,GS,2013,Orange,312
+8219432e-ea2d-44ff-b97b-ade96975f59a,6820-WJJ,Honda,S2000,2007,Goldenrod,313
+ba82fba7-f17a-4608-9fc9-4414bc50d887,6027-CQF,Chrysler,Concorde,2002,Maroon,314
+ec214bf2-712f-4208-a140-f489de3897e0,5833-YSV,Audi,A4,2004,Yellow,315
+66bfd395-d189-4b6c-8df1-cdb03727b600,5218-KQO,Ford,Expedition,2002,Puce,316
+adb952ed-2600-4c6e-b4ef-11cc9d23f12b,4810-DNW,Chevrolet,Suburban 1500,1996,Fuscia,317
+180e18c2-10fd-4509-9703-1b96da2d7176,7594-NKM,Ford,Taurus,1986,Turquoise,318
+d82beee9-4479-45e0-aff2-3bca376dc577,3654-SYE,Mazda,MX-5,2003,Green,319
+9d849f79-909c-4d2c-b40f-cfa8753d3c0e,5154-PRF,Ford,E250,2003,Mauv,320
+f7016664-0352-405c-93ec-ae7f1ee7a07a,3701-KJV,Jeep,Grand Cherokee,2005,Green,321
+67bf7719-6893-46f6-a1b5-59d36adef7ad,3195-CZA,Mercedes-Benz,G-Class,2002,Mauv,322
+5aa552be-eb60-4ed3-b908-75a61a9bab0b,8470-AYL,Acura,NSX,1993,Green,323
+b066c9d3-c962-4e1a-adcf-422a0c020f45,6357-SZO,Toyota,T100,1996,Teal,324
+5dac4a0f-647f-45c8-b3e0-4e4742349ede,8659-YFD,Toyota,Avalon,1995,Aquamarine,325
+28ddb2e3-cbe9-43ad-8d11-c0c7c077d8a8,5224-CCF,Mazda,Miata MX-5,1994,Yellow,326
+a461cf67-5cc5-493b-a3f9-d2f9c7aba085,6736-LTH,Mazda,RX-7,1985,Violet,327
+e88c466a-10a0-438c-93b4-752b4d3cd719,4120-NOI,Ford,Explorer,1996,Aquamarine,328
+d133f4e4-e1e4-4803-8841-74a5c5b18a33,1101-MHZ,GMC,Sierra Hybrid,2006,Fuscia,329
+8c7e72c8-6866-4e7b-8751-04a249a2a1bc,3406-VDW,Mazda,Millenia,1997,Mauv,330
+cc5df18b-a342-4130-9db0-bf1ae7987164,9637-QOC,Porsche,Boxster,2002,Fuscia,331
+1ed079a9-7058-4a8c-93b6-bf2ae2d34e7d,3554-GTO,Audi,S6,2010,Turquoise,332
+e48b3ecf-38d5-4966-9999-e0cfc8eaaf9b,8863-KRU,Lexus,GS,2009,Purple,333
+c74239a4-5eb8-4647-a5ca-6f863fdfc4b9,0310-IYX,Ford,F250,2001,Crimson,334
+9f91f0f2-508c-4628-bb15-4f3ddcc1abff,9330-WYR,Dodge,Nitro,2009,Mauv,335
+3f3a6820-da3d-4912-b269-37ba06090009,6952-VWJ,Subaru,Legacy,1993,Orange,336
+affec007-fc29-4422-b0c7-ecd65443b723,5946-FOM,Ford,Econoline E150,2002,Yellow,337
+0f4d78ff-d087-4c94-91b1-e0f7d2b9fa69,3443-IHI,Eagle,Talon,1998,Khaki,338
+20ee58f7-9035-42ec-87ef-aad186a897bf,4838-RLY,Mazda,Protege,2002,Teal,339
+7369da4d-c0c2-4eff-a8f6-0e1263096d22,2505-VVD,Lexus,ES,1992,Aquamarine,340
+0b3ff3fd-ad58-42a2-9cf5-b00fb123770d,3919-KVV,Volkswagen,rio,2001,Indigo,341
+6511b562-99f3-46dc-8902-6ca9eb006152,7036-DAX,Toyota,T100,1997,Turquoise,342
+645c463f-8e5a-489d-9e5f-9c92a1d25e07,7248-VNA,Mitsubishi,Mirage,1993,Green,343
+0ee8bdd4-df29-4130-9caf-8ab29203c3e0,0193-TUW,GMC,Yukon XL 2500,2004,Pink,344
+4ba4bdc0-5d5f-4103-a422-3847323185b0,5770-AJE,Oldsmobile,Ciera,1992,Purple,345
+d50c8068-fe28-4a2b-88bb-8b1269bee640,8869-BTW,Chevrolet,Camaro,1976,Green,346
+5eb66e0d-e1fb-480b-be97-303d82ba1126,2490-PPK,Mercedes-Benz,GL-Class,2012,Teal,347
+bc5f2978-2452-41d8-b0cb-ad3b7799b006,2757-OVH,Mercury,Sable,1992,Puce,348
+c6d5f6c3-b15c-4624-b52d-a090b9f7010c,1038-ZBX,Toyota,Tundra,2001,Khaki,349
+e8e9eda3-08e9-4258-bd81-7a49dd5733c7,0951-XAZ,Aston Martin,V8 Vantage,2012,Orange,350
+487fe39c-79c0-418e-a6a4-d90b884e6793,8680-PKI,Mercedes-Benz,500SL,1992,Aquamarine,351
+373050fa-e355-4d01-a247-2543f9f5f196,5385-LZP,Mitsubishi,Montero,1993,Orange,352
+e99d7bf4-a5a3-4272-882e-535e486d6add,0584-AFU,Mazda,B-Series Plus,1998,Goldenrod,353
+5a34079a-fca7-45b8-bc57-9742bfb396e4,2326-GRO,Volvo,S40,2002,Blue,354
+1c49d962-658a-44c3-8ae0-9adf54ff9270,9083-PMU,Honda,Odyssey,1995,Teal,355
+24609851-fa89-4e3b-91d0-1eedf9a0705f,1448-VFX,Geo,Storm,1993,Violet,356
+153b5fdd-08e3-46ef-ab47-bed2346ed190,6879-IMQ,Ford,F450,2012,Green,357
+f9f13728-a47e-40b4-b3d8-52655fdce923,0805-TUJ,Lotus,Evora,2010,Orange,358
+be1f8e5d-5d3c-47f0-9890-7b45c17e9fd9,0304-GGN,Toyota,Land Cruiser,1999,Orange,359
+8c38db9e-e793-4540-b4b7-1a8fc30265d2,3297-IBD,Ford,E-Series,2002,Crimson,360
+dd1bec08-d821-4a78-bd3b-82fe819f3951,6374-KAA,Mitsubishi,Montero,2001,Purple,361
+bba9c727-b90c-4db6-b90f-e48bb212f954,9346-IWK,Cadillac,CTS-V,2006,Violet,362
+166bb56c-982b-4b41-b639-5390da2a570d,2964-YIJ,Mercury,Montego,2007,Pink,363
+1244128e-8df3-47f7-86e6-5f7e9eef6639,9055-RDD,Audi,A7,2012,Indigo,364
+486148d6-79fa-482f-a0b8-24abf17e9afb,6067-DVZ,Buick,Roadmaster,1994,Maroon,365
+eab42c64-fd79-488a-addc-e107a624b58d,3953-JZX,Cadillac,XLR-V,2009,Green,366
+e4c27519-5ec3-49d7-8bd6-2cc468a23c20,8576-HJN,Plymouth,Grand Voyager,1994,Teal,367
+a62c4035-9081-409e-acff-d3c288b269df,2396-TWC,BMW,525,2003,Blue,368
+73bfe1a2-957c-42f6-b7ee-f876f74807f3,3247-FUI,Ford,Taurus,1986,Khaki,369
+ef6a7e54-58dd-491d-8b36-0b03b1147570,7009-OOO,Oldsmobile,Cutlass Cruiser,1993,Purple,370
+66442672-422b-4c5d-a1d1-24c3a9b645ae,6740-CUO,Land Rover,Defender,1994,Crimson,371
+4d24716c-316e-4e95-894b-5127d9724732,2324-ZEH,Lamborghini,Countach,1990,Indigo,372
+bc961d07-9d28-4b3b-87c3-2c6d1f9adc6f,9235-SCH,Mercury,Mystique,1996,Violet,373
+d35d1d81-b2bd-4718-9f05-894e292a0c04,1876-LCU,Buick,Rendezvous,2003,Red,374
+bf510101-8f71-4799-8abb-1caaf1dae34b,7617-CBP,Chrysler,PT Cruiser,2006,Teal,375
+eb4905b0-e509-498b-8fc1-e237eb6a94f9,1615-LOC,Lexus,SC,2004,Turquoise,376
+66845614-e362-4b16-9723-61d69be50b29,0817-ESZ,Nissan,Maxima,2012,Red,377
+4a6a8417-6ac2-49ff-a37d-c4ea50a190ce,9366-YQK,Bentley,Continental,2010,Blue,378
+976a5a73-a3db-4d6b-b083-040ef2e3aea6,7388-WOV,Chevrolet,Corvette,1996,Red,379
+10f7d797-091e-4e42-ab45-2ecc8bd88b4f,6358-GYH,BMW,3 Series,1997,Red,380
+d10f8e40-27b0-48b1-9f6b-29b4a79b4594,7157-HOD,Chevrolet,Cruze,2011,Mauv,381
+194e5cea-2b76-4440-a02f-fad837fae4e1,0538-ISG,Ford,GT500,2009,Aquamarine,382
+e69dd446-3a06-41c6-81b4-b7c2ddd6afe4,1430-GWR,Subaru,Forester,2002,Green,383
+4500e51d-319f-4f38-a494-10a99015a32f,6596-NTB,GMC,Envoy,2003,Puce,384
+f48a6db1-6bda-4b6a-b713-c0fdfae1360b,5880-TQA,GMC,Yukon XL 1500,2002,Goldenrod,385
+4bad99b2-128d-4949-8404-8b9033143b28,5512-UGB,Mercedes-Benz,R-Class,2012,Green,386
+6bf737b4-3084-4af7-ace7-315136f93eda,0419-ROQ,Mercedes-Benz,E-Class,1999,Teal,387
+377fc2a5-39fd-4025-84b5-dbcf0be96cde,2397-TMF,Mercedes-Benz,SLK-Class,2011,Maroon,388
+f6edf561-418a-46c0-9260-a1c1487aa287,1663-AXU,BMW,5 Series,2006,Orange,389
+8bbaa8ad-7f3f-4f60-a966-76f09871a45b,7989-WMY,Lincoln,Town Car,2003,Fuscia,390
+68f5fefb-ee88-4ad6-8513-14074c586087,8868-QAZ,Audi,R8,2010,Yellow,391
+9ec4b5e6-9728-46e3-b896-a179222bf5b4,1264-ZHB,Oldsmobile,Silhouette,1995,Aquamarine,392
+c626764c-e116-43dd-95e9-6d663083bf17,6387-BYT,Audi,S4,2011,Orange,393
+b0cd78cd-905a-4457-8f7e-27d8f9f42c1f,9399-IAW,Mazda,626,2000,Yellow,394
+2c318882-4fa4-4799-8e1e-191e3fcb80c8,6074-IZB,Chevrolet,Uplander,2007,Goldenrod,395
+f88b939d-72ce-4df3-8d92-f1bf5a8fd46a,6831-HUU,Nissan,Murano,2005,Turquoise,396
+21c91a61-50a4-4540-a985-1b831fbbb4dc,3022-GGQ,Audi,4000,1987,Teal,397
+6e795cc6-64fe-4262-822b-68bc32393c20,7542-EOK,Dodge,Shadow,1992,Teal,398
+fa26e634-502a-4585-931f-a054234753d1,1632-SGE,BMW,6 Series,2008,Red,399
+b2228c61-112b-4d57-ad82-d53f9490fb3b,3665-BXS,GMC,Yukon,2005,Purple,400
+3691fdba-fa56-4ab5-b810-f7bef43876d6,6177-YZT,Honda,Ridgeline,2008,Goldenrod,401
+293afc85-25e1-4203-be74-badb479f22b6,3717-HCW,Acura,MDX,2006,Goldenrod,402
+a821bbf7-a8dd-4ffa-88be-8692cfb1b302,5483-AJK,Lexus,SC,1992,Fuscia,403
+4f3ee8b8-b0e0-4e40-9a76-79ea88678f39,3047-JHC,Dodge,Neon,1996,Pink,404
+b4b86ee1-5181-4a2f-8a83-14834b205d37,4671-FXS,Toyota,Camry,1996,Turquoise,405
+84823a6f-e1d3-4d56-a92a-4899cc782d2f,0274-GFD,Audi,TT,2003,Red,406
+63b91064-78d0-4342-a014-3d97464d9e29,6462-BEI,Hyundai,Azera,2012,Fuscia,407
+6f5e9145-be17-4e3c-9d4c-506d89e0fe50,2117-QKI,Nissan,300ZX,1993,Fuscia,408
+7fe6c6c6-cad9-493e-92f6-8075c9c6b215,2977-KOI,Chevrolet,2500,1994,Khaki,409
+e782663e-4bca-4de8-944f-713edb2ea2d3,5538-BSO,Ford,F450,2009,Aquamarine,410
+6c18d8e5-4d4e-4782-9a3b-d5147438fca7,7003-OBV,Porsche,944,1988,Yellow,411
+64852d86-f9a3-4acb-837b-693d3b1628d4,3034-XVC,GMC,Yukon,1999,Blue,412
+556f0cbb-4c27-4575-9053-8f4c82ea10bf,3565-LQS,Maserati,GranTurismo,2012,Green,413
+be792261-3846-45f1-a390-7669cbea904e,9093-TEK,Mercedes-Benz,600SEL,1993,Indigo,414
+35a5b8a7-606f-4337-9f4b-93b051a05573,6149-HPO,Mitsubishi,Mirage,1991,Fuscia,415
+6c747886-3602-4c4e-8bdd-f94863f4f07a,1508-BVN,Pontiac,LeMans,1968,Khaki,416
+74d0ae06-149b-4c07-958d-ce20f4ecb90c,7317-NQT,Mazda,MX-6,1991,Orange,417
+37f9864f-4efd-4f7d-a596-3d6d8bb94078,1824-XWF,Land Rover,Range Rover,2005,Goldenrod,418
+f02fa457-aa92-4b94-8801-efe64275a4c9,1085-SDD,Ford,Taurus,1997,Violet,419
+5a0c62f7-41a6-4f62-9006-28c78d53e087,5051-DQF,Volkswagen,Jetta,2003,Puce,420
+a6aad34a-b322-45ef-a9a2-2e3d8d9c69ab,6366-VVX,GMC,Savana 2500,2000,Pink,421
+e3fe3013-f9a9-409e-b8ef-7626f8c252eb,3897-MCM,Toyota,Camry,2006,Pink,422
+7bdab6c2-d1b5-45b8-af4e-27646327339b,1736-REP,Mazda,Tribute,2011,Purple,423
+30df3174-8540-45ee-a692-0314325b5982,7010-WRY,Honda,Odyssey,2008,Aquamarine,424
+3e4b31e0-de49-4383-b1f5-d96f221af826,6958-LMA,Scion,xB,2006,Pink,425
+0f29506c-5d8e-4bfb-9017-c14d20d10f5b,7018-ZZG,Chevrolet,Lumina,2000,Goldenrod,426
+bf46e1b1-bfe5-489c-9fa2-faaf3486f8b9,5384-MJC,Lexus,GX,2005,Orange,427
+d4663579-caa7-48eb-9161-eb9725f4e188,8354-GPT,Buick,LeSabre,2003,Maroon,428
+85b293fb-b036-44e6-b62a-d183d3d25ad3,0294-NBK,Toyota,Camry,2006,Fuscia,429
+328de788-0505-469e-a587-09b1f953bcf7,3336-YNC,Cadillac,Escalade,2003,Puce,430
+628d4adc-caf7-4084-af51-8bd44df56748,5009-JQM,Chevrolet,Silverado 2500,2010,Green,431
+184ee14b-24a2-41c8-8bdd-e8c0fd595768,8283-KUL,Ford,Freestyle,2006,Indigo,432
+ccc24933-c69f-4a61-b90f-df2a7d591cbb,7874-KAT,Dodge,Ram Wagon B350,1992,Indigo,433
+c0ddf964-36b9-42f5-8b63-619b1a0c6b2a,8097-GSF,Volvo,S80,2004,Fuscia,434
+8a0f873f-b9d5-4b8c-8ac2-f5b979d92c4f,4162-PDN,Mercedes-Benz,SLK-Class,2002,Aquamarine,435
+e0f6a6bc-cac8-4875-94ca-4b196121be3a,6863-END,Acura,TL,1996,Purple,436
+09cdb9e8-4f88-4bf5-9282-b08c21910649,8433-LKW,Saab,9-2X,2005,Violet,437
+eef2751b-b1ff-47f8-832d-d9be0b8a2cf7,7337-NWX,Pontiac,Solstice,2006,Indigo,438
+7c507426-3532-40ce-9ab3-729904068ed3,5033-NXC,Honda,Fit,2010,Fuscia,439
+1eee105d-8b43-4bcd-9231-35dd3bc07c2f,0179-TVA,Land Rover,Range Rover,1992,Aquamarine,440
+5149f7ec-a0f1-4ec7-9901-9f93711c603c,2018-FUY,Chrysler,Sebring,2003,Fuscia,441
+b864865e-6b6a-4091-9559-4991c1b61a2f,3961-VDX,Honda,Pilot,2011,Aquamarine,442
+5b523081-4102-4828-8593-589ea8b1c9dd,5842-EVQ,Nissan,Armada,2005,Green,443
+b8b111c5-a6a0-4379-bd73-1dc32a5e5b3b,9395-UHN,Pontiac,Turbo Firefly,1988,Maroon,444
+6ecaedf2-e42e-4dc3-a4c7-b1692155d93c,6481-MBY,Kia,Rio,2004,Teal,445
+d7d12550-7377-4be9-89d9-4274b7223d41,6160-XDF,Ford,F450,2011,Green,446
+00e47671-8000-4576-bf4f-c62ada6e1c22,7318-MNE,Audi,A4,2010,Mauv,447
+fdebd806-bea4-490e-93f0-254251d43d59,5492-OWJ,Cadillac,XLR,2008,Green,448
+943eea59-9ea7-4117-b898-0de5b3bad50b,2576-KSJ,Volkswagen,Scirocco,1986,Teal,449
+86b69f88-2577-4edc-a227-66744ebf3418,2691-RBI,Chevrolet,Astro,2002,Red,450
+5426d91d-6cf4-4875-8930-8dff3f32421a,5496-ECU,Mercedes-Benz,SLR McLaren,2008,Indigo,451
+029e37cf-01c6-4e9f-864c-2160361aaeb1,4242-YQH,Volkswagen,Jetta,1992,Violet,452
+a7fe20f1-da71-406a-ad7e-f03880e8b19b,0326-HGL,Acura,RL,2004,Goldenrod,453
+7dde4b48-ae0a-4278-85e5-56b1349d224c,5287-QTK,Toyota,Corolla,2007,Puce,454
+8eb6c2cc-5099-4aa1-b953-0440db6fcc61,7767-RCT,Ford,Thunderbird,1980,Goldenrod,455
+0e465c61-1b24-48db-90d1-45296b0e7af2,0658-XKW,Oldsmobile,Alero,2003,Red,456
+9b3a8ba9-ac7c-4fb9-a8fc-7d0edf92a34d,3417-QTQ,Mercury,Marquis,1984,Maroon,457
+80645154-b04e-4b48-8042-01cbd6190acb,7254-YQX,Mercury,Cougar,1999,Aquamarine,458
+dff2e5c1-fd5f-42bb-9e74-e7f35577e5c8,3993-TYF,Mitsubishi,Galant,2010,Puce,459
+acc57ee3-1092-4926-a07c-8be9728881fc,4064-PHE,Toyota,Celica,2000,Yellow,460
+1ace0d7a-2bd8-4eb9-b0f7-11fd04f803f0,5661-YXR,Cadillac,DeVille,1998,Red,461
+67fbb570-83ff-4860-9ab3-1594e1a96fee,2048-QFV,Mercedes-Benz,S-Class,2010,Turquoise,462
+4a678c15-fedb-4148-9e89-a1d528c8f707,4592-GGN,Buick,Electra,1987,Teal,463
+bd6675ce-5739-474b-80aa-1a5db7c88a42,8835-RDI,Chevrolet,Uplander,2005,Indigo,464
+7b665d61-dab9-4a84-a301-efce4ace12a4,0628-HWY,Suzuki,SJ,1995,Goldenrod,465
+ac3e845b-cc34-4957-ab02-f177b18e264c,2695-YZC,GMC,Savana 1500,2008,Crimson,466
+5c7136b6-040a-4bc3-842e-ea0b8d6e6418,4391-QHS,Chevrolet,Tahoe,2002,Turquoise,467
+152069de-6c87-4d9e-b0f4-295dcd18c6f4,7144-LTR,Ford,Escort,2000,Turquoise,468
+33818570-702a-4cfa-be86-6adf37478a2f,3084-JPO,Mercedes-Benz,C-Class,1996,Mauv,469
+0002a754-b46e-47d6-bf99-6a01f7210715,5853-OFC,Chevrolet,Suburban 1500,2009,Green,470
+c0bcf3ab-e343-484a-8050-acefc98449df,9404-WOP,Ford,F350,2000,Violet,471
+b3269c09-b77a-467e-b5c6-6222564cfd5b,9885-HRH,Pontiac,Grand Prix,1974,Puce,472
+b02b9f6e-4e01-4659-864c-9389f36af2fa,9668-TCS,Mercury,Tracer,1995,Turquoise,473
+5d2da6cf-c80f-4c12-8ce3-5d30fb0f48d0,4433-VCO,Lexus,RX,2000,Aquamarine,474
+9a339a18-8312-4462-9d25-f051b6b05106,6663-UWV,GMC,Savana 2500,2011,Violet,475
+96e72f46-8067-44d2-97f7-9d6b269213a2,7090-CBD,Lexus,LS,2009,Teal,476
+f14a7bdd-940f-45a8-a616-30bdeee3b7c0,4252-QPN,GMC,Yukon XL 1500,2003,Yellow,477
+2af47107-975d-420d-a300-e6dfcca4ff81,3494-RDL,Mercedes-Benz,SL-Class,2004,Purple,478
+3d974e0e-6a13-4f7c-9c75-fd89afc1b15c,5010-AFJ,Volvo,XC90,2009,Orange,479
+cd47df4a-5b0b-4d3f-8677-a0d9be497327,1753-EBZ,Dodge,Colt,1992,Goldenrod,480
+f3350fb8-126f-484c-9970-4bd48469bece,8112-DSY,Volkswagen,GTI,1998,Puce,481
+3b379650-7e17-4847-8b61-f17f3dc5723c,6044-PLH,Toyota,Sequoia,2009,Aquamarine,482
+fdf620f4-2f37-4ecc-a194-5329e2c68612,4401-AFV,Infiniti,G25,2012,Mauv,483
+426f1748-4a36-4e21-890d-5f978db3b15a,8365-ANJ,Mazda,RX-7,1989,Yellow,484
+11a2409b-e87d-476b-b133-deb347ce3b3d,2302-KLE,BMW,3 Series,2004,Teal,485
+a41a2ca1-0a95-470f-aaf7-847cdfe8d828,7514-YCT,Chevrolet,Avalanche 1500,2005,Blue,486
+fa168b75-6df6-48f0-b6fe-7e103a1b70a9,6929-GTY,Mercedes-Benz,CLS-Class,2009,Fuscia,487
+b26b8e94-86e4-4308-b27e-43e20759c3ac,3138-FHK,Chevrolet,Cavalier,1995,Pink,488
+221860c4-479a-44aa-bb43-a1a70ca05dd1,8960-IGO,Lotus,Elise,2006,Teal,489
+852dddbf-b451-4b2b-986a-838dba816831,5462-KCY,Ford,Mustang,1984,Purple,490
+fbb92df4-6b4e-45fd-a732-26c1cee3681e,7593-WGQ,Dodge,Viper RT/10,1995,Violet,491
+b6d7f202-6989-4726-bc33-2fb278380602,2415-MIZ,Pontiac,GTO,1974,Red,492
+8205cdb3-f7cb-4f60-92b0-c510efdfb0d7,1641-SUO,Mercury,Topaz,1984,Mauv,493
+31efb12e-229a-45ca-aa32-8daa80d37996,9917-FED,Nissan,Versa,2012,Crimson,494
+d18ee8dc-116e-49a8-a569-9f300f7acdc4,9494-NKS,Chevrolet,Impala SS,1995,Orange,495
+1138cfb2-1b5d-4c65-8dcd-6783a48c4673,6817-SYC,Mercedes-Benz,300D,1993,Blue,496
+f198d1f5-3b25-4e0f-af74-1844700846c1,6299-HRA,Pontiac,GTO,2006,Turquoise,497
+c81a2914-688d-49e0-8b58-131c756044ea,8512-CWP,Lexus,GS,2009,Red,498
+be076613-634c-4164-9168-5c2d65793940,8431-SWU,Audi,riolet,1994,Violet,499
+c09eb254-385f-4a16-bc8d-bfcd73570a8e,6583-BQH,Saab,900,1988,Turquoise,500
+62ef80b9-b117-45b7-9282-24bfa8ae353e,8887-WYI,Chrysler,Voyager,2000,Purple,501
+7b7acede-1ad0-468c-8c72-6b2ccc80813a,0583-TIE,Chevrolet,Express 1500,2008,Aquamarine,502
+fd0afa2e-05e3-44d4-99a4-835b018b1631,6444-AIF,GMC,Yukon XL 2500,2008,Khaki,503
+c8da9aac-5e9e-4516-96ad-7de93aa2c80c,0414-RND,Mercedes-Benz,SL-Class,1993,Aquamarine,504
+71da1616-2f80-435f-8ba6-6967aa883cd6,3178-AIE,Mazda,MX-6,1994,Maroon,505
+3858972b-9ff0-4d47-a089-f27b9aa7760e,9164-MRQ,Ford,F250,2000,Aquamarine,506
+3b231ab2-0e52-49d3-a245-0df716bf2b47,5504-CBH,Chevrolet,Colorado,2009,Yellow,507
+e2cdd94f-3b07-4872-a69f-dada6031056e,7401-WLO,Toyota,Corolla,1998,Crimson,508
+08315cff-8e4b-46e1-845c-6715b76656aa,7043-MGQ,Ford,Focus,2000,Fuscia,509
+84fea6f6-8739-468a-b4c6-c7109ae25830,6671-PEZ,Jeep,Grand Cherokee,2012,Green,510
+28b75dfb-a1af-4171-8ee0-977c2722ea40,9477-MGT,Volvo,XC70,2006,Orange,511
+3c104f9b-7396-4a66-859c-efdff2db4b60,7041-YVS,Chevrolet,HHR,2008,Indigo,512
+5560ba71-6dea-4912-9659-9f7adc5037cb,4632-UOE,Ford,Econoline E250,2001,Puce,513
+2541b032-be3e-46f0-b7b4-378e554805e7,0706-DYU,Hummer,H3,2009,Goldenrod,514
+b7187e24-7f29-4e6f-a632-989dbee52164,8385-RVV,Toyota,4Runner,1996,Goldenrod,515
+b6fec1d0-722d-4289-9001-39ab10a1ee97,7124-PGO,Chevrolet,Monte Carlo,2003,Teal,516
+ae86a88a-bc5a-43ef-895d-5ede87220135,7713-XVA,Lexus,GS,1999,Goldenrod,517
+872f9f7b-dc53-4f31-bc10-fbdea8bb48a0,6103-GGH,GMC,Savana,2012,Orange,518
+3d2119c5-9ee3-42fb-82a0-c1633f8f42ee,2822-BCG,Jeep,Cherokee,1994,Violet,519
+64841ae3-f3a2-4a4a-8550-08840e04f88d,6642-NJU,Maybach,Landaulet,2009,Orange,520
+a57dcf6c-393e-4ef6-a48c-f2f06cad31ee,5371-GCB,Bentley,Continental GT,2009,Mauv,521
+5a3bed10-8fd8-4ce3-ab01-a9edaadaed72,9671-GJP,Nissan,Altima,2005,Blue,522
+23e49687-15ff-4422-8f63-b6fcb8288ba6,2652-HYT,Nissan,Titan,2007,Puce,523
+3cac5034-b666-4ce2-ab10-3f72dddb4a55,2352-KCD,Volkswagen,Jetta,1992,Pink,524
+1d34f19f-9f14-4343-a916-e330534ae7a6,8106-WVP,Nissan,Murano,2010,Mauv,525
+e09b57ce-f229-4148-a57e-e613caba40de,7893-HYG,Mitsubishi,Mighty Max,1995,Mauv,526
+23eaabb4-dff2-4577-9603-d7a5f5acd262,4184-LNS,BMW,8 Series,1994,Indigo,527
+4478563f-b184-4ebb-8615-d84b7c249f56,5761-PQS,Audi,riolet,1998,Turquoise,528
+94c0736c-4124-4157-b911-afac7b735d03,9159-RYL,GMC,Yukon XL 1500,2009,Teal,529
+2443411c-3a3c-4200-b2cd-8e81345798b2,8335-HTQ,Toyota,4Runner,2011,Yellow,530
+ed862ef6-2513-433f-bfae-49b08f9b6cb5,3985-RDU,Dodge,Daytona,1984,Khaki,531
+c5577b3d-58fd-45d6-b3cc-15c4ed37f7d9,3297-JMK,Mazda,RX-7,1984,Goldenrod,532
+accde034-98ca-4926-ad58-25723c7b1897,6066-XME,Volkswagen,R32,2004,Blue,533
+cabfe53f-b17c-4b42-b101-6807322ade8e,9364-DIQ,Chevrolet,Express 1500,2005,Pink,534
+b48a7b33-828f-44a6-8d4c-f8425ef7fc2b,1879-EZF,Dodge,Ram Van 1500,1998,Pink,535
+05bc330e-28b2-4c12-a910-cdde7425152f,7074-ZAU,Maserati,GranSport,2005,Pink,536
+f703d820-62ee-4b4d-ae84-4434fbb943cd,5319-GOB,Infiniti,FX,2005,Mauv,537
+82863bda-2471-446e-819b-1f523388ed91,4640-CBR,GMC,Envoy,2004,Fuscia,538
+0edf7017-8ece-409a-9924-aae68de50501,7762-KRQ,Infiniti,I,2001,Yellow,539
+caaa7a89-3f3f-4acf-b130-28e9fab2863f,8219-VQA,Dodge,Ram 50,1992,Teal,540
+e3cd5f07-7aea-498e-9ff1-14f91e98ad46,6333-XWI,Ford,Freestyle,2005,Pink,541
+960ab944-304d-4cc5-817e-cb54bfff383f,2169-BIJ,Kia,Spectra,2009,Puce,542
+3067bebc-55b9-4910-bbe7-a721a8bb9427,7481-FGL,Mercedes-Benz,M-Class,2004,Pink,543
+44d2895f-5312-4f9d-93a7-60fc806e0198,4615-VWE,Acura,RDX,2011,Orange,544
+08355f65-97e4-46fb-a41a-505065c0af57,4497-QEC,Toyota,Camry,1999,Maroon,545
+cc761b5a-2bcd-4c6b-b0da-c18b23c6bebb,2098-LLE,Honda,Civic,2001,Crimson,546
+52315c56-a769-41fe-b1d9-4849d2f70573,2668-XEG,Porsche,944,1988,Indigo,547
+acdb3688-0a36-4955-88f2-726bdf060b29,7040-UTK,Volkswagen,GTI,2007,Yellow,548
+09b7f0a7-b500-46ba-ab54-fd3b82d24e1c,6771-MVJ,Infiniti,FX,2008,Mauv,549
+6edd5e31-7098-400a-880b-365866abbf05,3821-BWX,Suzuki,Swift,1988,Teal,550
+b273f9d7-9ede-470e-9bbd-92ef797e8242,8498-PMA,Mitsubishi,Challenger,2002,Pink,551
+dcbc747c-b430-4ccf-9a8a-afa5eac232c3,2028-ABI,Dodge,Neon,2002,Goldenrod,552
+aa275c27-8fa0-45cf-b2c6-38e1f42a1aad,0025-ZKG,Lincoln,Continental Mark VII,1990,Indigo,553
+b8486766-5d91-4d43-90ec-c8374daab54a,5135-FQD,BMW,745,2005,Green,554
+1d9a5c8b-227e-4b7b-89a1-ad2165564daa,7845-XLH,Honda,Ridgeline,2007,Violet,555
+44d82452-1a0f-4c64-a9ee-fb1a3e36f0fe,8287-CWX,Lexus,SC,1998,Fuscia,556
+b00496ba-7aac-4ff5-9c1c-987f2a1e3742,0447-GJO,Volkswagen,Golf,1985,Green,557
+6896fd71-cafa-4cf8-b497-40f3af5ffd71,9273-HEK,Mercury,Cougar,1999,Yellow,558
+00c44a1b-13ee-4a15-9657-099c9bb49d95,5006-DHJ,Bentley,Continental,2005,Pink,559
+762623a1-35ac-48df-91d7-788a4954b4b6,4586-RVT,Chrysler,Crossfire,2005,Indigo,560
+75d00261-673f-4bbb-b0b2-44604f04fc73,3335-YFA,Nissan,Xterra,2010,Fuscia,561
+8aff0513-6f11-4685-8d5c-1e5d1e047802,8980-TOQ,Morgan,Aero 8,2008,Orange,562
+c9a6c547-e5a5-4198-836d-0f78e69e00df,5563-VIF,Bentley,Continental,2006,Blue,563
+ff80ce4d-5847-4d38-b905-b211ea011e02,2145-UDR,Oldsmobile,Alero,2001,Goldenrod,564
+cca71a3f-3d8c-4337-9163-bbb20f289cdc,4539-MAV,Kia,Rio,2003,Pink,565
+0394d40b-de01-465c-a7aa-2958e01829d9,4915-QLW,Volkswagen,Jetta,2011,Red,566
+fb10c20e-d93b-467e-8bbe-5cc47b62aa43,6274-VCW,Subaru,Legacy,2005,Mauv,567
+6d7f0c14-e694-44d5-b271-76d4f4f45a4b,6225-AZA,Lexus,GX,2005,Blue,568
+f42caffd-6934-4c37-825e-cf931b7bb497,8232-GBY,Dodge,Dakota,2003,Crimson,569
+7ca384c4-382d-4b55-83ad-9297e6366dfb,6496-UKN,Land Rover,Range Rover,1990,Pink,570
+7c53f2e0-dfe4-4c80-a184-24befdae083b,9168-DIE,Buick,Regal,1999,Green,571
+2e386c1c-075e-48f5-8dee-e9721d4c3412,9818-QGD,Cadillac,XLR-V,2008,Goldenrod,572
+30fc4c2b-55cb-456c-a56a-862cfe2a0063,9832-CXT,BMW,X5,2002,Maroon,573
+143e5cd3-6c4d-453c-9d3f-bc9a6b284289,2671-IVR,Lincoln,Zephyr,2006,Puce,574
+2c9e6551-ecb5-481a-b3e8-0d63c76262a3,1375-MEE,Bentley,Continental GTC,2011,Goldenrod,575
+6e9f4aaa-b8e5-4f96-8728-92f85af0dfb6,7261-MVP,BMW,M5,1993,Fuscia,576
+8ac8304a-3983-47dc-8b73-7bdae4fc712f,2464-EPK,GMC,Envoy,2006,Turquoise,577
+41f8ffae-3de7-41b5-9bb3-1744d7e07d8b,3629-GFQ,Toyota,RAV4,2012,Red,578
+80ede123-bb6c-4c17-9cc2-dc3f1ce948b8,6451-RXC,Honda,Accord,1994,Goldenrod,579
+418b01aa-1884-4276-96fc-659d6635a9f5,5226-BRC,BMW,Z4 M,2008,Purple,580
+2a9a98a8-d725-4a88-b0d5-96e0c619ff51,4306-AWR,Pontiac,Sunfire,2001,Violet,581
+f86434f1-d718-4316-979c-80adf69a4e86,7348-NQP,Chevrolet,Impala,2010,Puce,582
+68f0f34e-e2e1-450c-b73f-48ada31a51f7,1655-LPY,Land Rover,Defender 90,1997,Aquamarine,583
+9cda01ad-7dd9-4510-a103-b289a34268fc,0617-NZA,GMC,Yukon,2001,Khaki,584
+57fefcc4-8d4d-4f85-898e-80c6e0e99e44,2958-BZH,Dodge,Ram Van 2500,1996,Goldenrod,585
+234db4a5-7711-4bf3-95fc-406aab995cd1,1243-YDS,Jaguar,XJ Series,2001,Fuscia,586
+b1f1f9ab-67bc-4e45-b61d-cca3cd72588b,3856-DDW,Acura,RDX,2008,Aquamarine,587
+fefebb7c-0877-4d9b-885f-c2f139f4ba24,3617-CQE,Volvo,XC90,2011,Maroon,588
+a56c152a-3e5e-4039-a466-f71e65fc9412,0161-SOC,Chevrolet,1500,1999,Yellow,589
+c625e58b-8b03-4df4-ac3f-f55a824f3f59,6880-QYZ,Pontiac,Fiero,1988,Green,590
+8c99bd22-9758-4a78-b2d5-6b051154e39c,2671-GYL,Honda,Odyssey,1997,Green,591
+490ee7a4-1d57-4198-9e17-863eae98e19c,7292-FZJ,GMC,Sonoma Club Coupe,1996,Maroon,592
+703b4572-6e21-441c-9b60-a135dc31527b,1042-WKV,Ford,Fiesta,2013,Green,593
+385511c1-43f2-4b0f-bba0-b923ed164ad1,0370-FRI,Mitsubishi,Pajero,1990,Orange,594
+cf57b59c-7ab9-4b75-ac8d-d38827eb792d,4261-ERU,Scion,xB,2010,Aquamarine,595
+4946ca8b-2fda-41dd-b877-316e9453a6cf,7131-HED,Dodge,Durango,1998,Green,596
+56407361-eabc-42cd-abae-6e022ea96a89,9546-TQU,Mercedes-Benz,CL-Class,2010,Green,597
+1a71ea95-b697-4cbc-ba47-9f0db4e7b952,0286-GDJ,Buick,Riviera,1990,Turquoise,598
+aded3338-84b6-4560-937b-692b63775039,1440-XTT,Audi,S4,2013,Aquamarine,599
+d39966b9-fa87-4269-a7cd-45b4906e04fc,1639-SYC,GMC,Suburban 1500,1998,Violet,600
+d977f9e3-ca60-4c21-b073-e8ef665c0330,9428-AVW,Ford,Bronco,1992,Red,601
+75e6abad-782c-4875-8832-6efdff829837,9732-SIP,Honda,Civic,1997,Yellow,602
+9b0d7fea-1287-4f30-9d55-e32286c5db72,4430-NNZ,Mazda,MPV,1996,Maroon,603
+a4a67cc9-3fe2-4603-857e-9f2adda618e9,1234-PJG,Pontiac,Grand Prix,1987,Pink,604
+6f05d852-b43c-4c8f-bc21-17b832a1572f,1678-KHS,Volvo,S60,2001,Yellow,605
+fde0a259-aa3a-4a18-8b4d-cda157df64c9,7709-GRW,Infiniti,Q,2005,Mauv,606
+25da615f-a256-4b5e-ae0e-876ea6f8347a,7253-KOQ,Ford,Explorer,2011,Fuscia,607
+9594d68a-d157-4021-8591-5ec6fb1e1bfd,3215-LDI,Toyota,Tacoma,1998,Fuscia,608
+19490a8b-c95d-410b-a131-61ea2a0375b0,5232-IYS,Mitsubishi,Challenger,2000,Crimson,609
+22074564-deef-4986-b707-7cca1d0af904,7401-MDJ,Mitsubishi,Truck,1991,Purple,610
+45f76bab-1347-4891-ba95-504b84338fd4,3001-IKO,Toyota,Tacoma,2002,Aquamarine,611
+4a9a1364-6061-426b-b25a-01b1d5627aca,4162-DDG,Chevrolet,Tahoe,1998,Violet,612
+b7db7480-bef4-4f5a-9401-adebe938619f,0827-WKQ,Dodge,Dakota,2007,Pink,613
+d77d8037-d784-46e0-9867-46aa9baad4d5,7957-WZJ,Subaru,Impreza,2000,Fuscia,614
+f55e883f-09c3-4930-8396-2f7a570829a4,0349-YXY,Hyundai,Santa Fe,2005,Goldenrod,615
+877bb149-a37a-4964-99f8-9512949d3afb,3828-NZQ,Jaguar,XK,2010,Maroon,616
+9b4bb2ac-9475-484e-b676-269e77c870b8,1383-RXJ,Mercedes-Benz,300CE,1993,Green,617
+19e4b845-ce83-4097-aaf9-65205b8f81dd,3868-VJF,Lexus,RX Hybrid,2008,Pink,618
+f00c4604-e023-4d68-8b39-9d4c2ccd626b,2705-VTG,Jeep,Wrangler,2012,Pink,619
+12afbc6e-c12e-47c6-9c5f-ddc5ecb899c9,1031-QHU,Isuzu,Ascender,2007,Fuscia,620
+84f11176-b9e7-4e84-94be-c81523db4612,1315-UDX,Mercury,Mariner,2005,Goldenrod,621
+6965aa65-982c-447c-83cf-040cfccb4eb7,0043-QGY,Chrysler,Town & Country,1992,Indigo,622
+17481916-7bb2-48a2-ab4c-86c195d125f3,3509-AEC,Mitsubishi,Precis,1986,Puce,623
+01feb5e1-6b27-4972-b828-b94ddcc55926,4107-TZV,Ford,E350,2004,Red,624
+03fe706d-40cf-4c30-8a0c-5cc4247729ed,9133-PDQ,Acura,RSX,2002,Yellow,625
+55a88880-c322-4ff4-a768-84eba7425b36,9343-SFO,Mercedes-Benz,M-Class,2007,Mauv,626
+9f62fd93-a20d-4358-8536-87e0cd7fd8ef,5984-UQP,GMC,Savana 3500,2006,Red,627
+760e34d9-57eb-42dc-bd11-7e742f86c002,4664-EXX,Volkswagen,Type 2,1990,Puce,628
+3844cce2-c862-4bef-a0cd-b38ee5de63a7,1172-OEQ,Scion,tC,2010,Green,629
+9da3366b-d912-4ea3-8fa0-339fa73d4b5c,9388-VYD,Suzuki,Swift,2005,Khaki,630
+f8009af5-e4f0-46e9-97aa-25771c022d82,3630-RLG,Chevrolet,Avalanche 2500,2006,Aquamarine,631
+d5c0b792-9ce9-494d-a702-f98684c6ae57,1378-CYM,BMW,3 Series,1996,Teal,632
+2552962b-4e8f-49b3-adeb-41ba635352f0,6342-QNU,Audi,100,1991,Fuscia,633
+6859be41-43c3-47d5-817e-4239a877dbbe,4761-IEP,Lincoln,Continental,2000,Blue,634
+263775e9-c07e-46a4-a693-3d62b527abbd,6288-AGV,Buick,Enclave,2009,Goldenrod,635
+71b60eaa-1650-4a63-8324-4799fc239e25,7115-QNE,Dodge,Durango,2012,Teal,636
+7ce869ee-792c-4eb3-8d4f-8df16b31fc25,3736-DTA,BMW,5 Series,2005,Teal,637
+d6be13a0-3182-4e12-95bb-a5e5c982000e,5688-YHH,Lincoln,MKX,2012,Green,638
+188723eb-1686-4f29-845c-e7d658251ef6,9048-ISO,Mercedes-Benz,E-Class,2010,Orange,639
+a94deef3-4185-4cc6-83ab-624c0993e6ca,1279-NNT,Audi,Allroad,2001,Red,640
+e9ffa861-4773-4bc8-865e-bc8a7436cef6,9307-YLU,Kia,Sportage,1998,Red,641
+43655c28-5876-4295-88eb-858242319b74,1478-UWD,Maserati,Quattroporte,1984,Turquoise,642
+4a5a4c68-bd9d-440e-965c-9440444f5f76,3955-QEQ,Buick,Regal,2012,Blue,643
+d714d0ac-f6ab-44e7-baf5-e99b142f2472,1761-WMS,Ford,Focus,2004,Crimson,644
+46da0315-7699-490a-a2a3-109fe8d5f898,1967-GLG,Volkswagen,Eurovan,1999,Maroon,645
+7a2639b2-9f49-41e8-8287-a870d4a6c6ee,3809-LZS,Ferrari,F430 Spider,2006,Blue,646
+3f56abf3-6408-482c-aa86-42092cda8805,8719-PVX,Ford,Focus,2013,Turquoise,647
+bb23d6ae-343f-4a17-8a9a-5f2addaaad6b,4101-PZP,Acura,RL,1998,Puce,648
+d23520da-398a-4d2f-951a-e33df56c3111,3234-DRH,Mitsubishi,3000GT,1999,Violet,649
+7d0a6850-b051-4cb0-afeb-16e32e43f40d,4825-LAG,Chevrolet,Silverado,2003,Orange,650
+082b5d03-b3df-4921-aa75-fabd2786dda4,1520-IIF,Toyota,Sequoia,2011,Pink,651
+f10e3058-5c7a-472f-b048-55c58aa2905f,5627-KPK,Buick,Regal,1989,Pink,652
+b98434ff-a3ae-4ca9-874f-3e6b74960231,0297-QNS,Ford,Laser,1986,Fuscia,653
+57a97d69-74f8-48f3-80d6-47c89981644a,6507-HTE,Mitsubishi,Precis,1990,Mauv,654
+6b526ef1-adba-4c05-8a78-fdc754da14f9,0192-CXF,Mercedes-Benz,S-Class,2002,Violet,655
+3d786464-116e-4814-bd25-bc24f4c0e179,6361-JCQ,Ford,Mustang,2008,Yellow,656
+16fdd055-816a-4b93-9304-b5010223e864,8789-YTB,GMC,Savana 1500,2005,Teal,657
+8229dc92-7b7d-4600-a059-2f5b41040d4e,6419-FMC,GMC,Sierra 3500,2004,Green,658
+c3e213e5-9ba1-4588-9f40-ca898a430bd6,5102-RQO,Toyota,Supra,1996,Indigo,659
+72856d17-6fec-4ebf-833c-93b567db9f3c,5125-LXB,Aston Martin,V12 Vantage,2011,Crimson,660
+93986277-ebc8-4bd0-81ad-d0794d0dda24,7914-UIG,Ford,F-Series,1988,Turquoise,661
+410b37f4-c5c0-408e-9550-25ee55d1b8ac,6499-HVT,GMC,Suburban 2500,1992,Mauv,662
+28cfeeb1-7cc6-43ee-af05-987da22dc7cb,1272-RDW,Chevrolet,Corvette,2007,Turquoise,663
+f43b0025-3b28-4cb4-855e-b52296936c78,9397-HEW,BMW,Z4,2012,Purple,664
+1bdb5d1e-8ab8-4797-9a9d-abac9562723f,8669-ANY,Chevrolet,G-Series 2500,1998,Blue,665
+293ede83-fb33-496c-a9d5-2152d536921b,1108-TKJ,Cadillac,CTS-V,2011,Maroon,666
+cdfee289-71fb-4e69-a2f8-852dce9b7e9e,1359-SLY,Dodge,Ram Van 2500,2002,Maroon,667
+de53be4c-c782-40a0-9fa8-e14d671c634b,7758-HTT,Chevrolet,Corsica,1996,Green,668
+a53f8086-b797-43e0-91f5-4a9da53e934e,7468-SKG,Honda,Passport,1997,Violet,669
+2d4bdcbb-dd09-4066-af08-8648429f36ed,1785-WTV,Kia,Rio,2011,Khaki,670
+43187cd5-2316-4b81-b427-e9e7d752600a,4073-ZBQ,Hyundai,Sonata,1998,Teal,671
+15072872-7234-48b1-8a93-ce0c1cbbc694,0043-NZQ,Mercedes-Benz,M-Class,2010,Yellow,672
+7d388af0-f64c-4520-a770-49d6310a917b,2641-KLR,Mazda,MX-6,1993,Crimson,673
+e20d1c0e-ad68-4f99-a78e-404511b4a4bb,0392-VLM,Chevrolet,Silverado 3500,2010,Red,674
+985aba61-6cf9-4b54-ada8-276e196f51a4,8857-EDP,Oldsmobile,Toronado,1992,Aquamarine,675
+f70ea58f-e8c4-49ff-82d0-7ed3b757613c,2748-ZLW,Buick,LeSabre,1987,Pink,676
+e59e2f3b-0252-4401-880f-42e6997beda8,6402-MKA,Buick,Park Avenue,1996,Purple,677
+62220312-c511-4217-9f55-40d678bea3b4,2701-XVK,BMW,Z8,2001,Blue,678
+ecf20a68-56d0-4531-b93e-e12b3fec0e17,6359-HWR,Honda,Accord,2007,Purple,679
+7eefb5e9-2772-4571-b153-9b9f9a5124e3,1923-KNF,Mercedes-Benz,CL-Class,2007,Orange,680
+93f3735d-60be-4974-b01d-ce764b972a18,3151-VRH,Ford,Fusion,2011,Goldenrod,681
+48f0b996-ad91-4915-893c-f3138ff5912d,8107-ECB,Mercedes-Benz,S-Class,1999,Teal,682
+489f74c1-eb41-4a68-825c-a4a15ed8620c,3576-LZB,Hyundai,Tucson,2010,Yellow,683
+3c589319-3a91-4e9c-871c-ecc7e08c8d7e,0376-OLT,Ford,Aerostar,1994,Purple,684
+a2a55482-5c4f-49dd-aa6b-2af393deffad,1455-IFF,Subaru,Outback Sport,2002,Khaki,685
+9403d296-574d-41c9-8dd9-6943555bb873,6640-NRS,Mercury,Grand Marquis,1985,Purple,686
+feb4a229-4aa7-4b7f-9421-b6633140b6ac,3727-PJI,Chevrolet,Venture,2004,Turquoise,687
+9e38d07b-3320-40df-a6cb-b858a2df313f,2316-ADF,Suzuki,Verona,2006,Pink,688
+6a6062dc-233c-4753-9f23-85df3e216e2b,7826-JQP,Volkswagen,Golf,2000,Puce,689
+f2bb0131-b1a9-4746-81be-db8bd16696a6,1245-TTP,Plymouth,Voyager,1985,Pink,690
+26e8a9ad-74b3-4dcf-a5c0-596441b81f54,9257-HMN,Isuzu,Rodeo,1996,Goldenrod,691
+ddb35d0a-355b-49b5-91ef-479b8b685d29,4555-UJG,Dodge,D250 Club,1993,Blue,692
+e8b24109-755d-43e4-8863-4bb2599f907d,0170-ZNU,Ford,Contour,1998,Red,693
+f409984c-ded9-442d-ac22-2b90052b0c02,6100-EMO,GMC,Sierra 2500,2006,Violet,694
+ee1d5037-4f0c-4278-8f74-64a2c4280be1,7249-EXW,Mercedes-Benz,CL-Class,2009,Pink,695
+58f02490-8be9-4fda-bdc4-f070dd99c604,7665-ECB,Mitsubishi,L300,1989,Indigo,696
+da7954e2-c84c-4f93-b7b8-d713a7f591a1,4841-QYW,Chrysler,Cirrus,2000,Pink,697
+14620933-92e3-4dd5-81a8-1f297d91c4b7,1450-CHU,Hyundai,Tucson,2009,Yellow,698
+5dbbdb37-88f3-4a70-8026-32849f2c2c05,5722-SQF,Suzuki,Aerio,2003,Khaki,699
+d23880d0-39d2-4302-834d-758a5f7d385b,2845-CCE,Porsche,928,1986,Yellow,700
+4cfb5227-436b-4d68-a276-8bb8f78c2ca1,6535-YZM,Pontiac,Firebird Formula,1992,Indigo,701
+163f6942-b042-4871-96bb-7f090efb3778,7491-JKF,Jaguar,XF,2009,Turquoise,702
+60ba3aea-bed0-4201-8bdc-d27dc04085b9,5271-SWV,Hyundai,Tucson,2008,Puce,703
+0ae3d786-38eb-4326-96cc-b71edfb75bf9,1687-VGM,Chevrolet,Express,2010,Aquamarine,704
+f47529fe-ca9a-49df-9d98-4705dcbe971b,4671-FAJ,Acura,NSX,1998,Mauv,705
+1d0df5c5-a35a-42f3-a8ab-e8b2c7f3b67a,3010-PZP,Nissan,Maxima,1992,Teal,706
+b04ccc18-08e7-4d75-9437-76d78cf8b610,6552-VFJ,Mercedes-Benz,W201,1993,Crimson,707
+e23b7697-0290-4744-935e-8e5afabda74d,6426-JPM,BMW,Z4,2004,Puce,708
+fae10833-4e41-4b0f-a949-0ffdda2ca38b,1867-JGN,Audi,S4,2004,Indigo,709
+eb56bb34-c22f-48f4-96b7-8f43b823717e,3108-TVN,Cadillac,DeVille,2005,Violet,710
+eaed2c3a-fdfd-4258-8d71-158899c15a7b,1500-CHB,Dodge,Stealth,1995,Violet,711
+d73b662d-14be-49d7-859f-9d20e1e376c7,2727-YHN,Dodge,Dynasty,1993,Crimson,712
+339ffa91-162c-4c74-92e5-79a0a03d9172,3698-IPG,Mercury,Grand Marquis,1984,Teal,713
+a17b5892-05ce-43bd-9dd6-cc9a481614d2,6739-XGF,Scion,tC,2012,Green,714
+4106e011-3a25-4d62-8de8-6894f925c1ee,1651-UBR,Nissan,Xterra,2005,Green,715
+7aa89719-d8cf-46d9-875f-87e14317c811,7757-EIH,Mercury,Cougar,1968,Fuscia,716
+62b8cae6-4c58-4c5e-b924-cc1e50c21471,9916-GNJ,Mercury,Cougar,1997,Blue,717
+8f33df27-691d-44e3-a6c0-d2ece31923f2,9139-XZE,BMW,5 Series,1998,Puce,718
+4a465f75-d01e-4913-85fe-8caacab31f1a,6288-YXZ,Lexus,GS,2009,Green,719
+cd76a44e-0649-4288-81bb-d1d265fe7e5a,0689-VSQ,Mazda,MX-5,1994,Green,720
+38305fd0-6c29-49ae-94ab-0884b33b027d,7086-HAQ,Mercedes-Benz,R-Class,2006,Purple,721
+e8824284-06ca-4592-9c3a-40d794cfdeb4,6099-BOM,Honda,Civic,2004,Turquoise,722
+58f9c28c-9d55-413c-a390-a1cfdc8f5561,2366-GKE,Pontiac,Firebird Formula,1999,Crimson,723
+a41e2d2b-404e-4fb9-aff6-1aa65cd85491,4643-MJO,Maybach,57S,2005,Blue,724
+3cdc575a-ae30-4070-bc03-c503be375d1a,1803-TRN,Audi,A8,1998,Purple,725
+3a6d26a0-fcb0-43c9-9ad2-768e0d2daa36,9236-CUL,Acura,Integra,1996,Goldenrod,726
+9a5254a5-28a0-4f7f-af6e-541c2c7be301,9359-PJY,Nissan,Altima,1998,Fuscia,727
+5ff4dc51-5268-4936-aa0e-92a6141ae75c,2848-LRJ,Lamborghini,Murciélago,2010,Pink,728
+d41999c5-a0c2-423a-ab24-0e194e76652f,3648-BAZ,Pontiac,Bonneville,1968,Orange,729
+6be90480-d51c-45d8-bf03-fa2c0dd03cd7,8639-EIH,Nissan,Quest,2005,Violet,730
+30d91db3-eef9-4c71-a371-e4a3a18dc0fb,7317-ZLW,Dodge,Grand Caravan,1997,Violet,731
+95ef38d8-ab7d-4854-bb2e-7baf90b559f0,5998-QKT,Daewoo,Leganza,1999,Indigo,732
+33a544e7-f2f0-4c5b-ade4-e48c6bec98f1,0689-TNY,Porsche,Cayman,2007,Turquoise,733
+1222951a-fe65-4476-91a4-0a7cca787137,8191-ONL,Mazda,Millenia,2002,Purple,734
+c8f9e70f-55f0-45b8-9a94-325b8e440dc1,7205-BFZ,GMC,Savana 3500,2006,Red,735
+ffe4b720-ebd7-4e0e-83fc-8d760c34fcfd,1379-PSU,Ford,Escort ZX2,2003,Turquoise,736
+9ddb741d-19a6-4eeb-8601-7eae808fe6f6,2839-ILZ,Mazda,Millenia,1996,Puce,737
+6e0187cb-50c1-4bb4-8ffc-1bca3ff64907,8311-ZNR,Audi,90,1993,Green,738
+6d069463-de24-46d3-bf31-839ae0f08a54,4100-WLF,Volkswagen,New Beetle,2001,Yellow,739
+bce185a8-5455-4da2-b4ef-658927205dda,2846-FWM,Ford,Festiva,1992,Puce,740
+d3077413-693b-43bf-a3b0-4d2132bf23b2,5847-UCA,Acura,Vigor,1994,Teal,741
+3bfdd18c-8681-4667-8675-1fd7cdd3b316,9621-JTD,Toyota,Tundra,2004,Green,742
+5ea984bf-bff0-4c10-afba-549592be2002,6857-SHD,Mazda,MX-5,2012,Pink,743
+833cbdcf-05b9-48c9-be99-976d7b1fa8f3,0844-BTL,Suzuki,Swift,1988,Aquamarine,744
+9c412d55-7f30-4105-b956-8727ea05a392,2695-XJU,Volvo,C30,2013,Aquamarine,745
+b2530bb1-b34e-421d-b4fe-ea40a043623b,7871-OIX,Lexus,IS,2003,Maroon,746
+a3147cbe-6d2f-4783-854e-3904f9b05f92,5823-TQN,Pontiac,Grand Prix,1996,Purple,747
+4de8ad81-1539-4060-aa51-f44b22cf68a3,5993-SGC,Lexus,GS,1993,Khaki,748
+db8d577f-b70c-424e-b63a-3643e2de0004,1201-SJL,Toyota,MR2,2004,Violet,749
+63abf001-3fe2-49d7-bca0-32a40ddcc3f1,2771-IAT,Mitsubishi,Galant,1996,Indigo,750
+9e8f708d-17f5-474a-ba5c-7996bef8b592,8791-IMM,Saab,900,1986,Fuscia,751
+8bb39e56-535f-4c36-9f1b-839802951927,2379-PVZ,Ford,Econoline E350,2001,Yellow,752
+95c51136-d605-4d51-9ff3-1966cf92f07c,2150-DEL,Pontiac,Grand Prix,1980,Green,753
+b8d648cb-e4b8-4c14-853c-0900531bb142,1240-UCO,Pontiac,LeMans,1989,Pink,754
+6d6085da-46ea-4726-9c90-f0a6a66fc2b4,7846-IME,Ferrari,612 Scaglietti,2009,Indigo,755
+837fe3a4-44ff-4fbd-b1ec-8b1755f8f581,6780-BTR,Mitsubishi,Mirage,1998,Violet,756
+b3dff5c2-013a-4b92-9449-66b7ae8c6ac1,1659-MAP,Chrysler,Town & Country,2002,Crimson,757
+7a9fcdc7-e01b-4763-8e34-366c4c0e286e,9468-BEY,Suzuki,Grand Vitara,2012,Goldenrod,758
+e3e2a290-3962-4491-86bd-e132286f608d,0595-FUD,Plymouth,Acclaim,1995,Goldenrod,759
+acf38172-0fa0-452a-a334-11edc956dc45,9343-IST,Dodge,Ram 2500,2006,Pink,760
+0068e1a8-bed2-450b-9ee5-6edacf9b8c5c,4240-UJE,Nissan,Quest,2006,Maroon,761
+2ea69792-5b07-4101-923a-f54412e2eba3,3269-DUE,Ford,Thunderbird,1997,Fuscia,762
+70c475e5-e7ab-4f0a-a1b6-b7e9abc0b54e,1078-OQB,Jeep,Compass,2011,Purple,763
+e2bfe45c-e7f0-437b-a0ed-1df05f0baa26,2914-QMW,Mitsubishi,Montero,1998,Puce,764
+cbe03c1a-59e6-4272-8342-de77ae658970,4624-RCN,Aptera,Typ-1,2009,Khaki,765
+3c422460-4418-43fc-8129-39e25b5bd154,4067-BLX,Acura,TL,1997,Orange,766
+86094fb9-ffcd-4124-8291-b95f079a37c3,6778-MZF,Hyundai,Genesis,2012,Red,767
+112d0403-f512-4867-80cc-eb915c94cd31,3155-ACW,Volvo,S70,1998,Mauv,768
+6fdecfd5-0c64-4bd9-8ac7-b50dc6ac8496,3850-AQD,Jaguar,XJ,2009,Red,769
+aecf913f-1318-4ee7-a044-1504e80aaf7c,3196-BRC,Audi,riolet,1994,Pink,770
+29301bdd-26c2-49d3-8623-ec015e94d64f,8935-LBN,Lexus,SC,1998,Crimson,771
+45e6fde6-5614-4658-ba6a-924612a9a999,8354-GDX,BMW,M3,2008,Violet,772
+4402b301-454e-4e65-8f19-167b2f4a4c1c,7689-HDI,Ford,Crown Victoria,2008,Green,773
+9aa6fce8-e90b-4780-9e93-692b2882b353,1918-ZVY,Pontiac,Sunbird,1985,Aquamarine,774
+739700e6-4b01-466e-b24e-c39f22213cbd,7576-GEA,Chevrolet,TrailBlazer,2002,Purple,775
+ea2eee7c-15ad-4284-ba94-fd50cf8ff3fd,2810-THH,GMC,Sonoma,2000,Violet,776
+32376df0-3bef-4640-a60b-cab70f45fea9,1064-KCA,Mercedes-Benz,M-Class,2001,Mauv,777
+166bceb0-3f0a-4d3d-a60d-1646c3f17075,1563-CHR,Pontiac,Sunfire,2003,Orange,778
+46395c7c-77a2-401f-80eb-96bf3185ab97,3624-ACB,Nissan,Sentra,1999,Violet,779
+5d0b3cf7-5405-4238-b61e-5e6c63e04a46,4424-BDF,Subaru,Tribeca,2010,Blue,780
+aa4f7714-1e4c-4604-bedf-8579f7bb76ea,2714-JRZ,Mercedes-Benz,S-Class,2006,Fuscia,781
+9578d049-958d-44e8-b611-4533c0a71074,3647-RWS,Volvo,XC70,2009,Purple,782
+6a7cc0bf-8728-46c3-b83b-5eebcf51ffe0,5570-XPW,Toyota,Solara,2003,Mauv,783
+ef6d658f-c203-4d1a-9a4f-738a8bb75a50,5516-WPK,Volvo,XC60,2012,Khaki,784
+d69c4f12-6109-4019-b602-0b94ee5b8dbb,8927-JQB,Subaru,Impreza,1997,Aquamarine,785
+366df37a-fe54-4d58-8a86-96bd7d140cb9,8553-MTT,Ford,Focus,2009,Blue,786
+83f00240-f54d-4c44-b5d9-062f9d1d607e,9239-MEK,Suzuki,SX4,2008,Crimson,787
+cbd1c457-3bc4-4974-9011-5ab9b036f04f,6100-SOO,Chevrolet,Malibu,2006,Goldenrod,788
+bef6ed96-5990-4ea2-967a-25fe4c6ca5e6,9373-TFY,Mercedes-Benz,SL-Class,1998,Maroon,789
+230e8820-d240-4816-9f8e-94fb56284994,5264-MNW,Mitsubishi,Chariot,1989,Maroon,790
+a7f74581-8f2a-4dec-9c72-48988e4f81f5,1544-URW,Lincoln,Town Car,1994,Purple,791
+7231d3f7-0613-4f1d-8d2b-35112d221540,1530-JKP,Bentley,Continental Flying Spur,2008,Purple,792
+21768738-babc-4850-894f-20a18e6bb1cf,6647-SRL,Scion,tC,2011,Crimson,793
+f412beb6-7dbf-4f01-ab24-3ddf251397c9,9004-XKG,Jaguar,XJ Series,1997,Mauv,794
+99bf37b7-1afd-484e-99fb-b82d7d88947d,2606-FEZ,Audi,S4,2009,Pink,795
+7b6919ce-b879-4e3d-9a44-91a8ae0f6644,3177-KPW,Pontiac,Grand Prix,1973,Mauv,796
+4bc0cb2d-5d9b-4045-b013-6281588377eb,1169-LTT,Toyota,Prius,2011,Yellow,797
+5ccdbfa0-5bc4-49a8-9c12-7ba09e94ce7d,8911-SJK,Honda,Element,2004,Aquamarine,798
+7f3c1acc-2a97-415b-b41f-436630bf79b9,1280-BDZ,Audi,TT,2006,Crimson,799
+da7424ef-a2bb-4cac-8795-e231e83d1ddb,7755-DJP,Ford,F350,1995,Green,800
+8686b981-3d29-4c37-8874-25e402eef578,7216-YCO,Volkswagen,Cabriolet,2001,Puce,801
+abe7b6f8-ef1f-4178-a362-54337fa3c223,7471-WIK,Mitsubishi,Eclipse,2009,Goldenrod,802
+70e289f2-935a-4ea7-a4a3-eaa8f2c8ac9b,9636-FLX,GMC,Sonoma,1992,Blue,803
+3cdb54cd-b9bb-4607-835a-235ddf6b8177,6237-LTX,Toyota,Corolla,1995,Goldenrod,804
+4a3f2fae-bf19-4347-b3b1-650138c70b78,1558-QMX,Pontiac,Fiero,1986,Turquoise,805
+c26c7689-9d38-4d96-afbe-6c7c16af4fcb,7518-QYG,Cadillac,Brougham,1992,Purple,806
+93497ddc-bea9-4af1-927c-8a2ab24a5699,8615-VXN,Ford,Excursion,2000,Pink,807
+e508b1e7-da5a-475a-9415-584d19aa2952,9990-DMK,GMC,Savana 2500,2012,Green,808
+08ffac10-4b66-42da-8d40-ca3c43319462,8744-FLD,Chevrolet,Corsica,1995,Orange,809
+f4cd5851-3287-4dba-abde-39e66a3dee28,2943-DNB,Mitsubishi,Montero Sport,1997,Mauv,810
+50281ba9-8cd4-45fe-aa58-96cdfaa9ec75,6826-LYO,Mercury,Mountaineer,2007,Violet,811
+ecb86424-d673-41ad-a9e9-2be25462587b,1945-JVN,Subaru,Legacy,1997,Indigo,812
+799d3a95-54d3-4483-b3f7-3449c91c22e7,7558-IZP,Plymouth,Voyager,1995,Violet,813
+4022be9f-cbf1-43d8-8592-d7f275273b7c,1321-JXJ,Dodge,Grand Caravan,1994,Green,814
+33f4e89b-f604-4883-8b9a-9d8da073f490,1124-SLN,Dodge,Ram,2009,Maroon,815
+5f7906d9-0877-4222-841f-ac2d76860ec8,1872-GPS,Buick,Roadmaster,1996,Crimson,816
+9029d0d3-6daa-4b0a-974f-eb1a16f7d398,4127-HEZ,Buick,Century,1998,Goldenrod,817
+0ff52eac-f5f7-43d1-b22e-b438f79307e2,6552-LLU,Chevrolet,APV,1992,Purple,818
+88d38dac-7528-40a2-b801-93507d565f14,5887-OXX,Mercedes-Benz,500E,1992,Crimson,819
+0bd842e4-aeec-40c0-bdfe-71b1f6e069f9,0681-HOG,Chevrolet,Tahoe,1995,Red,820
+f0df7a38-afb7-45a7-aa98-df83f641dbad,6801-CFC,Ford,Th!nk,2002,Blue,821
+9aef542a-d128-4cda-bb92-b0f75f6b9105,6236-IUV,Kia,Rio,2011,Orange,822
+3b94d1d3-798e-4895-a042-5a8a48a74969,3253-WSU,Ford,Econoline E350,1994,Crimson,823
+ee5e98d7-6c90-4b6c-bfe0-cb4d09d4883f,9301-MEZ,Lincoln,Navigator,2011,Pink,824
+03c649f0-f84e-4064-ba45-3a468169a65f,6561-ZDG,Bentley,Continental,2010,Turquoise,825
+fdb98aca-5990-49f3-baea-9ac1f4337d6d,9514-GHK,Volvo,V70,2010,Teal,826
+18c2cae8-df74-40a5-b49b-85db5349d126,8952-DGL,Ford,Club Wagon,1998,Crimson,827
+309de1f7-a4a6-470f-a8d5-0e5370f5d350,4614-QLY,Mercury,Cougar,1984,Yellow,828
+4df8a42d-1bbe-46ee-9425-9a231fc62a2c,0691-UPP,Buick,Roadmaster,1992,Yellow,829
+2197ccbf-6862-4d6b-a37e-bc09b97b77d3,2678-OMY,Kia,Sorento,2006,Green,830
+5ea145ff-c835-4368-ac4f-dcfce2b20e57,1338-KNS,Mercury,Marauder,2004,Maroon,831
+0efcc336-03bd-4f4e-9fd7-b23c1969d473,6562-FMG,Mazda,MPV,2003,Mauv,832
+7be89415-0634-4e3f-98b3-d7b1980cb158,2910-IXY,Mitsubishi,Truck,1987,Turquoise,833
+1af029e7-869a-4f28-8a98-a1630e6edc0a,0782-LMB,Volkswagen,Jetta III,1995,Maroon,834
+0a217dcc-e17b-4f3d-819f-3059597e163a,2356-LKG,Infiniti,M,2011,Mauv,835
+5f9cf58c-3104-42b2-a8f9-6eccb0fed82f,7827-HLO,Dodge,Ram 2500,2005,Turquoise,836
+59d44629-1b0c-46fa-9631-c78589527f80,6546-YGS,Chevrolet,Corvette,1992,Maroon,837
+b68b5ca4-9daa-492a-934f-525eec3a4b67,8200-BCG,Chevrolet,Suburban 2500,1999,Orange,838
+382f987b-593c-483f-ad96-a4ff26445d8a,1679-GSM,Chevrolet,S10 Blazer,1992,Indigo,839
+8f272a70-ac5c-414e-9fd4-c7833ae3c5ac,4877-ANT,BMW,6 Series,2004,Blue,840
+c34c0b9f-ff02-480d-b50e-1440a16c4e07,9312-YHV,Porsche,911,1988,Fuscia,841
+7ce52285-6cc9-4bb1-aa08-8b0824b47147,4776-VUO,Ford,Aerostar,1990,Green,842
+9813ea83-3c9b-4761-b11e-b6ab7a377574,5023-MXD,GMC,Vandura 1500,1992,Goldenrod,843
+393fd0fb-af6d-4dee-8cd2-88ec9bfa124d,8559-AOT,Lincoln,MKT,2011,Fuscia,844
+cfce7ac8-0f3a-4b3e-82ed-24f04d54c578,1329-LYJ,Chevrolet,3500,1993,Khaki,845
+3369174c-55f1-4861-8b49-0e103c52668b,7399-LLE,GMC,Savana 3500,2002,Yellow,846
+d234d3bb-404d-42d3-a259-7d2e680babfb,0063-CKG,Mercedes-Benz,GLK-Class,2011,Mauv,847
+d6d3b9aa-4e05-4821-8f93-b2767c306889,7339-MUT,Dodge,Caravan,2012,Mauv,848
+c996a26e-010d-4802-b33b-d93ded897e8c,1918-YFB,Chevrolet,Colorado,2010,Maroon,849
+f56dac10-db5f-4644-9fa7-e21f88f2a5a9,2618-FYA,Nissan,Maxima,2009,Puce,850
+249b8545-f649-4588-94f9-41e5d2398764,1266-GVT,Bugatti,Veyron,2011,Teal,851
+43d09623-3bf6-445b-912d-e955f6c81f1d,6970-YET,Mercedes-Benz,S-Class,2002,Blue,852
+effbf011-c348-4ac0-b057-28f6ac559e67,5248-FVJ,Hyundai,Tiburon,2000,Khaki,853
+17920319-cf3b-4149-81e5-c008fd47c1cc,5330-BAJ,Volkswagen,Touareg 2,2008,Blue,854
+b6362f3e-2545-4e63-af5f-88c7ddf0c529,2953-IHF,Chevrolet,3500,1999,Aquamarine,855
+b7656982-3079-4fee-baef-9a72879f7082,7266-USX,Chrysler,LeBaron,1993,Aquamarine,856
+8a5af1e8-7905-453b-88aa-273f8002fd06,8379-TVD,Chevrolet,Cruze,2011,Puce,857
+d262a903-a259-4533-994c-7f92bd3c53b3,1157-BJE,Lexus,LS Hybrid,2010,Blue,858
+07126ba3-f5a2-41e4-bb98-1e6e01c2eb7b,0498-TDS,Mazda,Tribute,2010,Orange,859
+5cfd1243-038a-4aaf-b2a9-dcd82dbfe185,6191-OZQ,Lexus,SC,2008,Puce,860
+5b6dd8d9-461c-476d-8512-53e663219495,8603-SNL,BMW,Z3,2001,Pink,861
+62008d99-5dc3-451f-b5fc-4280336c38a4,9315-LQX,Volvo,S60,2012,Aquamarine,862
+1054fea6-8f91-4ade-945f-b9a92dbc1da2,0811-JDS,GMC,Savana 3500,2005,Puce,863
+b7bdbd74-eb9f-46d0-9d11-a5840c841b6b,0034-RAH,Saab,9000,1989,Purple,864
+fffbc9db-15d9-4483-b0bd-4d266f7a70ad,5962-NFT,Dodge,Durango,2001,Teal,865
+7c5d12d2-f72d-4603-8291-c329223dec48,4579-LZS,Mitsubishi,Pajero,1988,Puce,866
+138d12ea-ee89-453f-a646-b9cf2176ee40,1148-ASW,Mitsubishi,Montero,2002,Violet,867
+17029efb-141d-4ced-bb82-56a8c50badea,7020-DVM,Ford,E250,2010,Fuscia,868
+9f0a522a-d824-4b89-a3e7-61a1126f8f4a,8992-BYB,GMC,Savana 1500,2010,Turquoise,869
+3800c6ad-068d-4684-9d95-71f4834bb81a,8428-WHA,Mazda,Miata MX-5,1992,Mauv,870
+f1fe1b76-b406-4246-95dc-9bde46d142f5,7983-XBX,Audi,S6,2002,Purple,871
+96735569-2d20-4575-a36e-602ff8952a10,7257-HGV,MINI,Cooper,2011,Violet,872
+48bff42e-481c-4893-8861-1e38f7aa7a4e,9891-AZN,Subaru,Legacy,2011,Blue,873
+2e4ba351-a554-4aae-a402-bb5496f38eab,1345-UDA,Hyundai,Accent,1999,Red,874
+f75692f1-b386-44fc-bde1-014c06f71951,6533-SHR,GMC,Vandura 1500,1994,Violet,875
+a65f9c4e-a170-4f89-a80c-251ca79c9843,2132-UAU,Chevrolet,Express 1500,2005,Mauv,876
+7150b2f9-5bac-4b27-b5f4-33828bf21253,8365-NSW,Pontiac,Safari,1989,Blue,877
+c17023d2-05d6-4de3-b288-c4fc2516a071,2131-JMO,Bentley,Azure,2006,Teal,878
+882fdf8b-6d34-4f3b-b592-6d574cebcfce,8403-MHE,Acura,Vigor,1993,Indigo,879
+b3abf9f3-81b9-4b52-a8c0-2475726e4c2d,9003-PKI,GMC,Savana 1500,2000,Mauv,880
+f308d5c9-1764-4111-bd7c-d45a017f1e08,5184-PQK,Dodge,Ram 1500 Club,2000,Pink,881
+834f8603-b758-4c0a-8915-362c473635fa,8819-ZDG,Ford,Ranger,1989,Fuscia,882
+e147919d-effe-4f89-8461-264e007e6059,7136-CCL,Mazda,929,1995,Aquamarine,883
+0262971d-92a1-4bbd-bd15-b1804957bcd1,6758-VJV,Audi,V8,1991,Mauv,884
+31d3023e-4460-4328-82d0-c6820430eeeb,1452-ZUE,Nissan,200SX,1998,Mauv,885
+a3f944df-3429-42d3-b566-63c0923697ea,2958-ZBP,Mitsubishi,L300,1990,Purple,886
+59b095c1-7299-4017-af56-65c2c4b28c3c,5926-VQP,Porsche,924 S,1987,Aquamarine,887
+ea42bc1e-1f55-44cb-b213-ab2af3d582a1,1138-SMC,Mitsubishi,Lancer Evolution,2003,Red,888
+20bd1b42-0d38-41c2-8776-5f0f11286ebd,9601-GVL,Chevrolet,K5 Blazer,1995,Teal,889
+3e7f0b3e-d01d-4059-8e04-0bbdb91ddd08,3730-XZM,Ford,F-Series,2003,Khaki,890
+89c1f835-a7b6-4391-80fd-fc621372c27a,5222-RIO,Nissan,240SX,1995,Teal,891
+23167559-3dbd-452f-be36-1c5d22bf4bc0,0884-ZNF,Lexus,ES,1996,Teal,892
+102c139b-5bdb-4bb2-9da4-085f4e05030a,9194-UII,Mazda,Mazda6,2009,Aquamarine,893
+a6e57a83-5d31-4d88-ac0e-d27f64fb3678,3764-THK,Plymouth,Grand Voyager,1995,Turquoise,894
+cc931cf2-e600-4d08-a278-163ddd04436c,3139-PYG,Mercedes-Benz,SL-Class,1990,Indigo,895
+cceac624-0ab0-4b63-b86c-8801366da0e0,2190-AOT,Lotus,Elise,2010,Crimson,896
+968b19ff-62cb-4c0a-8c78-48352365ae01,8758-LAA,Isuzu,Trooper,1995,Purple,897
+273ed389-6ba2-4200-a647-c00ca3a2dfb6,6871-VCL,Isuzu,Ascender,2006,Khaki,898
+fb61f9ab-217b-426b-863c-fb1b5a009248,5032-MLQ,Acura,TSX,2009,Green,899
+81f330da-c322-43c3-8536-bd92bc22555c,6788-EQF,Mazda,Mazda6,2005,Violet,900
+31d57b6d-8f77-4b11-9f0f-a673cbf99c31,2974-DWS,Lincoln,Navigator,1998,Purple,901
+882d1bda-1f67-4336-bd9f-5399a1778b5f,0949-DMA,BMW,7 Series,2010,Fuscia,902
+1fe04043-4c8c-43ca-8e69-502783a6f196,7981-CRZ,Buick,LeSabre,1997,Orange,903
+78b44210-090a-4256-ba3a-35235bb36b0e,3818-ZCH,Buick,Rainier,2006,Pink,904
+50a5ac5d-cf23-46f4-88ca-ca2fc46b55c2,6631-FLN,Nissan,350Z,2005,Green,905
+944e3301-f2d0-4871-9080-2edfa2386f12,5572-MCR,Lincoln,Continental,2001,Goldenrod,906
+156c3416-adf6-49a8-ae63-d95a63f691b1,7474-VEC,Mercedes-Benz,SLR McLaren,2007,Crimson,907
+9ae1c6bb-628c-4774-9e4f-dc31ca434c92,7469-TXS,GMC,2500 Club Coupe,1992,Goldenrod,908
+da932a2f-c071-422f-899e-0add614aa7c6,0898-TQJ,Lincoln,Navigator,1998,Purple,909
+77c708cd-7c03-4571-8645-a39a1135e40a,3021-MXH,Nissan,Maxima,1995,Green,910
+b7b2d4ab-2c10-4ac3-b714-1dfd6d131ffb,2489-URM,GMC,Yukon,2003,Violet,911
+21b79932-5962-4ff7-b926-4b9bc5e9f3a7,8619-XYG,Mitsubishi,Galant,2000,Green,912
+ef5c75e7-523f-4395-85bf-2d5ea99aaa2f,6827-JFQ,Toyota,Xtra,1992,Crimson,913
+7f69d4de-1ffb-4ac3-b556-b01a84bfefe9,7591-FIX,Subaru,Legacy,2007,Yellow,914
+c715acaa-fa00-40bd-9b2e-27547431e8b6,2852-BNV,Acura,RL,2012,Fuscia,915
+2f3efeda-40ed-401b-b929-77f459242995,8731-DKA,Toyota,Land Cruiser,1993,Green,916
+620680ce-3d48-4352-a657-8076617198d7,0053-XNT,GMC,Savana 1500,1996,Mauv,917
+005599c0-401e-48e0-baad-2e659fef851d,1636-VHI,Dodge,Grand Caravan,1996,Purple,918
+329e33f1-0a7c-4121-992c-3cf88a262651,2587-ZKQ,Mercedes-Benz,W201,1987,Violet,919
+f2aa4a29-d8d3-48df-9e5c-d0c25ee1f64b,6383-OKK,Suzuki,Swift,2004,Crimson,920
+6a229c6d-eefa-496e-aae6-da719e56d284,8600-CTJ,Ford,Econoline E250,1995,Red,921
+9cc2be20-6e42-4edb-b0cd-df3a1054507e,1285-GYL,Mercury,Sable,1989,Indigo,922
+e0a7be58-d9e8-41b9-bdb4-2581f72f8ed7,6512-ZSW,Pontiac,Firefly,1994,Indigo,923
+3f5f3b62-9eb5-45e7-a355-00e20357d593,0361-EGZ,Buick,Park Avenue,2003,Puce,924
+6b0d5eb4-4317-49e9-bfd6-330d85f593a8,4555-TSY,Buick,Regal,1986,Puce,925
+482453d1-c3c6-4fbf-86a2-45b3975de519,8546-CDG,Pontiac,Bonneville,1986,Orange,926
+b7e26649-bf6c-4af7-8059-de769966a848,6767-MNU,Pontiac,Firefly,1985,Pink,927
+b0cd3145-0869-499b-84ea-cd03f49b6ec3,5257-YLJ,BMW,6 Series,1989,Mauv,928
+667f917b-2bef-4d3c-914a-972d8bfbe362,3529-UCW,Volkswagen,Jetta,1990,Red,929
+1cf0026b-55ab-42bd-9691-79a81ca02593,3766-MPX,Nissan,Sentra,2001,Aquamarine,930
+062044a1-38cf-47ec-a9ef-5867de7c9940,0738-KWJ,BMW,X5,2004,Mauv,931
+a163f944-0b04-4829-b69f-8dd90d76f8d3,4380-BFM,Honda,Odyssey,1998,Aquamarine,932
+9a3fbc1b-a48d-4842-98de-fc42097cd94f,8409-BTT,Lincoln,LS,2002,Fuscia,933
+0746fcf0-71ac-4967-8387-f4972264a875,3164-NWY,Cadillac,Allante,1993,Maroon,934
+66019f23-4202-4e03-ac01-5e5d1ba74649,3559-SPE,Mercedes-Benz,W201,1992,Violet,935
+c19409de-11fe-48c0-8457-ef2b8a98e463,1799-XTP,Eagle,Talon,1990,Aquamarine,936
+1b4361ca-2707-48a0-9b41-1acea635d7ec,5905-VHN,Lexus,GS,2008,Teal,937
+3c2b849a-a894-4c6b-9ba8-8c7eefa28804,7902-OTB,Infiniti,IPL G,2012,Teal,938
+d0cdea28-529f-48c3-9f63-b616b2fa0877,5619-NED,Chrysler,Cirrus,1997,Puce,939
+d754be9b-9e4f-4c90-a88e-e9d93b7b4a31,2897-OMP,Land Rover,Range Rover,1997,Violet,940
+d30c8fe3-8d2d-4812-bab1-2b44df61a8f9,9989-UKR,Buick,LeSabre,1985,Khaki,941
+de4e3cd9-88ea-4560-bcf0-ca8225ca810e,8189-RNM,Pontiac,Bonneville,1987,Red,942
+7c46204a-7929-4d11-92c8-bd2f71bea080,5878-CNK,Ford,Focus,2003,Indigo,943
+3522a497-8b6f-4a07-8e32-4253de64cc77,7545-ANO,Dodge,Ram 1500 Club,1996,Crimson,944
+a28d81d1-8067-45cb-a6ac-131104a6a160,6943-CWE,Ford,F150,1994,Indigo,945
+dbfadaae-4828-4945-941d-9607d56d7ea2,8072-NQA,Ford,Freestar,2004,Violet,946
+fa8b0967-ce22-4e78-8149-ad87a74bfcbf,6148-KJX,Buick,Regal,1985,Pink,947
+a8a236ba-7118-4fda-b6d1-8bc274a48cf6,1349-UJP,Volkswagen,Eos,2008,Yellow,948
+9d4d1241-16e7-4f17-b863-48ae1d6112db,9756-TOG,Subaru,Forester,2008,Purple,949
+caa6f21a-af92-48c8-92db-585b67619fd1,6364-RRN,Oldsmobile,Intrigue,2000,Indigo,950
+c74d42ef-ff34-4546-990a-275fba1f9a42,5272-NYC,Lotus,Exige,2008,Red,951
+07bdd94b-7066-488d-bc63-45a18fc29725,8400-RAG,Chevrolet,Corvette,1967,Violet,952
+caae32bc-449f-4b49-9d1c-61ac2f295fdd,8230-MFI,Buick,Rendezvous,2005,Crimson,953
+2786d11b-cf38-4d76-99f7-c76081ce11eb,1494-BUZ,Cadillac,CTS,2004,Khaki,954
+b91c2b8d-7e77-41c8-9d22-3c2ab0f74b55,8290-MSD,Chevrolet,Impala,2008,Maroon,955
+c6a59591-ab5d-4abd-85ce-46449986d1ad,3632-KOG,Pontiac,Montana,2002,Green,956
+b9c7d5e1-ed17-43e7-9ab9-499d363cd5db,4356-GLW,Dodge,Ram Van 3500,2000,Green,957
+504585b7-6c0b-4b93-bf7d-50a9475af57a,5447-RGI,Toyota,Prius,2001,Fuscia,958
+b4552f98-2cb0-4355-85b5-c2b12e9d2fec,7623-CRI,Volkswagen,Rabbit,2006,Indigo,959
+fbd58958-17ae-4ce7-8137-b4edb17abbdd,9520-FOX,Mercedes-Benz,190E,1992,Yellow,960
+8025728b-3546-4dd9-b0f5-9232917510e2,2906-KMO,Toyota,Sequoia,2005,Teal,961
+65854b72-72c3-4945-9918-4f0021e660cc,0411-UVS,Maybach,57,2005,Red,962
+fc1813d3-93cf-471e-83bb-139de22e2645,0696-HXQ,Dodge,Caravan,2003,Crimson,963
+ac5c80bf-51dc-4256-a693-8defb1f61ce7,4486-FIP,Suzuki,Swift,1999,Mauv,964
+9d4aec27-73a7-43dc-a09e-62533b0ecb95,8190-LZQ,Ford,Escort,1992,Goldenrod,965
+52ad7122-786b-487c-9c0f-e4585eb00a7d,8581-OYQ,GMC,Savana 3500,2010,Puce,966
+275cae89-b7d5-414b-9270-47231a5396e7,5769-GVB,Lexus,GS,1998,Fuscia,967
+aa369260-ee95-42cf-b3b7-c12f288cb2c3,0594-PEP,Honda,Accord,2007,Blue,968
+3a56978e-7724-40b1-8f72-6796cd1961b3,2376-JOI,Pontiac,Firebird,2002,Yellow,969
+fe143ca2-7829-4d6b-b9cd-fde2fa86ee64,4162-VBA,BMW,8 Series,1996,Aquamarine,970
+088a37cd-3a83-4124-a815-b537d35644be,0016-GAK,Chevrolet,Lumina,2001,Pink,971
+9aab530d-9002-4d7a-a5bd-3d18382dd6aa,9805-ROR,Chevrolet,Blazer,1999,Puce,972
+7f9bd841-9f55-4efd-8c4b-12dd6ca595de,2474-LOK,Kia,Spectra,2003,Violet,973
+fa40b86c-fdbf-4432-b6a6-b9d06c95b399,3724-RUL,Chevrolet,Malibu,2007,Pink,974
+4f3d3d02-44ed-4b09-a4ca-8a1609a2d741,9465-WSA,Buick,Riviera,1979,Violet,975
+16f75efe-942c-42fe-8576-6d0beb5289b8,1024-XKK,Cadillac,XLR,2005,Mauv,976
+9afebdf6-7e2c-4ebb-be87-4d81e26d2e18,1735-OXI,Ford,F-Series,2005,Pink,977
+a60db73b-0f48-4163-ba53-670e28f16516,1071-LWR,Saab,9-3,2003,Orange,978
+d0fba08a-7029-4e95-a5a1-c227ce74fb96,7884-EUH,Chevrolet,Cavalier,1995,Yellow,979
+985fccf2-0dfc-4517-aecb-f72e489d19a1,6407-JVK,Mitsubishi,Pajero,1992,Indigo,980
+fe30471e-3d4b-4268-820f-a214aa2ee1bb,3018-TCJ,Audi,TT,2003,Green,981
+ad443635-8447-4ff7-bd87-3ca2a334846d,5547-BWQ,Mazda,929,1988,Aquamarine,982
+5f26ef69-0cb4-426f-be92-f1a250dc9f7b,8709-YRB,Chevrolet,APV,1993,Yellow,983
+8c641ab0-ecb5-4f82-a089-69db39e6624e,1134-UDC,Mitsubishi,Lancer Evolution,2006,Pink,984
+6e1cdafc-2047-4072-9624-912d5115c2ec,7433-YRU,Ford,Explorer,1994,Puce,985
+e4ec2a2b-c5da-4071-a7c8-18d76e851588,9136-VLH,Jaguar,XK Series,2013,Turquoise,986
+b01ccf55-a39c-49c9-ac62-692a80b72ee6,3511-FNK,Mitsubishi,Pajero,2006,Green,987
+a09cfc40-ab5b-4b85-9d65-18ea8d670caf,9381-IEH,Chevrolet,Tahoe,2003,Blue,988
+9431564f-28a6-4953-bb43-9fb69a84636c,4798-DVL,Lexus,ES,2007,Orange,989
+4c21821a-bb2f-426e-9bed-892b15c23319,5454-NPA,Jaguar,XK Series,2003,Goldenrod,990
+1e01f430-2e03-4fda-ad3e-8c4c8b003db2,1658-KOL,Saab,9000,1990,Mauv,991
+ab8b79bf-0ae4-4bdd-ba7b-800340bf20b7,2202-NDK,Volvo,S80,2000,Fuscia,992
+d8a2ddf0-7c06-4baa-a5c9-03bebef51132,6599-EVE,Toyota,Avalon,2000,Mauv,993
+fc477969-acc8-41c5-b29a-c88c2b6717b9,1109-CXV,Toyota,RAV4,2009,Mauv,994
+2985aaca-519b-431d-b10d-1b292e2b27a1,6775-AUA,BMW,X5,2005,Purple,995
+16aaa3f2-f77a-4b2b-b273-8e1e299fec3f,6164-TKN,Chevrolet,Lumina,1999,Orange,996
+7dc18315-b079-4b9a-a28d-970b0357062d,1620-IMJ,Porsche,928,1987,Violet,997
+b436a013-b1ab-4f01-88ca-3cb59245603e,1606-UXZ,GMC,Sierra 3500,2010,Teal,998
+33ac6390-c1e1-415d-9399-ce44010465cf,8335-PWN,GMC,Savana 3500,1996,Goldenrod,999
+dc57acfe-b75e-453a-86f5-332fbf1ba7f2,4275-OYA,Pontiac,G6,2010,Indigo,1000

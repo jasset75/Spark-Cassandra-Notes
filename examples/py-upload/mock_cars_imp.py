@@ -12,29 +12,25 @@ from pandas import read_csv, concat
 from tqdm import tqdm
 
 KEYSPACE = "examples"
-MOCK_DATA_TABLE = "mock_data"
-FICHERO_DATOS = "./data/mock_data.csv"
+MOCK_DATA_TABLE = "mock_cars"
+FICHERO_DATOS = "./data/mock_cars.csv"
 ENCODING="utf-8"
-COLUMNS = ['id','first_name','last_name','email','gender','ip_address','probability','color','smoker_bool','drinker','language','image']
-DTYPES = [str,str,str,str,object,float]
+
+## Column Definition
+COLUMNS = ['car_id','registration','car_make','car_model','car_model_year','color','id_owner']
 
 locale.setlocale(locale.LC_ALL,'')
 
 ## Object Mapper
-class MockData(Model):
+class MockCars(Model):
   __keyspace__ = KEYSPACE
-  id = Integer(primary_key=True)
-  first_name = Text()
-  last_name = Text()
-  email = Text()
-  gender = Text()
-  ip_address = Text()
-  probability = Float()
+  car_id = UUID(primary_key=True)
+  registration = Text()
+  car_make = Text()
+  car_model = Text()
+  car_model_year = Integer()
   color = Text()
-  smoker_bool = Boolean()
-  drinker = Text()
-  language = Text()
-  image = Text()
+  id_owner = Integer()
 
 # Apache Cassandra connection
 list_of_ip = ['127.0.0.1']
@@ -54,36 +50,22 @@ session.set_keyspace(KEYSPACE)
 session.execute("DROP TABLE IF EXISTS %s" % MOCK_DATA_TABLE)
 
 ## create CQL table
-sync_table(MockData)
+sync_table(MockCars)
 
 ## reading data from csv file
-df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING,dtype={"dato": float})
+df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING)
 
 df.fillna(0,inplace=True)
 
-def convert(x):
-  try:
-    return int(float(x))
-  except:
-    print('error: ',x)
-    return None
 
 ## saving data to database
 for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
-  MockData.create(
-    id = ind,
-    first_name = row['first_name'],
-    last_name = row['last_name'],
-    email = row['email'],
-    gender = row['gender'],
-    ip_address = row['ip_address'],
-    probability = row['probability'],
+  MockCars.create(
+    car_id = row['car_id'],
+    registration = row['registration'],
+    car_make = row['car_make'],
+    car_model = row['car_model'],
+    car_model_year = row['car_model_year'],
     color = row['color'],
-    smoker_bool = row['smoker_bool'],
-    drinker = row['drinker'],
-    language = row['language'],
-    image = row['image']
+    id_owner = row['id_owner']
   )
-
-## create index on first_name
-# session.execute("create index on {0} ({1})".format(MOCK_DATA_TABLE,'first_name'))
