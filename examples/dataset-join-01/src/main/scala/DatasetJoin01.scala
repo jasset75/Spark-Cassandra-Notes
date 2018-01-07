@@ -39,12 +39,22 @@ object DatasetJoin01 {
     val session = connector.openSession()
 
     // reading datasets to join
-    val dsPeople = spark.read.format("org.apache.spark.sql.cassandra").options(Map( "table" -> "mock_data", "keyspace" -> "examples")).load()
-    val dsCars = spark.read.format("org.apache.spark.sql.cassandra").options(Map( "table" -> "mock_cars", "keyspace" -> "examples")).load()
+    val dsPeople = spark
+      .read
+      .format("org.apache.spark.sql.cassandra")
+      .options(Map( "table" -> "mock_data", "keyspace" -> "examples"))
+      .load()
+
+    val dsCars = spark
+      .read
+      .format("org.apache.spark.sql.cassandra")
+      .options(Map( "table" -> "mock_cars", "keyspace" -> "examples"))
+      .load()
 
     // joining datasets
     // for test only: it could be optimized filtering before join them
-    val dsJoin = dsPeople.join(dsCars,dsPeople("id") <=> dsCars("id_owner"))
+    val dsJoin = dsPeople
+      .join(dsCars,dsPeople("id") <=> dsCars("id_owner"))
 
     // printing records of people who own blue honda cars 
     val dsBlueHonda = dsJoin.filter("color == 'Blue' and car_make == 'Honda'").select("email","id","car_model","drinker")
