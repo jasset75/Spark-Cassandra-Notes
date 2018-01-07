@@ -28,7 +28,7 @@ object DatasetJoin02 {
                   .appName("SparkCassandraApp")
                   .config("spark.cassandra.connection.host", "localhost")
                   .config("spark.cassandra.connection.port", "9042")
-                  //this is mandatory in clusters with one node
+                  //this consistency level is mandatory in clusters with one node
                   .config("spark.cassandra.output.consistency.level","ONE")
                   .master("local[2]")
                   .getOrCreate()
