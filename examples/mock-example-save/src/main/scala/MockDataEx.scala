@@ -22,24 +22,25 @@ object MockDataEx {
     // select from Cassandra Table with Cassandra-Scala type conversion
     val record_names = sc.cassandraTable("examples","mock_data")
                         .cache
-    //Male
+    // Male
     val male_names = record_names
-                        .select("gender","first_name") //convert to RDD pair with gender and first_name columns
-                        .where("gender = 'Male'") //gender filtering 
+                        .select("gender","first_name") // convert to RDD pair with gender and first_name columns
+                        .where("gender = 'Male'") // gender filtering 
                         .as( (g: String, n: String) => (g,n) )
 
-    val male_names_c = male_names.map{case (k,v) => (v,1)} //associate 1 point to each male first name
-                                 .cache //optimize several actions over RDD
-    val males_result = male_names_c.reduceByKey{case (v,count) => count + count} //count 
-    //Female
+    val male_names_c = male_names.map{ case (k,v) => (v,1) } // associate 1 point to each male first name
+                                 .cache // optimize several actions over RDD
+    val males_result = male_names_c.reduceByKey{ case (v,count) => count + count } // count 
+
+    // Female
     val female_names = record_names
-                        .select("gender","first_name") //convert to RDD pair with gender and first_name columns
-                        .where("gender = 'Female'") //gender filtering 
+                        .select("gender", "first_name") // convert to RDD pair with gender and first_name columns
+                        .where("gender = 'Female'") // gender filtering 
                         .as( (g: String, n: String) => (g,n) )
 
-    val female_names_c = female_names.map{case (k,v) => (v,1)} //associate 1 point to each male first name
-                                     .cache //optimize several actions over RDD
-    val females_result = female_names_c.reduceByKey{case (v,count) => count + count} //count 
+    val female_names_c = female_names.map{ case (k,v) => (v,1) } // associate 1 point to each male first name
+                                     .cache // optimize several actions over RDD
+    val females_result = female_names_c.reduceByKey{case (v,count) => count + count} // count 
 
     // taking 5 highest male repeated names                   
     val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
@@ -52,26 +53,29 @@ object MockDataEx {
 
     // taking all records with Top Five count for male and females
     val pair_record_highest = record_names
-                           .select( "id","first_name","last_name","email","gender",
-                              "birth_date","ip_address","probability","smoker_bool",
-                              "drinker","language","image") 
-                           .as( (id: Integer, first_name: String, last_name: String,
-                                 email:String, gender: String, birth_date: String,ip_address: String,
-                                 probability: Float, smoker_bool: Boolean,
-                                 drinker: String, language: String, image: String) =>
-                                ( first_name, 
-                                  ( id,first_name,last_name,email,gender,birth_date,ip_address,
-                                    probability,smoker_bool,drinker,language,image) )
-                              )
+      .select( "id", "first_name", "last_name", "email", "gender",
+        "birth_date", "ip_address", "probability", "smoker_bool",
+        "drinker", "language", "image") 
+      .as( (id: Integer, first_name: String, last_name: String,
+           email: String, gender: String, birth_date: String,ip_address: String,
+           probability: Float, smoker_bool: Boolean,
+           drinker: String, language: String, image: String) =>
+          ( first_name, 
+            ( id, first_name, last_name, email, gender, birth_date, ip_address,
+              probability, smoker_bool, drinker, language,image) )
+        )
+
+    // RDD join
     val vip_named = highest
       .join(pair_record_highest)
       .map{ case (name, ( count, row)) => row }
 
-
+    // Cassandra connector  
     val cc =  CassandraConnector(sc.getConf)
+
     // create table is not exists
-    cc.withSessionDo( session => 
-      session.execute(
+    cc.withSessionDo( 
+      session => session.execute(
         "CREATE TABLE IF NOT EXISTS " +
         "examples.vip_named_people(" +
         "  id int PRIMARY KEY," +
