@@ -1,15 +1,20 @@
 package uk.me.jasset.examples
 
-import com.datastax.spark.connector._
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
+
+import com.datastax.spark.connector._
+import com.datastax.spark.connector.cql.CassandraConnector
 
 /** Computes an example */
 object MockDataEx {
   def main(args: Array[String]) {
     val conf = new SparkConf(true)
       .set("spark.cassandra.connection.host", "localhost")
+      //this consistency level is mandatory in clusters with one node
+      .set("spark.cassandra.output.consistency.level","ONE")
+
     // spark context creation with conf
     val sc = new SparkContext(conf)
     // reducing verbosity
@@ -37,24 +42,59 @@ object MockDataEx {
     val females_result = female_names_c.reduceByKey{case (v,count) => count + count} //count 
 
     // taking 5 highest male repeated names                   
-    val males_result_high = males_result.sortBy(_._2,false).take(5)
+    val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
 
     // taking 5 highest female repeated names                   
-    val females_result_high = females_result.sortBy(_._2,false).take(5)
+    val females_result_high = sc.parallelize(females_result.sortBy(_._2,false).take(5))
 
-    val highest = males_result_high.union(females_result_high)
+    val highest = males_result_high
+      .union(females_result_high)
+
     // taking all records with Top Five count for male and females
-    val record_highest = record_names
-                           .where("first_name IN ?",highest.map(_._2).toList)
-                           .as( (id: String, first_name: String, last_name: String,
-                                 email:String, gender: String, ip_address: String,
-                                 probability: Float, color: String, smoker_bool: Boolean,
+    val pair_record_highest = record_names
+                           .select( "id","first_name","last_name","email","gender",
+                              "birth_date","ip_address","probability","smoker_bool",
+                              "drinker","language","image") 
+                           .as( (id: Integer, first_name: String, last_name: String,
+                                 email:String, gender: String, birth_date: String,ip_address: String,
+                                 probability: Float, smoker_bool: Boolean,
                                  drinker: String, language: String, image: String) =>
-                                (id,first_name,last_name,email,gender,ip_address,
-                                 probability,color,smoker_bool,drinker,language,image) )
+                                ( first_name, 
+                                  ( id,first_name,last_name,email,gender,birth_date,ip_address,
+                                    probability,smoker_bool,drinker,language,image) )
+                              )
+    val vip_named = highest
+      .join(pair_record_highest)
+      .map{ case (name, ( count, row)) => row }
 
-    record_highest.foreach(println)
-    //finish
+
+    val cc =  CassandraConnector(sc.getConf)
+    // create table is not exists
+    cc.withSessionDo( session => 
+      session.execute(
+        "CREATE TABLE IF NOT EXISTS " +
+        "examples.vip_named_people(" +
+        "  id int PRIMARY KEY," +
+        "  birth_date date," +
+        "  drinker text," +
+        "  email text," +
+        "  first_name text," +
+        "  gender text," +
+        "  image text," +
+        "  ip_address text," +
+        "  language text," +
+        "  last_name text," +
+        "  probability float," +
+        "  smoker_bool boolean" +
+        ");"
+      )
+    )
+
+    // saving data into new table
+    vip_named.saveToCassandra("examples","vip_named_people",SomeColumns("id","first_name","last_name","email","gender",
+                              "birth_date","ip_address","probability","smoker_bool",
+                              "drinker","language","image"))
+    // finish
     sc.stop()
   }
 }
