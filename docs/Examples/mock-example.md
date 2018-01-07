@@ -8,7 +8,7 @@ Path: [/examples/mock-example](https://github.com/jasset75/spark-cassandra-notes
 > * [Setting up the Environment](../Environment.md)
 
 > Data sources
-> * [Mock data of People] (../PyUpload/mock_data_imp.md)
+> * [Mock data of People](../PyUpload/mock_data_imp.md)
 
 ## Computing Cassandra data with Spark
 
@@ -16,4 +16,3 @@ This example retrieve data from a Cassandra Table called mock-data in *examples*
 
 Map male first names into tuple2 (<name>,1)
 Reduced by key (name,count) adding count for equal names. So at least we have a Seq with male names grouping and dataset count 
-
