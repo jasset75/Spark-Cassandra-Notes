@@ -9,4 +9,4 @@
 [mock-example](mock-example.md)
 
 ## Mock Data Example (extended)
-[mock-example-ext](mock-example-ext.md)
+[mock-example-save](mock-example-save.md)

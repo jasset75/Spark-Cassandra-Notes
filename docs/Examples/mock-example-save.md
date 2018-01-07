@@ -2,7 +2,7 @@
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 
-Path: [/examples/mock-example-ext](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example-ext/)
+Path: [/examples/mock-example-save](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example-save/)
 
 This examples is based on [mock-example](mock-example.md).
 

@@ -61,17 +61,33 @@ echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 ## Python 3.5
 ```sh
 $ sudo apt-get install python3
-$ mkdir ~/project
-$ virtualenv -p `which python3` pyspark
-$ source ./pyspark/bin/activate
+``` 
+
+## Virtualenv
+> Virtualenv is optional but highly recommended to follow the examples
+
+```sh
+$ cd $VIRTUALENVS_HOME
+$ virtualenv -p `which python3` cassandra
+$ source $VIRTUALENVS_HOME/cassandra/bin/activate
+```
+>`$VIRTUALENVS_HOME` is equal to whatever you create your virtual environments
+
+- Script execution
+```sh
+(cassandra) $ cd ~/spark-cassandra-notes/examples/py-upload
+(cassandra) $ pip install -r requirements.txt
+(cassandra) $ python mock_data_imp.py 
 ``` 
 
 ## Jupyter 
-*(... if necessary)*
+*optional*
+
 ```sh
 $ pip install findspark
 $ pip install jupyter
 ````
+
 ## Datastax Spark-Cassandra Connector
 > Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
 ```sh
@@ -85,6 +101,7 @@ $ ./sbt/sbt -Dscala-2.11=true assembly
 Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find his jars dependencies. In this case is about Datastax Cassandra Conector, previously compiled, we have to copy it into spark-shell search path. They usually are at `$SPARK_HOME/jars/`
 
 ```sh
+
 $ cp ~/spark-cassandra-connector/spark-cassandra-connector/target/full/scala-2.11/spark-cassandra-connector-assembly-2.0.5-86-ge36c048.jar $SPARK_HOME/jars/
 ```
 
