@@ -32,3 +32,32 @@ val males_result = male_names_c.reduceByKey{ case (v,count) => count + count } /
 So at least we have a Seq with male first names and a count `Seq[(<first_name>,n), ...]`
 
 The same for female names.
+
+Last step is take five most repeated names of each gender recorded:
+```
+println("Ordered Female Names count list:")
+// ordered RDD by female names                            
+val females_result_az = females_result.sortByKey() // key male names are sorted in asc order
+females_result_az.collect.foreach(println) // print result records through stdout
+// taking 5 highest female repeated names                   
+println("Five highest repeated female names:")
+val females_result_high = females_result.sortBy(_._2,false).take(5)
+females_result_high.foreach(println)
+```
+
+The same for male records. The output would be:
+```sh
+Five highest repeated male names:
+(Mario,2)
+(Rabbi,2)
+(Clarke,2)
+(Claudell,2)
+(Brnaba,2)
+
+Five highest repeated female names:
+(Ellyn,2)
+(Margret,2)
+(Sonya,2)
+(Natala,2)
+(Barbara-anne,2)
+```
