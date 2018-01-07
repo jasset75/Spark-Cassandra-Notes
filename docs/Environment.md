@@ -1,6 +1,6 @@
 # Setting up the Environment
 
-## Description
+### Description
 
 The goal is to set up a development environment, just to try on the examples. And will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository.
 
@@ -16,14 +16,14 @@ C* NoSQL database which is an...
 * Spark 2.2.1
 * Cassandra 3.11.1
 
-## Preparatory
+### Preparatory
 
 Update apt tool
 ```sh
 $ sudo apt-get update
 ```
 
-## Java 8 installation
+### Java 8 installation
 
 ```sh
 $ sudo add-apt-repository -y ppa:webupd8team/java
@@ -35,7 +35,7 @@ $ sudo apt-get install oracle-java8-installer
 java -version
 ```
 
-## Scala 2.11 installation
+### Scala 2.11 installation
 ```sh
 sudo apt-get install scala
 ```
@@ -44,7 +44,7 @@ sudo apt-get install scala
 scala -version
 ```
 
-## Apache Spark 2.2.1 installation 
+### Apache Spark 2.2.1 installation 
 *(**with hadoop 2.7 support**)*
 ```sh
 wget http://ftp.cixug.es/apache/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
@@ -52,18 +52,18 @@ tar xvf spark-2.2.1-bin-hadoop2.7.tgz
 sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
 ```
 
-## Adding to $PATH
+### Adding to $PATH
 ```bs
 echo "export SPARK_HOME=/usr/local/spark-2.2.1"
 echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 ```
 
-## Python 3.5
+### Python 3.5
 ```sh
 $ sudo apt-get install python3
 ``` 
 
-## Virtualenv
+### Virtualenv
 > Virtualenv is optional but highly recommended to follow the examples
 
 ```sh
@@ -80,7 +80,7 @@ $ source $VIRTUALENVS_HOME/cassandra/bin/activate
 (cassandra) $ python mock_data_imp.py 
 ``` 
 
-## Jupyter 
+### Jupyter 
 *optional*
 
 ```sh
@@ -88,7 +88,7 @@ $ pip install findspark
 $ pip install jupyter
 ````
 
-## Datastax Spark-Cassandra Connector
+### Datastax Spark-Cassandra Connector
 > Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
 ```sh
 $ git clone https://github.com/datastax/spark-cassandra-connector
@@ -96,7 +96,7 @@ $ cd spark-cassandra-connector
 $ ./sbt/sbt -Dscala-2.11=true assembly
 ```
 
-## Using spark-shell
+### Using spark-shell
 
 Most times __*Spark Shell*__ is used in interactive mode. At other times, we can load script directly from command line, but each of them Spark Shell needs find his jars dependencies. In this case is about Datastax Cassandra Conector, previously compiled, we have to copy it into spark-shell search path. They usually are at `$SPARK_HOME/jars/`
 
