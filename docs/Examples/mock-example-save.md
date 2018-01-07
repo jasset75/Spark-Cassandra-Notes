@@ -14,7 +14,7 @@ This example is similar to [mock-example](./mock-example.md)
 
 ## RDD join
 
-First part is similar to before one, retrieving data from the same data source:
+- First part is similar to before one, retrieving data from the same data source:
 
 ```scala
 // select from Cassandra Table with Cassandra-Scala type conversion
@@ -32,7 +32,7 @@ val males_result = male_names_c.reduceByKey{ case (v,count) => count + count } /
 ```
 > The same for female names.
 
-This takes five most repeated *first names* for each gender:
+- This takes five most repeated *first names* for each gender:
 ```scala
 // taking 5 highest male repeated names                   
 val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
@@ -41,14 +41,14 @@ val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
 val females_result_high = sc.parallelize(females_result.sortBy(_._2,false).take(5))
 ```
 
-United into a new RDD:
+- Unite them into a new RDD:
 
 ```scala
 val highest = males_result_high
   .union(females_result_high)
 ```
 
-In the other hand It takes from source the entire table in a RDD of [Tuple2](http://www.scala-lang.org/api/2.9.1/scala/Tuple2.html) (first_name,(<entire_record>)
+- In the other hand It takes from source the entire table in a RDD of [Tuple2](http://www.scala-lang.org/api/2.9.1/scala/Tuple2.html) (first_name,(<entire_record>)
 > be careful with performance, but in this example the max number of records is near to 1k.
 
 ```scala
@@ -66,7 +66,7 @@ val pair_record_highest = record_names
     )
 ```
 
-Already the two RDD's are ready to join each other, because `first_name` field is the key in both:
+- Already the two RDD's are ready to join each other, because `first_name` field is the key in both:
 ```scala
 // RDD join
 val vip_named = highest
@@ -74,7 +74,7 @@ val vip_named = highest
   .map{ case (name, ( count, row)) => row }
 ```
 
-
+- This point needs a table at Cassandra cluster according to the RDD structure. Only it creates this one if not exists previously:
 ```scala
 // Cassandra connector  
 val cc =  CassandraConnector(sc.getConf)
@@ -101,8 +101,36 @@ cc.withSessionDo(
 )
 ```
 
+- Invoking `saveToCassandra` method will save them to Cassandra:
 ```scala
 vip_named.saveToCassandra("examples","vip_named_people",SomeColumns("id","first_name","last_name","email","gender",
                           "birth_date","ip_address","probability","smoker_bool",
                           "drinker","language","image"))
 ```
+
+- If you select the table that the method just created, the output have to be something similar to this:
+```
+cqlsh> SELECT id, first_name, last_name, gender, email FROM examples.vip_named_people;
+
+ id  | first_name   | last_name   | gender | email
+-----+--------------+-------------+--------+-------------------------------
+ 114 |       Natala |       Drury | Female |            ndrury36@opera.com
+ 363 | Barbara-anne |   Sigsworth | Female |         bsigswortha3@bing.com
+  55 |      Margret | Elphinstone | Female | melphinstone1j@mayoclinic.com
+ 324 |       Natala |     Pococke | Female |     npococke90@washington.edu
+ 380 |        Sonya |      Dearth | Female |          sdearthak@unesco.org
+ 994 |        Ellyn |       Diehn | Female |         ediehnrm@amazon.co.jp
+ 707 |       Clarke |      Shovel |   Male |       cshoveljn@webeden.co.uk
+ 452 |       Brnaba |     O' Hern |   Male |      bohernck@kickstarter.com
+ 280 |        Ellyn |        Jost | Female |       ejost7s@themeforest.net
+ 204 |      Margret |       Jeram | Female |             mjeram5o@dell.com
+ 693 |        Sonya |      Rother | Female |       srotherj9@hostgator.com
+ 446 | Barbara-anne |        Benz | Female |         bbenzce@webeden.co.uk
+ 495 |        Mario |      Lackey |   Male |          mlackeydr@forbes.com
+ 396 |        Mario |      Silley |   Male |           msilleyb0@baidu.com
+ 198 |        Rabbi |    Greenrde |   Male |         rgreenrde5i@sogou.com
+ 307 |     Claudell |     Siggers |   Male |         csiggers8j@uol.com.br
+ 752 |     Claudell |       Starr |   Male |         cstarrkw@e-recht24.de
+ 258 |       Brnaba |     Ripping |   Male |    bripping76@squarespace.com
+ 968 |       Clarke |     Esparza |   Male |        cesparzaqw@arizona.edu
+  24 |        Rabbi |      Mateos |   Male |       rmateoso@friendfeed.com```
