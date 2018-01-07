@@ -134,4 +134,6 @@ cqlsh> SELECT id, first_name, last_name, gender, email FROM examples.vip_named_p
  258 |       Brnaba |     Ripping |   Male |    bripping76@squarespace.com
  968 |       Clarke |     Esparza |   Male |        cesparzaqw@arizona.edu
   24 |        Rabbi |      Mateos |   Male |       rmateoso@friendfeed.com
+
+(20 rows)
 ```
