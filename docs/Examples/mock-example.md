@@ -1,8 +1,7 @@
 # Simple Cassandra extract
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
-
-Path: [/examples/mock-example](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/)
+Path: [examples/mock-example](../../examples/mock-example/)
 
 > Previous Requirements 
 > * [Setting up the Environment](../Environment.md)
