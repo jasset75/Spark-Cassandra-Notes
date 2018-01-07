@@ -15,12 +15,20 @@ Language: Scala v2.11
 This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and a filter is applied. As a result only records with "Male" gender left and only "gender" and "first_name" columns are selected in a Pair RDD.
 
 ```scala
-    val record_names = sc.cassandraTable[(String,String)]("examples","mock_data")
-                        .select("gender","first_name") //convert to RDD pair with gender and first_name columns              
-                        .cache
-    //Male
-    val male_names = record_names.where("gender = 'Male'") //gender filtering 
+val record_names = sc.cassandraTable[(String,String)]("examples","mock_data")
+                    .select("gender","first_name") //convert to RDD pair with gender and first_name columns              
+                    .cache
+//Male
+val male_names = record_names.where("gender = 'Male'") // gender filtering 
+```
 
+When gender is filtered, append 1 to each name into Tuple2. Reduce by key counts `first_name` field.
 
-Map male first names into tuple2 (<name>,1)
-Reduced by key (name,count) adding count for equal names. So at least we have a Seq with male names grouping and dataset count 
+```scala
+val male_names_c = male_names.map{case (k,v) => (v,1)} // associate 1 point to each male first name
+val males_result = male_names_c.reduceByKey{case (v,count) => count + count} //count 
+```
+
+So at least we have a Seq with male first names and a count `Seq[(<first_name>,n), ...]`
+
+The same for female names.
