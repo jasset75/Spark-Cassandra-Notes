@@ -10,10 +10,10 @@
         
 3. [Scala Examples](Examples/Examples.md)
         
-   1. [Mock Data](mock-example.md)
+   1. [Mock Data](examples/mock-example.md)
         
-   2. [Mock Data Save](mock-example-save.md)
+   2. [Mock Data Save](examples/mock-example-save.md)
         
-   3. [Dataset Join 01](datase-join-01.md)
+   3. [Dataset Join 01](examples/datase-join-01.md)
         
-   4. [Dataset Join 02](datase-join-02.md)
+   4. [Dataset Join 02](examples/datase-join-02.md)
