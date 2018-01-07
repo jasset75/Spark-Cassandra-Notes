@@ -58,6 +58,5 @@ object DatasetJoin01 {
 
     //finish
     session.close()
-    spark.sparkContext.stop()
   }
 }
