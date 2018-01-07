@@ -1,4 +1,4 @@
-name := "mock-example-ex"
+name := "mock-example-save"
 
 version := "1.0"
 

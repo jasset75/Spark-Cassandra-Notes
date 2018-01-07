@@ -8,7 +8,7 @@ import com.datastax.spark.connector._
 import com.datastax.spark.connector.cql.CassandraConnector
 
 /** Computes an example */
-object MockDataEx {
+object MockDataSave {
   def main(args: Array[String]) {
     val conf = new SparkConf(true)
       .set("spark.cassandra.connection.host", "localhost")
