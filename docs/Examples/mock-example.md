@@ -12,7 +12,7 @@ Language: Scala v2.11
 
 ## Computing Cassandra data with Spark
 
-This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and a filter is applied. As a result only records with "Male" gender left and only "gender" and "first_name" columns are selected in a Pair RDD.
+- This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and a filter is applied. As a result only records with "Male" gender left and only "gender" and "first_name" columns are selected in a Pair RDD.
 
 ```scala
 val record_names = sc.cassandraTable[(String,String)]("examples","mock_data")
@@ -22,7 +22,7 @@ val record_names = sc.cassandraTable[(String,String)]("examples","mock_data")
 val male_names = record_names.where("gender = 'Male'") // gender filtering 
 ```
 
-When gender is filtered, append 1 to each name into Tuple2 `(<first_name>,1)`, then `reduceByKey` counts `first_name` field.
+- When gender is filtered, append 1 to each name into Tuple2 `(<first_name>,1)`, then `reduceByKey` counts `first_name` field.
 
 ```scala
 val male_names_c = male_names.map{ case (k,v) => (v,1) } // associate 1 point to each male first name
@@ -33,7 +33,7 @@ So at least we have a Seq with male first names and a count `Seq[(<first_name>,n
 
 The same for female names.
 
-Last step is take five most repeated names of each gender recorded:
+- Last step is take five most repeated names of each gender recorded:
 ```
 println("Ordered Female Names count list:")
 // ordered RDD by female names                            
