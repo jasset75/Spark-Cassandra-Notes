@@ -4,11 +4,10 @@ Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/mock-example](../../examples/mock-example/)
 Language: Scala v2.11
 
-> Previous Requirements 
-> * [Setting up the Environment](../Environment.md)
-
-> Data sources
-> * [Mock data of People](../PyUpload/mock_data_imp.md)
+> - Previous Requirements 
+>   * [Setting up the Environment](../Environment.md)
+> - Data sources
+>   * [Mock data of People](../PyUpload/mock_data_imp.md)
 
 ## Computing Cassandra data with Spark
 

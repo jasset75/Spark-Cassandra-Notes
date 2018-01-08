@@ -4,23 +4,24 @@ Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/dataset-join-01](../../examples/dataset-join-01/)
 Language: Scala v2.11
 
-> Previous Requirements 
-> * [Setting up the Environment](../Environment.md)
-
-> Data sources
-> * [Mock data of People](../PyUpload/mock_data_imp.md)
-> * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
+> - Previous Requirements 
+>   * [Setting up the Environment](../Environment.md)
+> - Data sources
+>   * [Mock data of People](../PyUpload/mock_data_imp.md)
+>   * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
 
 ## Joining two [Dataset<T>](https://spark.apache.org/docs/2.2.0/api/scala/index.html#org.apache.spark.sql.Dataset)
 
->- Since Spark 2.0 Dataset API is a high-level abstraction and an user-defined view of structured and semi-structured data. Dataset is also more space efficient than [RDD](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds).
->- Datasets are typed version of DataFrames: DataFrame is Dataset (collection) of Rows.
->- [RDD](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds) for the contrary is a low-level access interface which is better for unstructured data like streams or for expressiveness.
->- [Datasets and DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes) are built on top of [RDD]https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds.
->- Dataset and DataFrame are distributed as well.
+> - Since Spark 2.0 Dataset API is a high-level abstraction and an user-defined view of structured and semi-structured data. Dataset is also more space efficient than [RDD](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds).
+> - Datasets are typed version of DataFrames: DataFrame is Dataset (collection) of Rows.
+> - [RDD](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds) for the contrary is a low-level access interface which is better for unstructured data like streams or for expressiveness.
+> - [Datasets and DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes) are built on top of [RDD]https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds.
+> - Dataset and DataFrame are distributed as well.
 
+## Detailed
 
 - Libraries used by this example
+
 ```scala
 // datastax Cassandra Connector
 import com.datastax.spark.connector._
@@ -34,6 +35,7 @@ import org.apache.spark.sql.cassandra._
 
 
 - Setting up configuration. App runs locally with two threads.
+
 ```scala
 // setting up Cassandra-ready spark session
 val spark = SparkSession
@@ -46,6 +48,7 @@ val spark = SparkSession
 ```
 
 - DB session is needed.
+
 ```scala
 // db session stablishment
 val connector = CassandraConnector(spark.sparkContext.getConf)
@@ -53,6 +56,7 @@ val session = connector.openSession()
 ```
 
 - The form to load data from Cassandra is a different between Dataset and RDD. It is quite easier and conforting.
+
 ```scala
 // reading datasets to join
 val dsPeople = spark
@@ -69,6 +73,7 @@ val dsCars = spark
 ```
 
 - Join it is easier as well. For instance: select people who own a Blue Honda.
+
 ```scala
 // joining datasets
 // for test only: it could be optimized filtering before join them
@@ -81,7 +86,7 @@ println("People with a Blue Honda:")
 dsBlueHonda.show()
 ```
 
->Output:
+   * Output:
 ```txt
 People with a Blue Honda:
 +--------------------+---+---------+-------+
@@ -93,7 +98,8 @@ People with a Blue Honda:
 +--------------------+---+---------+-------+
 ```
 
-- In this join, It selects people who are drinkers
+- In this join, It selects people who are drinkers:
+
 ```scala
 // printing records of cars owned by people who daily drink :/
 val dsDrinkers = dsJoin.filter("drinker == 'Daily'").select("email","id","car_make","car_model")
@@ -101,7 +107,7 @@ println("People and his cars who drink daily:")
 dsDrinkers.show(200,false)
 ```
 
->Output:
+   * Output:
 ```txt
 People and his cars who drink daily:
 +-------------------------------+---+-------------+-----------------------+
@@ -257,6 +263,6 @@ People and his cars who drink daily:
 
 - It is importan finalize session to free resources and application terminate.
 ```scala
-    //finish
-    session.close()
+//finish
+session.close()
 ```

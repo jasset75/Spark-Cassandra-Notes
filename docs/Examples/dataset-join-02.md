@@ -4,18 +4,18 @@ Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/dataset-join-02](../../examples/dataset-join-02/)
 Language: Scala v2.11
 
-> Previous Requirements 
-> * [Setting up the Environment](../Environment.md)
-
-> Data sources
-> * [Mock data of People](../PyUpload/mock_data_imp.md)
-> * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
+> - Previous Requirements 
+>   * [Setting up the Environment](../Environment.md)
+> - Data sources
+>   * [Mock data of People](../PyUpload/mock_data_imp.md)
+>   * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
 
 ## Joining two [Datasets](https://spark.apache.org/docs/2.2.0/api/scala/index.html#org.apache.spark.sql.Dataset)
 
 This example is similar to previous [dataset-join-01](dataset-join-01.md).
 
-- Libraries used by this example
+- Libraries used by this example:
+
 ```scala
 // datastax Cassandra Connector
 import com.datastax.spark.connector._
@@ -28,8 +28,8 @@ import org.apache.spark.sql.cassandra._
 import org.apache.spark.sql.SaveMode
 ```
 
-
 - Setting up configuration. App runs locally with two threads. Consistency output level is setting to `"ONE"`, default `"LOCAL_QUORUM"` is not possible with a cluste of only one server. 
+
 ```scala
 // setting up Cassandra-ready spark session
 val spark = SparkSession
@@ -70,7 +70,6 @@ val session = connector.openSession()
 
 - Join it is easier as well. For instance: select people who own a Blue Honda.
 ```scala
-// select ok columns
 val dsDrinkers = dsJoin.select("id","email","car_id","car_make","car_model")
 ```
 
@@ -260,6 +259,6 @@ dsCarsDrinkers.show(200,false)
 
 - It is importan finalize session to free resources and application terminate.
 ```scala
-    //finish
-    session.close()
+//finish
+session.close()
 ```
