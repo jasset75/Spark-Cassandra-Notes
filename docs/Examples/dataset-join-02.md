@@ -33,14 +33,14 @@ import org.apache.spark.sql.SaveMode
 ```scala
 // setting up Cassandra-ready spark session
 val spark = SparkSession
-              .builder()
-              .appName("SparkCassandraApp")
-              .config("spark.cassandra.connection.host", "localhost")
-              .config("spark.cassandra.connection.port", "9042")
-              //this consistency level is mandatory in clusters with one node
-              .config("spark.cassandra.output.consistency.level","ONE")
-              .master("local[2]")
-              .getOrCreate()
+  .builder()
+  .appName("SparkCassandraApp")
+  .config("spark.cassandra.connection.host", "localhost")
+  .config("spark.cassandra.connection.port", "9042")
+  //this consistency level is mandatory in clusters with one node
+  .config("spark.cassandra.output.consistency.level","ONE")
+  .master("local[2]")
+  .getOrCreate()
 ```
 
 - DB session is needed.
