@@ -1,10 +1,5 @@
 package uk.me.jasset.examples
 
-// spark conf and context libraries
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
-
 // datastax Cassandra Connector
 import com.datastax.spark.connector._
 import com.datastax.spark.connector.cql.CassandraConnectorConf
