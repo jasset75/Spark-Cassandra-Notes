@@ -10,7 +10,7 @@ Language: Scala v2.11
 >   * [Mock data of People](../PyUpload/mock_data_imp.md)
 >   * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
 
-## Joining two [Dataset<T>](https://spark.apache.org/docs/2.2.0/api/scala/index.html#org.apache.spark.sql.Dataset)
+## Joining two [Datasets](https://spark.apache.org/docs/2.2.0/api/scala/index.html#org.apache.spark.sql.Dataset)
 
 > - Since Spark 2.0 Dataset API is a high-level abstraction and an user-defined view of structured and semi-structured data. Dataset is also more space efficient than [RDD](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html#resilient-distributed-datasets-rdds).
 > - Datasets are typed version of DataFrames: DataFrame is Dataset (collection) of Rows.

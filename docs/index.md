@@ -14,6 +14,6 @@
         
    2. [Mock Data Save](Examples/mock-example-save.md)
         
-   3. [Dataset Join 01](Examples/datase-join-01.md)
+   3. [Dataset Join 01](Examples/dataset-join-01.md)
         
-   4. [Dataset Join 02](Examples/datase-join-02.md)
+   4. [Dataset Join 02](Examples/dataset-join-02.md)
