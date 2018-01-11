@@ -80,6 +80,7 @@ val vip_named = highest
 ```
 
 - This point needs a table at Cassandra cluster according to the RDD structure. Only it creates this one if not exists previously:
+
 ```scala
 // Cassandra connector  
 val cc =  CassandraConnector(sc.getConf)
