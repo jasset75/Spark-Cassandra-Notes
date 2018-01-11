@@ -1,4 +1,4 @@
-[< Back Home](./)
+[< Back Home](../)
 
 # Dataset Join
 
