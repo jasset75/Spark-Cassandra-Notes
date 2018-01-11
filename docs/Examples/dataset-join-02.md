@@ -1,4 +1,4 @@
-[< Back Home](./)
+[< Back Home](../)
 
 # Save joined dataset to new Cassandra Table
 
