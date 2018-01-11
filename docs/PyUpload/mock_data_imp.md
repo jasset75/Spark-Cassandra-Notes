@@ -1,8 +1,10 @@
 [< Back Home](../)
 
-# Loading people dataset into cassandra table
+# Mock data of people
 
-> This Script load generated mock data into Cassandra "examples" keyspace and table "mock-data" [mock_data_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py)
+Loading fake information about people into cassandra table
+
+> This Script loads generated mock data of fake people into Cassandra "examples" keyspace, in the table "mock-data" [mock_data_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py)
 
 ## Dependencies
 
@@ -30,9 +32,9 @@ This file was generated with online freemium tool [Mockaroo](http://www.mockaroo
 
 I've choosed a set of frequently used types:
 
-+ **id** simply a record autoincremental id
-+ **first_name** first name of a record person
-+ **last_name** last name of a record person
++ **id** an autoincremental id
++ **first_name** first name of person
++ **last_name** last name of person
 + **email** a fake but well formed email
 + **gender** "Male" or "Female" gender
 + **birth_date** Birth date yyyy-mm-dd
@@ -75,7 +77,7 @@ class MockData(Model):
 image = Text()
 ```
 
-Simply with `sync_table(MockCars)` you can manage record persistence. Model descendant classes inherit a method to create records which will be posted into Cassandra table.
+Simply with `sync_table(MockCars)` you can manage record persistence. *Model* descendant classes inherit a method to create records which will be posted into Cassandra table.
 
 ```py
 for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
