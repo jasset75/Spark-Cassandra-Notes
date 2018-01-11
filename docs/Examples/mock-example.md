@@ -12,9 +12,7 @@ Language: Scala v2.11
 > - Data sources
 >   * [Mock data of People](../PyUpload/mock_data_imp.md)
 
-## Computing Cassandra data with Spark
-
-- This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and a filter is applied. As a result only records with "Male" gender left and only "gender" and "first_name" columns are selected in a Pair RDD.
+This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and filtered. It only selects "gender" and "first_name" columns in a Pair RDD. It groups by name and count taking the five most repeated male first-names. It does the same with female names and prints each list to standard output.
 
 ```scala
 val record_names = sc.cassandraTable[(String,String)]("examples","mock_data")
