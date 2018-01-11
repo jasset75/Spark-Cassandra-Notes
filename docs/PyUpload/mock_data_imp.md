@@ -2,7 +2,7 @@
 
 # Loading people dataset into cassandra table
 
-> This Script load generated mock data into Cassandra "examples" keyspace and table "mock-data" [mock_data_imp.py]https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py)
+> This Script load generated mock data into Cassandra "examples" keyspace and table "mock-data" [mock_data_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py)
 
 ## Dependencies
 
