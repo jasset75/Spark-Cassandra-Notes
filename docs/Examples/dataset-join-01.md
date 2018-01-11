@@ -3,7 +3,7 @@
 # Dataset Join
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
-Path: [examples/dataset-join-01](../../examples/dataset-join-01/)
+Path: [examples/dataset-join-01](https://github.com/jasset75/Spark-Cassandra-Notes/tree/master/examples/dataset-join-01.scala)
 Language: Scala v2.11
 
 > - Previous Requirements 
