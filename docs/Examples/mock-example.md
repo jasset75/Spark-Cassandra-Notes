@@ -1,6 +1,7 @@
 [< Back Home](../)
 
-# Simple Cassandra extract
+# Mock Example
+> Simple data extraction from Apache Cassandra using RDD
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/mock-example](../../examples/mock-example/)
@@ -34,7 +35,7 @@ So at least we have a Seq with male first names and a count `Seq[(<first_name>,n
 
 The same for female names.
 
-- Last step is take five most repeated names of each gender recorded:
+- Last step is to take five most repeated names of each gender recorded:
 ```
 println("Ordered Female Names count list:")
 // ordered RDD by female names                            
