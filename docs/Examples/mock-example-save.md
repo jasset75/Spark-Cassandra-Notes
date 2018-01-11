@@ -71,6 +71,7 @@ val pair_record_highest = record_names
 ```
 
 - Already the two RDD's are ready to join each other, because `first_name` field is the key in both:
+
 ```scala
 // RDD join
 val vip_named = highest
@@ -106,6 +107,7 @@ cc.withSessionDo(
 ```
 
 - Invoking `saveToCassandra` method will save them to Cassandra:
+
 ```scala
 vip_named.saveToCassandra("examples","vip_named_people",SomeColumns("id","first_name","last_name","email","gender",
                           "birth_date","ip_address","probability","smoker_bool",
