@@ -113,6 +113,7 @@ vip_named.saveToCassandra("examples","vip_named_people",SomeColumns("id","first_
 ```
 
 - If you select the table that the method just created, the output have to be something similar to this:
+
 ```
 cqlsh> SELECT id, first_name, last_name, gender, email FROM examples.vip_named_people;
 
