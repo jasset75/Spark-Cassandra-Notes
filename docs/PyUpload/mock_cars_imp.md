@@ -1,6 +1,7 @@
 # Loading cars dataset into cassandra table
 
-> This Script load generated mock data into Cassandra "examples" keyspace and "mock-cars" table [mock_cars_imp.py](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/py-upload/mock_cars_imp.py)
+> This Script load generated mock data into Cassandra "examples" keyspace and "mock-cars" table [mock_cars_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_cars_imp.py)
+ 
 
 ## Dependencies
 
@@ -22,7 +23,7 @@ from cassandra.cqlengine.columns import *
 COLUMNS = ['car_id','registration','car_make','car_model','car_model_year','color','id_owner']
 ```
 
-Defined constant COLUMNS synthetize the structure of the CSV file [mock_data.csv](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/py-upload/data/mock-cars.csv)
+Defined constant COLUMNS synthetize the structure of the CSV file [mock_data.csv](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/data/mock-cars.csv)
 
 >This file was generated with online freemium tool [Mockaroo](http://www.mockaroo.com/) which is able to generate ramdom values into CSV format with several avalaible types.
 
