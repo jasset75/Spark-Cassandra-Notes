@@ -1,4 +1,4 @@
-[< Back to home](./)
+[< Back Home](./)
 
 # Setting up the Environment
 
