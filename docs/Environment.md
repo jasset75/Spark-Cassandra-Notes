@@ -1,3 +1,5 @@
+[< Back Home](./)
+
 # Setting up the Environment
 
 ### Description
@@ -30,18 +32,19 @@ $ sudo add-apt-repository -y ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
 ```
+
 - version check
 ```sh
-java -version
+$ java -version
 ```
 
 ### Scala 2.11 installation
 ```sh
-sudo apt-get install scala
+sudo apt-get install scala=2.11.6
 ```
 - version check
 ```sh
-scala -version
+$ scala -version
 ```
 
 ### Apache Spark 2.2.1 installation 

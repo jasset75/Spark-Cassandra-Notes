@@ -1,7 +1,9 @@
+[< Back Home](../)
+
 # Save joined dataset to new Cassandra Table
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
-Path: [examples/dataset-join-02](../../examples/dataset-join-02/)
+Path: [examples/dataset-join-02](https://github.com/jasset75/Spark-Cassandra-Notes/tree/master/examples/dataset-join-02)
 Language: Scala v2.11
 
 > - Previous Requirements 

@@ -1,4 +1,7 @@
-# Simple Cassandra extract
+[< Back Home](../)
+
+# Mock Data
+> Simple data extraction from Apache Cassandra using RDD
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/mock-example](../../examples/mock-example/)
@@ -9,9 +12,7 @@ Language: Scala v2.11
 > - Data sources
 >   * [Mock data of People](../PyUpload/mock_data_imp.md)
 
-## Computing Cassandra data with Spark
-
-- This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and a filter is applied. As a result only records with "Male" gender left and only "gender" and "first_name" columns are selected in a Pair RDD.
+This example retrieve data from Cassandra *keyspace* _**examples**_ and table name _**mockdata**_. Data are retrieved into RDD and filtered. It only selects "gender" and "first_name" columns in a Pair RDD. It groups by name and count taking the five most repeated male first-names. It does the same with female names and prints each list to standard output.
 
 ```scala
 val record_names = sc.cassandraTable[(String,String)]("examples","mock_data")
@@ -32,7 +33,7 @@ So at least we have a Seq with male first names and a count `Seq[(<first_name>,n
 
 The same for female names.
 
-- Last step is take five most repeated names of each gender recorded:
+- Last step is to take five most repeated names of each gender recorded:
 ```
 println("Ordered Female Names count list:")
 // ordered RDD by female names                            

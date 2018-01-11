@@ -1,6 +1,10 @@
-# Loading people dataset into cassandra table
+[< Back Home](../)
 
-> This Script load generated mock data into Cassandra "examples" keyspace and table "mock-data" [mock_data_imp.py](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/py-upload/mock_data_imp.py)
+# Mock data of people
+
+Loading fake information about people into cassandra table
+
+> This Script loads generated mock data of fake people into Cassandra "examples" keyspace, in the table "mock-data" [mock_data_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py)
 
 ## Dependencies
 
@@ -22,15 +26,15 @@ from cassandra.cqlengine.columns import *
 COLUMNS = ['id','first_name','last_name','email','gender','birth_date','ip_address','probability','smoker_bool','drinker','language','image']
 ```
 
-Defined constant COLUMNS synthetize the structure of the CSV file [mock_data.csv](https://github.com/jasset75/spark-cassandra-notes/examples/mock-example/py-upload/data/mock-data.csv)
+Defined constant COLUMNS synthetize the structure of the CSV file [mock_data.csv](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/data/mock-data.csv)
 
 This file was generated with online freemium tool [Mockaroo](http://www.mockaroo.com/) which is able to generate ramdom values into CSV format with several avalaible types.
 
 I've choosed a set of frequently used types:
 
-+ **id** simply a record autoincremental id
-+ **first_name** first name of a record person
-+ **last_name** last name of a record person
++ **id** an autoincremental id
++ **first_name** first name of person
++ **last_name** last name of person
 + **email** a fake but well formed email
 + **gender** "Male" or "Female" gender
 + **birth_date** Birth date yyyy-mm-dd
@@ -73,7 +77,7 @@ class MockData(Model):
 image = Text()
 ```
 
-Simply with `sync_table(MockCars)` you can manage record persistence. Model descendant classes inherit a method to create records which will be posted into Cassandra table.
+Simply with `sync_table(MockCars)` you can manage record persistence. *Model* descendant classes inherit a method to create records which will be posted into Cassandra table.
 
 ```py
 for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
