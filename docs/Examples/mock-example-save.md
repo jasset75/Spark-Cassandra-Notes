@@ -1,6 +1,6 @@
 [< Back Home](../)
 
-# RDD join example
+# Mock Data Save
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/mock-example-save](../../examples/mock-example-save/)
@@ -11,7 +11,9 @@ Language: Scala v2.11
 > - Data sources
 >   * [Mock data of People](../PyUpload/mock_data_imp.md)
 
-This example is similar to [mock-example](./mock-example.md)
+This example starts at [mock-example](./mock-example.md)
+
+This script takes specific columns of Cassandra table (gender, first_name), then It groups filtered male first-names and aggregate a count of them storing the five most repeated. It does the same with female name and It does the union of ten most repeated person's names. Once it's done, It takes again the Cassandra table of personal info and cross join with ten most repeated names. The final RDD is stored into new Cassandra table, with the same structure than original, but only selected records.
 
 ## RDD join
 
