@@ -13,7 +13,7 @@ Language: Scala v2.11
 
 This example starts at [mock-example](./mock-example.md)
 
-This script takes specific columns of Cassandra table (gender, first_name), then It groups filtered male first-names and aggregate a count of them storing the five most repeated. It does the same with female name and It does the union of ten most repeated person's names. Once it's done, It takes again the Cassandra table of personal info and cross join with ten most repeated names. The final RDD is stored into new Cassandra table, with the same structure than original, but only selected records.
+This script takes the ten most repeated person's names, five from males plus five from females and store full records who match h* first names with this list into a new Cassandra table which has the same structure than original. Destination table is created if not exists.
 
 ## RDD join
 
