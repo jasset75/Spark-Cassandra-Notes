@@ -36,6 +36,7 @@ val males_result = male_names_c.reduceByKey{ case (v,count) => count + count } /
 > The same for female names.
 
 - This takes five most repeated *first names* for each gender:
+
 ```scala
 // taking 5 highest male repeated names                   
 val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
