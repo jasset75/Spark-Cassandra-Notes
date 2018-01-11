@@ -1,6 +1,6 @@
 [< Back Home](../)
 
-# Mock Example
+# Mock Data Example
 > Simple data extraction from Apache Cassandra using RDD
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
