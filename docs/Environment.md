@@ -38,7 +38,7 @@ $ java -version
 
 ### Scala 2.11 installation
 ```sh
-sudo apt-get install scala
+sudo apt-get install scala=2.11.6
 ```
 - version check
 ```sh
