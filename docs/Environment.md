@@ -15,9 +15,11 @@ The goal is to set up a development environment, just to try a sort of examples.
 Apache Cassandra could be defined as:
 > "hybrid between a key-value and a column-oriented (or tabular) database management system"--- [Apache Cassandra. (2018, January 1). Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Apache_Cassandra)
 
-We need an environment which be able to connect to a Cassandra cluster and extract data from that without _bottle necks_ if possible. In this environment we'll install Cassandra locally. However, it could access to a remote cluster as well.
+We need an environment which be able to connect to Cassandra cluster and extract data from that without _bottle necks_ if possible. In this environment we'll install Cassandra locally. However, it could access to a remote cluster as well.
 
 We could use several programming languages onto Spark; Scala is one of them, and it has as a requirement Java Virtual Machine, so we need to install Java + Scala in order to use Spark with, as well as python interpreter if we use this programming language.
+
+Spark is scalable, developing a cluster of nodes we could use pararell programming achiving the optimun. But for simplicity sake, we'll also install spark locally.
 
 As development environment we will use an VMWare Virtual Machine with Ubuntu as O.S.; this is the basic list of tuples product-version we are going to harness:
 
