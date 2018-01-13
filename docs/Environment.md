@@ -19,7 +19,7 @@ We need an environment which be able to connect to a Cassandra cluster and extra
 
 We could use several programming languages onto Spark; Scala is one of them, and it has as a requirement Java Virtual Machine, so we need to install Java + Scala in order to use Spark with, as well as python interpreter if we use this programming language.
 
-As development environment we will use an VMWare Virtual Machine with Ubuntu 
+As development environment we will use an VMWare Virtual Machine with Ubuntu as O.S.; this is the basic list of tuples product-version we are going to harness:
 
 * Ubuntu 16.04.3 LTS (Xenial Xerus)
 * Python 3.5.2
