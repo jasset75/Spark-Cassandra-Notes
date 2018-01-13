@@ -17,7 +17,7 @@ Apache Cassandra could be defined as:
 
 We need an environment which be able to connect to Cassandra cluster and extract data from that without _bottle necks_ if possible. In this environment we'll install Cassandra locally. However, it could access to a remote cluster as well.
 
-We could use several programming languages onto Spark; Scala is one of them, and it has as a requirement Java Virtual Machine, so we need to install Java + Scala in order to use Spark with, as well as python interpreter if we use this programming language.
+We could use several programming languages onto Spark; Scala is one of them, and it has Java Virtual Machine as a requirement, so we need to install Java + Scala in order to use Spark with, as well as python interpreter if we use this programming language.
 
 Spark is scalable, developing a cluster of nodes we could use pararell programming achiving the optimun. But for simplicity sake, we'll also install spark locally.
 
