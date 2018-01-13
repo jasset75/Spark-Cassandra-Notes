@@ -2,13 +2,24 @@
 
 # Setting up the Environment
 
+> **“There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.**
+
+> **There are not more than five primary colours, yet in combination they produce more hues than can ever been seen.**
+
+> **There are not more than five cardinal tastes, yet combinations of them yield more flavours than can ever be tasted.”**  ---[Sun Tzu, The Art of War](https://en.wikipedia.org/wiki/The_Art_of_War)
+
 ### Description
 
-The goal is to set up a development environment, just to try on the examples. And will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository.
+The goal is to set up a development environment, just to try a sort of examples. This examples will be used to compute data from [Apache Cassandra](http://cassandra.apache.org/) (aka C*) repository into Apache Spark. So then, we need to combine different pieces of software.
 
-C* NoSQL database which is an...
-
+Apache Cassandra could be defined as:
 > "hybrid between a key-value and a column-oriented (or tabular) database management system"--- [Apache Cassandra. (2018, January 1). Wikipedia, The Free Encyclopedia.](https://en.wikipedia.org/wiki/Apache_Cassandra)
+
+We need an environment which be able to connect to a Cassandra cluster and extract data from that without _bottle necks_ if possible. In this environment we'll install Cassandra locally. However, it could access to a remote cluster as well.
+
+We could use several programming languages onto Spark; Scala is one of them, and it has as a requirement Java Virtual Machine, so we need to install Java + Scala in order to use Spark with, as well as python interpreter if we use this programming language.
+
+As development environment we will use an VMWare Virtual Machine with Ubuntu 
 
 * Ubuntu 16.04.3 LTS (Xenial Xerus)
 * Python 3.5.2
@@ -55,7 +66,7 @@ tar xvf spark-2.2.1-bin-hadoop2.7.tgz
 sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
 ```
 
-### Adding to $PATH
+### Adding to $PATH environment variable
 ```bs
 echo "export SPARK_HOME=/usr/local/spark-2.2.1"
 echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
