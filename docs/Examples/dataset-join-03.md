@@ -1,6 +1,26 @@
-# Datase join 03
+[< Back Home](../)
 
-This is a standalone python examples which runs directly python interpreter. The core is pyspark python package that is the wrapper with Apache Spark.
+# Save joined dataset to new Cassandra Table and to output JSON file
+
+Github [repository](https://github.com/jasset75/spark-cassandra-notes)
+Path: [examples/dataset-join-03](https://github.com/jasset75/Spark-Cassandra-Notes/tree/master/examples/dataset-join-03)
+Language: Python v3.5
+
+> - Previous Requirements 
+>   * [Setting up the Environment](../Environment.md)
+> - Data sources
+>   * [Mock data of People](../PyUpload/mock_data_imp.md)
+>   * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
+
+## Description
+
+This is a standalone python example which runs directly onto python interpreter. The core is pyspark which is a python package that is the wrapper of Apache Spark.
+
+It is very similar to previous [dataset-join-02](dataset-join-02.md).
+
+## Explanation
+
+Libraries used by this example:
 
 ```py
 import os, sys
@@ -12,9 +32,9 @@ from pyspark import SparkContext, SparkConf
 from pyspark.sql import SQLContext, SparkSession
 ```
 
+Setting up Cassandra-ready spark session
+
 ```py
-# setting up Cassandra-ready spark session
-# ONE consistency level is mandatory in clusters with one node
 spark = SparkSession.builder \
 	.appName('SparkCassandraApp') \
 	.config('spark.cassandra.connection.host', 'localhost') \
@@ -23,6 +43,8 @@ spark = SparkSession.builder \
 	.master('local[2]') \
 	.getOrCreate()
 ```
+
+Loading data of people
 
 ```py
 ds_people = sqlContext \
@@ -33,6 +55,8 @@ ds_people = sqlContext \
   .filter('drinker == "Daily"')
 ```
 
+The same with cars
+
 ```py
 ds_cars = sqlContext \
 	.read \
@@ -41,15 +65,17 @@ ds_cars = sqlContext \
 	.load()
 ```
 
+Join cars with owners
+
 ```py
-# joining datasets
 ds_drinkers = ds_people \
   .join(ds_cars,ds_people['id'] == ds_cars['id_owner']) \
   .select('id','email','car_id','car_make','car_model')
 ```
 
+Table is created if no exists, otherwise exception is raise but silenced
+
 ```py
-# create table
 try:
   ds_drinkers \
     .createCassandraTable('examples', 'cars_owned_by_drinkers', partitionKeyColumns = ['id','car_id'])
@@ -57,8 +83,9 @@ except:
   None
 ```
 
+Saving joined dataset back to Cassandra
+
 ```py
-# write back to cassandra
 ds_drinkers \
   .write \
   .mode('append') \
@@ -67,8 +94,9 @@ ds_drinkers \
   .save()
 ```
 
+To test the result, it loads again new data into Spark's DataFrame
+
 ```py
-# loading data from the new table in Cassandra
 ds_cars = sqlContext \
 	.read \
 	.format('org.apache.spark.sql.cassandra') \
@@ -76,10 +104,9 @@ ds_cars = sqlContext \
 	.load()
 ```
 
-```py
-# convert to pandas
-df = ds_cars.toPandas()
+Loading data into pandas in order to save to file system, although It could be post in an HTTP connection or something else
 
-# json formatting
+```py
+df = ds_cars.toPandas()
 df.to_json('./output.json')
 ```
