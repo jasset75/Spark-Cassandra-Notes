@@ -37,22 +37,22 @@ Setting up Cassandra-ready spark session
 
 ```py
 spark = SparkSession.builder \
-	.appName('SparkCassandraApp') \
-	.config('spark.cassandra.connection.host', 'localhost') \
-	.config('spark.cassandra.connection.port', '9042') \
-	.config('spark.cassandra.output.consistency.level','ONE') \
-	.master('local[2]') \
-	.getOrCreate()
+  .appName('SparkCassandraApp') \
+  .config('spark.cassandra.connection.host', 'localhost') \
+  .config('spark.cassandra.connection.port', '9042') \
+  .config('spark.cassandra.output.consistency.level','ONE') \
+  .master('local[2]') \
+  .getOrCreate()
 ```
 
 Loading data of people
 
 ```py
 ds_people = sqlContext \
-	.read \
-	.format('org.apache.spark.sql.cassandra') \
-	.options(table='mock_data', keyspace='examples') \
-	.load() \
+  .read \
+  .format('org.apache.spark.sql.cassandra') \
+  .options(table='mock_data', keyspace='examples') \
+  .load() \
   .filter('drinker == "Daily"')
 ```
 
@@ -60,10 +60,10 @@ The same with cars
 
 ```py
 ds_cars = sqlContext \
-	.read \
-	.format('org.apache.spark.sql.cassandra') \
-	.options(table='mock_cars', keyspace='examples') \
-	.load()
+  .read \
+  .format('org.apache.spark.sql.cassandra') \
+  .options(table='mock_cars', keyspace='examples') \
+  .load()
 ```
 
 Join cars with owners
@@ -99,10 +99,10 @@ To test the result, it loads again new data into Spark's DataFrame
 
 ```py
 ds_cars = sqlContext \
-	.read \
-	.format('org.apache.spark.sql.cassandra') \
-	.options(table='cars_owned_by_drinkers', keyspace='examples') \
-	.load()
+  .read \
+  .format('org.apache.spark.sql.cassandra') \
+  .options(table='cars_owned_by_drinkers', keyspace='examples') \
+  .load()
 ```
 
 Loading data into pandas in order to save to file system, although It could be post in an HTTP connection or something else
