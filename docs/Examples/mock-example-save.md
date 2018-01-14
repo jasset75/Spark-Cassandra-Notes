@@ -13,7 +13,7 @@ Language: Scala v2.11
 
 This example starts at [mock-example](./mock-example.md)
 
-This script takes the ten most repeated person's names, five from males plus five from females and store full records who match h* first names with this list into a new Cassandra table which has the same structure than original. Destination table is created if not exists.
+This script takes the ten most repeated person's names, five from males plus five from females, and store full records who match h* first names with this list. Besides, It stores retrieved records into a new Cassandra table which has the same structure than original. Destination table is created if not exists.
 
 ## RDD join
 
