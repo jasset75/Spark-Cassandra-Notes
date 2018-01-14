@@ -22,7 +22,7 @@ spark = SparkSession.builder \
 	.config('spark.cassandra.output.consistency.level','ONE') \
 	.master('local[2]') \
 	.getOrCreate()
-```py
+```
 
 ```py
 ds_people = sqlContext \
