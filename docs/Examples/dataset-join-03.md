@@ -17,7 +17,7 @@ Language: Python v3.5
 
 This is a standalone python example which runs directly onto python interpreter. The core is pyspark which is a python package that is the wrapper of Apache Spark.
 
-It is very similar to previous [dataset-join-02](dataset-join-02.md). However, this is a independant from `spark-shell` or `spark-submit`. Both save back results to Cassandra's table. Furthermore, dataset-join-03 writes to disk on an JSON format output file.
+It is very similar to previous [dataset-join-02](dataset-join-02.md). However, this is a independant from `spark-shell` or `spark-submit`. Both save back results to Cassandra's table. Furthermore, dataset-join-03 writes to disk on a JSON format output file.
 
 ## Explanation
 
