@@ -17,3 +17,5 @@
    3. [Dataset Join 01](Examples/dataset-join-01.md)
         
    4. [Dataset Join 02](Examples/dataset-join-02.md)
+   
+   5. [Dataset Join 03](Examples/dataset-join-03.md)
