@@ -1,6 +1,7 @@
 [< Back Home](../)
 
-# Save joined dataset to new Cassandra Table and to output JSON file
+# Save joined dataset 
+> Saving to new Cassandra Table and output JSON file
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/dataset-join-03](https://github.com/jasset75/Spark-Cassandra-Notes/tree/master/examples/dataset-join-03)
