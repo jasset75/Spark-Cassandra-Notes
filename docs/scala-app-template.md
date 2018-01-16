@@ -1,3 +1,5 @@
+[< Back Home](./)
+
 # Scala Apps Template
 
 ## A possible template of [directories](http://www.scala-sbt.org/1.x/docs/Directories.html) with a particular structure and files to compile Scala applications. 
