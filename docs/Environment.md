@@ -150,6 +150,34 @@ $ sudo apt-get update
 $ sudo apt-get install sbt
 ```
 
+Configure `build.sbt`
+
+```
+name := 'app'
+version := "1.0"
+
+scalaVersion := "2.11.6"
+
+// spark version which fit with the app
+val sparkVersion = "2.2.1"
+
+// external dependencies i.e.: Spark-Cassandra Connector
+unmanagedJars in Compile += file("lib/spark-cassandra-connector.jar")
+
+resolvers ++= Seq(
+  "apache-snapshots" at "http://repository.apache.org/snapshots/"
+)
+
+// managed dependencies (ivy, maven, etc.)
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-sql" % sparkVersion,
+  "org.apache.spark" %% "spark-mllib" % sparkVersion,
+  "org.apache.spark" %% "spark-streaming" % sparkVersion,
+  "org.apache.spark" %% "spark-hive" % sparkVersion
+)
+```
+
 At root folder of your application repository:
 
 ```sh
