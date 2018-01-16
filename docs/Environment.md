@@ -144,8 +144,27 @@ scala> val sc = new SparkContext(conf)
 By this way we will able to launch packaged applications directly to the cluster. Scala applications (classes, resources, dependencies, etc.) need to be compiled into Java jars in order to be launched. So as precondition it is necessary setting up an Scala compiler like [sbt](https://www.scala-sbt.org/) and prepare your application in a [particular way](scala-app-template.md).
 
 ```sh
-echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
-sudo apt-get update
-sudo apt-get install sbt
+$ echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+$ sudo apt-get update
+$ sudo apt-get install sbt
+```
+
+At root folder of your application repository:
+
+```sh
+$ cd app
+$ ls
+build.sbt  lib  src
+$ sbt package
+$ ls
+build.sbt  lib  project  src  target
+$ ls target/scala-2.11/
+classes  app_2.11-1.0.jar  resolution-cache
+```
+
+These commands generate a jar package within the target folder ([see de schema](scala-app-template.md)). For instance, `target/scala-2.11/app_2.11-1.0.jar`. So, if you want launch the new compiled application you could use:
+
+```sh
+$ spark-submit target/scala-2.11/app_2.11-1.0.jar
 ```
