@@ -25,6 +25,7 @@ Folder tree:
 - Below **src->main->scala** we could deploy Scala Scripts which are part of the project
 - **lib** folder is used to place dependencies; normally unmanaged jars (managed dependencies can be declared into built.sbt)
 - **built.sbt**: you can place your app configuration here. For instance:
+
 ```scala
 name := <app_name>
 version := <app_version>
