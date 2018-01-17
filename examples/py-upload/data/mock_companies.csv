@@ -1,801 +1,801 @@
-id,company_name,city,country,department,size,annual_budget
-1,Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC,Qimeng,China,Accounting,189174,14334849024
-2,"Antigen Laboratories, Inc.",Ureshino,Japan,Legal,109945,9663175995
-3,"Akorn, Inc.",Shagang,China,Product Management,8533,515017748
-4,The Body Shop Wake Forest,Sujiazhuang,China,Sales,71817,4863375423
-5,"Dispensing Solutions, Inc.",Stavyshche,Ukraine,Services,55893,4914559704
-6,"WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",Zhangbagou,China,Training,39055,3754591480
-7,"Nelco Laboratories, Inc.",Linköping,Sweden,Accounting,38864,1000087312
-8,"WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",São Martinho,Portugal,Product Management,178285,10874850145
-9,Advacare Home Services,Niutian,China,Accounting,62826,2616074640
-10,"Stephen L. LaFrance Pharmacy, Inc.",Nanaimo,Canada,Research and Development,185110,9612206970
-11,"DAVA Pharmaceuticals, Inc.",Wielka Wieś,Poland,Human Resources,120357,10150307595
-12,"Physicians Total Care, Inc.",Lingquan,China,Accounting,194505,7551851130
-13,Lake Erie Medical DBA Quality Care Products LLC,Stara Kornica,Poland,Business Development,180088,17565963608
-14,Softech Pharma Pvt. Ltd,Lüyang,China,Accounting,69346,1442396800
-15,"Antigen Laboratories, Inc.",Przytyk,Poland,Marketing,117921,6696026064
-16,Creative Cosmetics Inc. dba CCI,Xiali,China,Sales,121733,7453711590
-17,Ideal Protein of America Inc.,Veiga,Portugal,Research and Development,135809,10302878167
-18,American Health Packaging,Nantes,France,Training,111004,2052241952
-19,Neat Feat Products Limited,Zhongxin,China,Research and Development,162793,15302704793
-20,Army & Air Force Exchange Service,Gongqiao,China,Research and Development,127465,2343826420
-21,Rebel Distributors Corp,Flor da Rosa,Portugal,Support,40390,3826588990
-22,Uriel Pharmacy Inc.,Tymoshivka,Ukraine,Business Development,122204,10042358108
-23,HOMEOLAB USA INC,Jovim,Portugal,Business Development,27917,520289129
-24,REMEDYREPACK INC.,Oleksandrivka,Ukraine,Accounting,182291,3427070800
-25,Sandoz Inc,Suqiaoxiang,China,Product Management,41829,1004063316
-26,"Roxane Laboratories, Inc",Mykolayiv,Ukraine,Sales,99788,1807160680
-27,Uriel Pharmacy Inc.,Fushi,China,Legal,77830,6182815200
-28,RxPak Division of McKesson Corporation,Shanjie,China,Training,146120,7327041280
-29,"PD-Rx Pharmaceuticals, Inc.",Kaliska,Poland,Support,192155,18678042465
-30,Physician Therapeutics LLC,Okotoks,Canada,Support,8777,666771136
-31,"NCS HealthCare of KY, Inc dba Vangard Labs",Jingtailu,China,Accounting,120332,8101953560
-32,"GREAT LAKES WHOLESALE, MARKETING, & SALES, INC.",Padova,Italy,Accounting,8844,628746492
-33,Lake Erie Medical DBA Quality Care Products LLC,Lenghu,China,Sales,25553,1345902063
-34,Mylan Institutional Inc.,Vilar do Pinheiro,Portugal,Marketing,47204,2943877460
-35,"Amneal Pharmaceuticals of New York, LLC",Władysławowo,Poland,Services,119516,11890049260
-36,Lantern Enterprises Ltd,Xiyuan,China,Human Resources,19745,1660653225
-37,"Babor Cosmetics America, Corp",Łęki Szlacheckie,Poland,Support,108064,2194023392
-38,Zydus Pharmaceuticals (USA) Inc.,Xiaolong,China,Services,18115,496242310
-39,Mylan Pharmaceuticals Inc.,Enschede,Netherlands,Business Development,53709,3550970535
-40,"Nelco Laboratories, Inc.",Le Mans,France,Product Management,178325,8755757500
-41,CVS Pharmacy,Guifões,Portugal,Business Development,62277,2643284988
-42,Apotheca Company,Dearborn,United States,Marketing,19346,1118972640
-43,"Burel Pharmaceuticals, LLC",Vila Maior,Portugal,Training,199672,9645754976
-44,Mylan Institutional Inc.,Firenze,Italy,Sales,111231,6267755619
-45,E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.,Albacete,Spain,Human Resources,11066,200017950
-46,"Physicians Total Care, Inc.",Giesteira,Portugal,Human Resources,159214,9624167872
-47,"Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",Vapnyarka,Ukraine,Sales,105293,9566500808
-48,"Barr Laboratories, Inc.",Podbuzh,Ukraine,Product Management,74646,2000214216
-49,Mylan Pharmaceuticals Inc.,Mirosławiec,Poland,Legal,43543,1221294064
-50,KMART CORPORATION,Matarraque,Portugal,Training,180376,3855176248
-51,MedVantx Inc.,Jimusa’er,China,Legal,53495,1495613210
-52,H E B,Baraçais,Portugal,Services,158065,11432841450
-53,Meijer Distribution Inc,Siyang,China,Business Development,7484,671681516
-54,Apotheca Company,Stockholm,Sweden,Marketing,90664,1861059928
-55,"Antigen Laboratories, Inc.",Linjiang,China,Marketing,161040,15776927760
-56,"Imine Co., Ltd.",Shiqiao,China,Training,95515,4989226025
-57,"Aphena Pharma Solutions - Tennessee, LLC",New Plymouth,New Zealand,Engineering,8180,627561420
-58,Aidarex Pharmaceuticals LLC,Pereval'noe,Ukraine,Services,153351,3588873453
-59,"Aphena Pharma Solutions - Tennessee, LLC",Meipu,China,Business Development,36203,1055932901
-60,"PD-Rx Pharmaceuticals, Inc.",Zhifang,China,Legal,62755,5220588450
-61,"Halozyme, Inc.",Longbu,China,Training,166384,10930264112
-62,"Physicians Total Care, Inc.",Qingguang,China,Product Management,41473,3191927972
-63,Cardinal Health,Changma,China,Accounting,106286,10272329328
-64,"Golden State Medical Supply, Inc.",Dallas,United States,Accounting,123148,7392204996
-65,Lake Erie Medical DBA Quality Care Products LLC,Gaocun,China,Services,125787,11569888260
-66,"ALK-Abello, Inc.",Zhoukou,China,Legal,146831,4053563417
-67,Uriel Pharmacy Inc.,Arpajon,France,Research and Development,171223,11526047468
-68,Marco Pharma International LLC.,Feteira Pequena,Portugal,Support,161887,15032826820
-69,Cangene bioPharma Inc.,Beicheng,China,Business Development,28347,1141845507
-70,"True Botanica, LLC",Örebro,Sweden,Accounting,68633,4967450641
-71,"Nexgen Pharma, Inc.",Hexi,China,Sales,180184,12117554184
-72,REMEDYREPACK INC.,Henan’an,China,Services,112673,2345401168
-73,"Nelco Laboratories, Inc.",Chervone,Ukraine,Sales,175026,16543457520
-74,Guna spa,Xiazhai,China,Support,199260,17251333020
-75,REMEDYREPACK INC.,Weihe,China,Accounting,95569,7325268281
-76,"Astellas Pharma US, Inc.",Stockholm,Sweden,Research and Development,109780,2315260200
-77,Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC,Sunjia,China,Services,6457,343719024
-78,Ventura Corporation LTD.,Volodymyrets’,Ukraine,Accounting,101221,5088784554
-79,Lake Erie Medical DBA Quality Care Products LLC Care Producst,Zhuangtou,China,Accounting,142060,5481527160
-80,Northstar Rx LLC,Casal Novo,Portugal,Services,160588,7317995160
-81,"Matrixx Initiatives, Inc.",Lijia,China,Accounting,24064,1176585216
-82,Cadila Healthcare Limited,Vadstena,Sweden,Human Resources,165900,3207842400
-83,BCM Cosmetique SAS,Haoraoshan,China,Training,54234,4235621166
-84,American Health Packaging,Sydney,Australia,Services,136356,9735682044
-85,McKesson,Porsgrunn,Norway,Marketing,1257,75551985
-86,Rugby Laboratories,Guangshun,China,Engineering,73089,5856987015
-87,BrandStorm HBC,Las Flores,Mexico,Legal,106770,2809225470
-88,"Preferred Pharmaceuticals, Inc.",Düsseldorf,Germany,Research and Development,15350,578311250
-89,Baxter Healthcare Corporation,Chadian,China,Human Resources,82169,7433829430
-90,Heel Inc.,Jabłonka,Poland,Human Resources,606,29532804
-91,Safe Anabolic Sciences,Épinal,France,Product Management,26565,2317610295
-92,Cantrell Drug Company,Fresno,United States,Legal,169729,7610987818
-93,Apotex Corp,Qinggis Han,China,Support,97200,9110264400
-94,Bryant Ranch Prepack,Port Hawkesbury,Canada,Engineering,72588,3297818016
-95,Bryant Ranch Prepack,Fuhai,China,Product Management,64318,2188419950
-96,"Avion Pharmaceuticals, LLC",Torre,Portugal,Business Development,74622,6613673238
-97,"Allergy Laboratories, Inc.",Tylicz,Poland,Legal,31924,1530755800
-98,HyVee Inc,Da’an,China,Product Management,30946,1927688232
-99,PharmaDerm a division of Fougera Pharmaceuticals Inc.,Zamora,Spain,Human Resources,144369,5243193342
-100,Pharmaplast SAE,Menggusi,China,Support,120790,7011738710
-101,"Hospira, Inc.",Xiaopu,China,Support,42675,1405671825
-102,DZA Brands LLC,Stepanivka,Ukraine,Human Resources,127964,5416204264
-103,"Eon Labs, Inc.",Shentong,China,Accounting,122743,12065391414
-104,Major Pharmaceuticals,Helsingborg,Sweden,Legal,187087,11058525483
-105,North Safety Products,Saint-Quentin-en-Yvelines,France,Marketing,188696,13069273656
-106,Cardinal Health,Leeuwarden,Netherlands,Sales,136594,13010851688
-107,STAT RX USA LLC,Sanjiang,China,Support,60044,4000971896
-108,Unit Dose Services,Romilly-sur-Seine,France,Legal,24423,1515422727
-109,Walgreen Company,Gaotang,China,Engineering,32131,1533227058
-110,"Novartis Consumer Health, Inc.",Góra,Poland,Services,115088,9599374992
-111,"Solbin Co., Ltd",Nanlin,China,Human Resources,179128,14575107976
-112,Mylan Pharmaceuticals Inc.,Morelos,Mexico,Legal,14888,766449128
-113,REMEDYREPACK INC.,Caqu,China,Marketing,176303,5611371884
-114,State of Florida DOH Central Pharmacy,Nomhon,China,Human Resources,23314,2218350414
-115,"Stephen L. LaFrance Pharmacy, Inc.",Jianfeng,China,Sales,76869,5654176164
-116,Direct Rx,Amadora,Portugal,Accounting,189524,11125437848
-117,REMEDYREPACK INC.,Malaga,Spain,Business Development,40267,2082891109
-118,Lowry Drug Company Inc.,Neuilly-sur-Seine,France,Marketing,72953,4342892090
-119,Purdue Products LP,Mataigou,China,Research and Development,109562,6630363554
-120,"Mutual Pharmaceutical Company, Inc.",Caen,France,Engineering,79652,4115778144
-121,"ALK-Abello, Inc.",Qiantang,China,Product Management,168340,14204360860
-122,American Health Packaging,Knyszyn,Poland,Marketing,27779,843870462
-123,Baseline Nutritionals Inc.,Varniai,Lithuania,Services,161604,5566449780
-124,"Salix Pharmaceuticals, Inc.",Shiojiri,Japan,Product Management,191227,5856900556
-125,"SkinScience Labs, Inc",Darya Boyi,China,Legal,15658,1246376800
-126,"Nelco Laboratories, Inc.",Azenhas do Mar,Portugal,Training,41351,849060083
-127,Merck Sharp & Dohme Corp.,Crumlin,Ireland,Training,899,82573150
-128,Apotex Corp.,Rende,China,Product Management,49720,3095368320
-129,Kimberly-Clark Corporation,Shuntian,China,Business Development,114319,5471078702
-130,Washington Homeopathic Products,Tayirove,Ukraine,Services,125537,6312376971
-131,Mylan Pharmaceuticals Inc.,Santa Rita,Mexico,Marketing,11308,254848396
-132,"FRED'S, INC.",Kalpin,China,Legal,29745,1794545595
-133,Foodhold,Ocala,United States,Research and Development,86353,4835163529
-134,SHISEIDO AMERICAS CORPORATION,Lidong,China,Research and Development,20200,371861800
-135,Teva Pharmaceuticals USA Inc,Loma Alta,Mexico,Marketing,4331,87204685
-136,WALGREEN CO.,Emalgolin Mongolzuxiang,China,Services,15399,1539037656
-137,SHISEIDO AMERICAS CORPORATION,Xinqiao,China,Support,5935,250949605
-138,Uriel Pharmacy Inc.,Gaoguan,China,Sales,122128,5563052528
-139,Cardinal Health,Chongxing,China,Support,42233,3196869168
-140,REMEDYREPACK INC.,Tiandu,China,Business Development,51088,3307437120
-141,"Dr. Fresh, Inc.",Xinhua,China,Services,71679,6592030914
-142,Procter & Gamble Manufacturing Co.,Detroit,United States,Sales,12934,523697660
-143,Select Brand,Two Hills,Canada,Legal,108294,8876209416
-144,ART COSMETICS SRL,Tidaholm,Sweden,Human Resources,18285,1653695400
-145,AMERICAN SALES COMPANY,Nakkila,Finland,Product Management,112618,3521677478
-146,"AvKARE, Inc.",Monte da Boavista,Portugal,Sales,128456,3271774320
-147,Target Corporation,Obodivka,Ukraine,Accounting,170920,17045851600
-148,Unit Dose Services,Humble,United States,Accounting,144682,6328101316
-149,"Bang An Bao Medical Equipment Co., Ltd.",Janowice,Poland,Engineering,138485,9718738815
-150,Hannaford Brothers Company,Piątnica,Poland,Human Resources,76867,7594228999
-151,"UCB, Inc.",Fengshan,China,Legal,155211,5460012558
-152,Mondel?z Group LLC,Fulong,China,Accounting,105416,6267192032
-153,"PAR Pharmaceutical Companies, Inc.",Hisings Kärra,Sweden,Human Resources,77501,7174267570
-154,Cardinal Health,Nanton,Canada,Services,137144,5109574008
-155,"Preferred Pharmaceuticals,Inc.",Yiqi,China,Services,26239,1342728347
-156,"Pierre Fabre Pharmaceuticals, Inc.",Bolhrad,Ukraine,Business Development,196299,4133664342
-157,"Hawthorn Pharmaceuticals, Inc.",Wufu,China,Human Resources,89728,1811069952
-158,REMEDYREPACK INC.,Tatebayashi,Japan,Training,49011,1838794698
-159,"Bio-Pharm, Inc.",Zhoutou,China,Human Resources,94777,5488251739
-160,REMEDYREPACK INC.,Henggang,China,Services,46598,1488759502
-161,Conopco Inc. d/b/a Unilever,Yanghe,China,Business Development,91032,6054083160
-162,"Prime Packaging, Inc.",Strawczyn,Poland,Legal,7352,177072920
-163,"Novartis Consumer Health, Inc.",Yangmingbu,China,Product Management,144864,4416903360
-164,Western Family Foods Inc,Kallinge,Sweden,Engineering,31663,1058335775
-165,"SJ Creations, Inc.",T’et’ri Tsqaro,Georgia,Legal,59268,2540522820
-166,"Preferred Pharmaceuticals, Inc",Baitian,China,Legal,40361,2632546225
-167,NorthStar RxLLC,Oklahoma City,United States,Accounting,86655,2400776775
-168,Zenith Medicosm SL,Cavalões,Portugal,Human Resources,78602,6722671856
-169,"Blenheim Pharmacal, Inc.",Yangliu,China,Product Management,100799,5025132547
-170,Sandoz Inc,Shaping,China,Marketing,73679,6804476687
-171,Kosan Kozmetik Sanayi ve Ticaret A.S.,Huangzhai,China,Sales,162824,6383514920
-172,Baxter Healthcare Corporation,Dongjiahe,China,Human Resources,178263,5816721690
-173,KCM Brands LLC,Changfeng,China,Product Management,50270,3320836200
-174,"Ingenus Pharmaceuticals, LLC",Huyu,China,Product Management,40491,1230116580
-175,CVS Pharmacy,Baiquan,China,Legal,52152,2961920688
-176,REMEDYREPACK INC.,Fovissste,Mexico,Support,4301,177940972
-177,Sun Pharma Global FZE,Port Moody,Canada,Business Development,128892,4258720572
-178,"International Labs, Inc.",Laholm,Sweden,Services,34961,872976170
-179,Qualitest Pharmaceuticals,Oslo,Norway,Accounting,90918,6008134194
-180,AMOREPACIFIC,Qingquan,China,Training,164786,10872085922
-181,Cosmetic Enterprises Ltd.,Gyangqai,China,Research and Development,14164,813934260
-182,"SJ Creations, Inc.",Liutao,China,Product Management,165376,12866914304
-183,"Nelco Laboratories, Inc.",Kalmar,Sweden,Product Management,1809,62522658
-184,"Avon Products, Inc.",Orzech,Poland,Sales,141905,10668701710
-185,"NANDA CO., LTD.",Assiniboia,Canada,Accounting,53342,2699905330
-186,King Import Warehouse,Sanzao,China,Business Development,166661,8529209997
-187,Teva Pharmaceuticals USA Inc,Mengcheng Chengguanzhen,China,Business Development,55402,2116633410
-188,"Glenmark Generics Inc., USA",Mafra,Portugal,Human Resources,154219,3253866681
-189,Morgan Gallacher Inc.,Jiangshan,China,Sales,22360,518304800
-190,"Cover FX Skin Care, Inc.",Wukang,China,Engineering,198396,9282750444
-191,REMEDYREPACK INC.,Nyagla,China,Training,170881,15407143603
-192,Winthrop U.S.,Sokolniki,Poland,Business Development,179127,17565910128
-193,Greenstone LLC,Huaiya,China,Legal,41503,1656343227
-194,Aidarex Pharmaceuticals LLC,Stepnica,Poland,Human Resources,13556,395347184
-195,"Hospira, Inc.",Onsala,Sweden,Human Resources,169461,12542316993
-196,Seatex Ltd,Abashiri,Japan,Research and Development,117365,4711383195
-197,"Watson Laboratories, Inc.",Ludvika,Sweden,Product Management,170080,3423540320
-198,ProStat First Aid,Aulnay-sous-Bois,France,Marketing,157428,12971437488
-199,"Gent-l-kleen Products, Inc.",Xianyang,China,Accounting,138865,10901457960
-200,White's Inc.,Sandaoba,China,Product Management,34803,3082397301
-201,"TAI GUK PHARM. CO., LTD.",San Antonio,Mexico,Human Resources,121415,6242430810
-202,Contract Pharmacy Services-PA,Yangyong,China,Marketing,107214,9885345228
-203,"Nelco Laboratories, Inc.",Lindome,Sweden,Accounting,175231,16593324314
-204,"Gilead Sciences, Inc.",Jianggang,China,Accounting,108733,2068210393
-205,"Antigen Laboratories, Inc.",Shingū,Japan,Human Resources,34138,1633605714
-206,Reckitt Benckiser LLC,Dobrzyca,Poland,Human Resources,184884,14510805624
-207,"Mallinckrodt, Inc.",Hidalgo,Mexico,Research and Development,127302,5595686712
-208,Select Brand,Huaqiao,China,Research and Development,102157,8031889811
-209,Uriel Pharmacy Inc.,Yongning,China,Human Resources,65145,2944097985
-210,Neutrogena Corporation,Chadi,China,Marketing,174795,8163101295
-211,Mylan Pharmaceuticals Inc.,Baizhu,China,Training,193614,3761726406
-212,Bryant Ranch Prepack,Wantou,China,Legal,82064,1768971584
-213,"Allergy Laboratories, Inc.",Bouças,Portugal,Human Resources,140993,2931808442
-214,Walgreen Co,Moxi,China,Support,38690,1649199940
-215,"Nelco Laboratories, Inc.",Chenchang,China,Sales,27875,1386363125
-216,Wockhardt Limited,Yanliang,China,Research and Development,190234,16025121926
-217,"SPIRIT PHARMACEUTICALS,LLC",Jiujiang,China,Engineering,48875,2659826375
-218,"Physicians Total Care, Inc.",Bemposta,Portugal,Services,156865,14056515785
-219,"Nelco Laboratories, Inc.",Kristinehamn,Sweden,Sales,89920,2094056960
-220,Cardinal Health,Safara,Portugal,Sales,35577,1644155478
-221,JI Well Health Company,Rennes,France,Marketing,63117,3099234051
-222,"Watson Pharma, Inc.",Penelas,Portugal,Sales,170429,12077280656
-223,"Allergy Laboratories, Inc.",Osięciny,Poland,Sales,166694,13426868312
-224,"Medline Industries, Inc.",Ikaalinen,Finland,Support,151087,5420548299
-225,"Nelco Laboratories, Inc.",Dongjiao,China,Research and Development,7789,479763455
-226,Dr. Reddy's Laboratories Inc,Diaofeng,China,Product Management,148549,9889649675
-227,Cardinal Health,Fucheng,China,Research and Development,109682,9010047254
-228,Genzyme Corporation,Töreboda,Sweden,Legal,182346,14973706482
-229,"Upsher-Smith Laboratories, Inc.",Luoyang,China,Training,124439,8709610049
-230,WOOIL C&TECH.CORP,Yongjiang,China,Training,63466,5483335468
-231,"Aphena Pharma Solutions - Tennessee, Inc.",Wenshao,China,Human Resources,40064,3061650816
-232,AvPAK,Nankang,China,Services,198089,5867792358
-233,"ALK-Abello, Inc.",Daigo,Japan,Legal,129627,4073528475
-234,Save-A-Lot Food Stores Ltd,Chendian,China,Human Resources,13562,727804730
-235,"Taro Pharmaceuticals U.S.A., Inc.",Topeka,United States,Marketing,152999,5628986209
-236,Sandoz Inc,Vale,Georgia,Product Management,138438,12379264398
-237,"NCS HealthCare of KY, Inc dba Vangard Labs",Rudnik,Poland,Support,115576,3674161040
-238,"Johnson & Johnson Healthcare Products, Division of McNEIL-PPC, Inc.",Hongqi,China,Services,17944,1125770672
-239,"Ferndale Laboratories, Inc.",Chikeng,China,Business Development,34424,1783541864
-240,A-S Medication Solutions LLC,Jinsheng,China,Marketing,12952,1053204832
-241,Uriel Pharmacy Inc.,Xinhua,China,Marketing,3826,321353392
-242,"Physicians Total Care, Inc.",Arpajon,France,Support,138495,4690133175
-243,"ALK-Abello, Inc.",Finzes,Portugal,Human Resources,184810,14777962030
-244,GlaxoSmithKline Consumer Heathcare LP,Vitoria-Gasteiz,Spain,Legal,193944,5379424728
-245,"NANDA CO., LTD.",White City,Canada,Services,26619,526923105
-246,The Medicines Company,Hoorn,Netherlands,Services,96066,5856183360
-247,"HANLIM PHARM. CO., LTD.",Creil,France,Support,40099,3384796689
-248,"AvKARE, Inc.",Berck,France,Research and Development,22930,1732544940
-249,Baxter Healthcare Corporation,Gaotieling,China,Business Development,11248,1096027616
-250,Supervalu Inc,Fort Wayne,United States,Accounting,168741,12665024496
-251,TRP Company,Monte da Boavista,Portugal,Research and Development,114538,2701722344
-252,Save-A-Lot Food Stores Ltd,Guli,China,Legal,142393,9668911879
-253,GM Pharmaceuticals,Angered,Sweden,Sales,33015,2767284285
-254,Unit Dose Services,Naas,Ireland,Sales,129617,11274734745
-255,Meijer Distribution Inc,Montpellier,France,Marketing,33157,1522934167
-256,Major Pharmaceuticals,Tiechanggou,China,Marketing,2423,165059606
-257,Bryant Ranch Prepack,Runan,China,Training,88728,4387954512
-258,"Nelco Laboratories, Inc.",Dianzi,China,Services,40767,3575673570
-259,Qualitest Pharmaceuticals,Dąbie,Poland,Human Resources,62464,4141987840
-260,"BioChemics, Inc",Xin’an,China,Sales,60544,4423163008
-261,Unit Dose Services,Shangzhuang,China,Accounting,98531,1800851087
-262,Rebel Distributors Corp,Zhouzhuang,China,Services,119817,8177630067
-263,"DOLGENCORP, LLC",Portland,United States,Services,154547,8239055117
-264,S & S Drug Inc.,Xiangshui,China,Human Resources,68487,5320823517
-265,McKesson Packaging Services Business Unit of McKesson Corporation,Issy-les-Moulineaux,France,Research and Development,80340,1798250220
-266,"The Yeon Co., Ltd.",Arruda dos Vinhos,Portugal,Training,55843,1976116241
-267,A-S Medication Solutions LLC,Prince Edward,Canada,Research and Development,151910,6329178240
-268,Major Pharmaceuticals,Shaxi,China,Product Management,162212,8919551244
-269,"Imine Co., Ltd.",Xitiangezhuang,China,Engineering,59570,3137671040
-270,Bausch & Lomb Incorporated,Jiangkou,China,Services,143172,11622702960
-271,TYA Pharmaceuticals,Olho Marinho,Portugal,Support,176008,9937059664
-272,"MedVantx, Inc.",Makiyivka,Ukraine,Training,138458,4349242696
-273,"Preferred Pharmaceuticals, Inc.",Jiaotang,China,Human Resources,66927,4263450681
-274,Sandoz Inc,Sulechów,Poland,Human Resources,129321,6070586382
-275,"Golden State Medical Supply, Inc.",Chenzhouzhai,China,Legal,8940,554548200
-276,REMEDYREPACK INC.,Sens,France,Engineering,68574,3860441904
-277,Uriel Pharmacy Inc,Yinchuan,China,Support,62148,2174807112
-278,"Epic Pharma, LLC",Jinzao,China,Research and Development,192311,4509116017
-279,Baxter Healthcare Corporation,Huanglong,China,Legal,194706,8080688412
-280,Cadey S.r.l.,Tangkeng,China,Legal,31670,1330425030
-281,"Expro3, LLC",Valejas,Portugal,Product Management,157864,6626972856
-282,Vistakon Pharmaceuticals LLC,Cotovia,Portugal,Engineering,190051,17309655029
-283,"General Injectables & Vaccines, Inc",Lianghe,China,Sales,142629,7197344598
-284,"Silarx Pharmaceuticals, Inc",Gaoxing,China,Accounting,179250,11742129750
-285,"Roxane Laboratories, Inc",Jinhe,China,Product Management,175595,13524502495
-286,"PD-Rx Pharmaceuticals, Inc.",Chamalières,France,Business Development,14318,301436854
-287,Ventura International LTD.,Ul,Portugal,Services,84347,4410082895
-288,Wal-Mart Stores Inc,Ping’an,China,Training,71018,4552892962
-289,A-S Medication Solutions LLC,Jingchuan,China,Business Development,168714,10233516384
-290,"Victory Pharma, Inc.",Trąbki Wielkie,Poland,Training,196504,4156649112
-291,Cardinal Health,Babao,China,Training,72749,3819613496
-292,Ulta,Saint-Eustache,Canada,Product Management,183935,4045834260
-293,NorthStar Rx LLC,Zakupne,Ukraine,Product Management,92736,7278941376
-294,Becton Dickinson and Company,Lucé,France,Support,35625,2019973125
-295,Healing Natural Oils,Jiabei,China,Sales,59290,5069710030
-296,Sandoz Inc,Shuikou,China,Human Resources,9619,885977233
-297,Boots Retail USA Inc,San Francisco,Mexico,Human Resources,89059,4669897724
-298,B. Braun Medical Inc.,Virginia,Ireland,Human Resources,152948,11449687280
-299,Boscia LLC,Aihua,China,Accounting,37647,760808223
-300,"Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",Hufang,China,Product Management,22965,2141830725
-301,Topco Associates LLC,Uppsala,Sweden,Support,75794,6325464064
-302,"Nelco Laboratories, Inc.",Heze,China,Training,97662,4631132040
-303,Perrigo New York Inc,Jingtan,China,Product Management,143387,5812192045
-304,HOMEOLAB USA INC.,Junchuan,China,Human Resources,187326,11101126086
-305,"Lannett Company, Inc.",Washington,United States,Product Management,154165,13604907085
-306,Rite Aid,Wingham,Canada,Training,105935,7967583220
-307,"Physicians Total Care, Inc.",Huoli,China,Legal,64426,4018571750
-308,"Nelco Laboratories, Inc.",Toshkivka,Ukraine,Support,182176,17897152416
-309,Wal-Mart Stores Inc,Sihe,China,Engineering,166911,12032613990
-310,B. Braun Medical Inc.,Lons-le-Saunier,France,Support,187486,5792379970
-311,The Medicines Company,Uppsala,Sweden,Product Management,79305,4253127150
-312,Aidarex Pharmaceuticals LLC,Torbay,Canada,Services,157215,14412842340
-313,"Dispensing Solutions, Inc.",Xiangyangpu,China,Business Development,130726,12191898938
-314,STAT RX USA LLC,Truskolasy,Poland,Support,20722,1720713436
-315,"Integra Health International, S.A. de C.V.",Jingjiang,China,Marketing,26964,2479285872
-316,Cardinal Health,Västerås,Sweden,Sales,11779,215873733
-317,"Xttrium Laboratories, Inc.",Lindian,China,Training,127204,9733904488
-318,AGILA SPECIALTIES PRIVATE LIMITED,Arras,France,Support,179368,11612284320
-319,"Taro Pharmaceuticals U.S.A., Inc.",Chwałowice,Poland,Engineering,133718,6509927112
-320,Apotex Corporation,Leeds,United Kingdom,Services,98205,6329115840
-321,"AvKARE, Inc.",Onomichi,Japan,Research and Development,840,53129160
-322,"Akorn, Inc.",Shuanghejiedao,China,Business Development,73122,3907859046
-323,"Amneal Pharmaceuticals, LLC",Xianshui,China,Legal,118311,11092602738
-324,"ALK-Abello, Inc.",Fox Creek,Canada,Sales,44682,2266851906
-325,Ventura International LTD.,Rochester,United States,Marketing,69727,1578131191
-326,Insight Pharmaceuticals LLC,Yanwo,China,Services,13945,1208320305
-327,Qualitest Pharmaceuticals,Oubei,China,Marketing,45295,2646315080
-328,Aurobindo Pharma Limited,Vicente Guerrero,Mexico,Product Management,170706,7737078744
-329,Fresenius Medical Care North America,Połaniec,Poland,Sales,97988,8212178304
-330,Wal-Mart Stores Inc,Augustów,Poland,Training,149286,5335929498
-331,Uriel Pharmacy Inc.,Caijiang,China,Sales,158769,2995335954
-332,Uriel Pharmacy Inc.,Hultsfred,Sweden,Business Development,189415,7507652940
-333,"Tom's of Maine, Inc.",Matviyivka,Ukraine,Human Resources,111680,10977473920
-334,Target Corp,Paris 15,France,Training,131033,10239311719
-335,Apotex Corp,Albany,United States,Human Resources,55157,3356965334
-336,McKesson,New York City,United States,Marketing,64628,5901635076
-337,Lake Erie Medical DBA Quality Care Products LLC,Dubu,China,Business Development,98720,8073222880
-338,The Procter & Gamble Manufacturing Company,Xiaoguwei,China,Business Development,180551,10027260887
-339,"Gordon Laboratories, Inc",Dahe,China,Sales,30174,1454929932
-340,Bryant Ranch Prepack,Atlanta,United States,Product Management,75322,5776444180
-341,"Antigen Laboratories, Inc.",Linxia Chengguanzhen,China,Research and Development,68460,4119443580
-342,"International Labs, Inc.",Chornoliztsi,Ukraine,Training,107839,3617243577
-343,Cardinal Health,Bulongji,China,Services,56349,2120525568
-344,Omega Tech Labs Inc.,Matsutō,Japan,Human Resources,63551,3346976966
-345,"Nelco Laboratories, Inc.",Dake,China,Engineering,20398,1868110034
-346,Purminerals,Tartu,Estonia,Training,168007,8068704182
-347,Covis Pharmaceuticals Inc,San Antonio,United States,Training,100167,3867447870
-348,"SJ Creations, Inc.",Strasbourg,France,Engineering,104647,7105426653
-349,"Mallinckrodt, Inc.",Leshan,China,Product Management,118055,4058022570
-350,The Wellness Center,Janakkala,Finland,Product Management,37402,2281447196
-351,Safeway,Taiyang,China,Human Resources,132657,8056126953
-352,"Nelco Laboratories, Inc.",Söderköping,Sweden,Business Development,171725,10639222375
-353,Provision Medical,Karis,Finland,Engineering,7848,351927864
-354,American Sales Company,Fornos,Portugal,Product Management,180428,15873153300
-355,Jafra Cosmetics International Inc,Jamaica,United States,Engineering,8232,819256872
-356,"AvKARE, Inc.",Wadi,China,Product Management,181835,5497417555
-357,Western Family Foods Inc,Ximei,China,Business Development,90497,7948351510
-358,WOCKHARDT LIMITED,Orvalho,Portugal,Accounting,70964,6594613556
-359,Wockhardt USA LLC.,Xiawa,China,Business Development,180318,14921675136
-360,Rebel Distributors Corp.,Przystajń,Poland,Sales,70281,6096525345
-361,Sandoz Inc,Monte Redondo,Portugal,Business Development,78223,6116021701
-362,Bayer HealthCare Consumer Care,Krajenka,Poland,Support,14077,900055226
-363,Apotex Corp.,Laojiangjunjie,China,Human Resources,13736,371311552
-364,Geritrex Corp.,Miami,United States,Accounting,128338,3232192530
-365,"Watson Laboratories, Inc.",Midões,Portugal,Research and Development,146734,7108381896
-366,B. Braun Medical Inc.,Bobowa,Poland,Services,33977,2278123873
-367,Sanum Kehlbeck GmbH & Co. KG,Rentian,China,Marketing,29549,1131253916
-368,H E B,Chumen,China,Accounting,166010,8301496060
-369,"American Regent, Inc.",Xialu,China,Legal,111640,6412713240
-370,Bryant Ranch Prepack,Nanyang,China,Business Development,75182,3788120252
-371,ABT Belli-Materna Inc,Jingling,China,Sales,85148,6473291552
-372,"ALK-Abello, Inc.",Kasama,Japan,Legal,67292,1575440304
-373,Cardinal Health,Hucheng,China,Accounting,136733,4823666774
-374,Sandoz Inc,Takanini,New Zealand,Legal,154203,12517428525
-375,"Hi-Tech Pharmacal Co., Inc.",Xishiqiao,China,Marketing,84961,6609965800
-376,CVS Pharmacy,Beigao,China,Research and Development,54956,1622740768
-377,Cardinal Health,Gonghe,China,Sales,94763,6006931807
-378,"H.J. Harkins Company, Inc.",Leiden,Netherlands,Engineering,27918,1618936902
-379,"Newton Laboratories, Inc.",Maguan,China,Sales,68352,5853323520
-380,Unit Dose Services,Yilan,China,Human Resources,26067,1290394701
-381,REMEDYREPACK INC.,HanHuang,China,Services,17539,631526773
-382,"Stephen L. LaFrance Pharmacy, Inc.",Sanshandao,China,Accounting,40928,4031408000
-383,Jubilant HollisterStier LLC,Nacka,Sweden,Services,69470,6760403580
-384,"Chattem, Inc.",Pisz,Poland,Sales,28056,2514098160
-385,Energizer Personal Care LLC,Vilarinho das Cambas,Portugal,Engineering,51465,2895420900
-386,H E B,Cepões,Portugal,Services,165877,9559657387
-387,"Watson Laboratories, Inc.",Södertälje,Sweden,Legal,96653,8676443157
-388,Oceanside Pharmaceuticals,Bantry,Ireland,Engineering,21758,2031609734
-389,Cardinal Health,Várzea,Portugal,Research and Development,142542,5921622306
-390,"Advanced Beauty Systems, Inc.",T’ianet’i,Georgia,Product Management,65224,4677278264
-391,"Monarch Pharmaceuticals, Inc.",Torreira,Portugal,Research and Development,66097,5907617666
-392,Lake Erie Medical DBA Quality Care Products LLC,St. Thomas,Canada,Marketing,59699,2746870388
-393,"Medimetriks Pharmaceuticals, Inc.",Raszowa,Poland,Support,198003,4219245927
-394,"PD-Rx Pharmaceuticals, Inc.",Henglu,China,Marketing,77827,3038599561
-395,Mary Kay Inc.,Waterbury,United States,Product Management,102902,2597143578
-396,"Watson Pharma, Inc.",Xiangang,China,Engineering,75885,3309268965
-397,Sagent Pharmaceticals,Farnham,Canada,Services,80862,4450644480
-398,Cardinal Health,Lüjiabao,China,Product Management,14673,272888454
-399,"Akorn, Inc.",Huangshan,China,Legal,134582,7032582410
-400,"ALK-Abello, Inc.",Lianghe,China,Training,54093,4876754415
-401,REMEDYREPACK INC.,La Loma,Mexico,Support,32295,2793743565
-402,"Hospira, Inc.",Obodivka,Ukraine,Services,121137,4982243673
-403,Aaron Industries Inc.,Laidian,China,Engineering,159996,10812529680
-404,"ALK-Abello, Inc.",Jifeng,China,Training,129594,3681117570
-405,Sanum Kehlbeck GmbH & Co. KG,Jubaoshan,China,Human Resources,143400,8129059200
-406,"Glenmark Generics Inc.,USA",Donglinxi,China,Business Development,167739,16194697233
-407,Ventura Corporation LTD.,Hamburg,Germany,Legal,148283,14499408306
-408,Clinical Solutions Wholesale,Alunda,Sweden,Accounting,37684,1860986656
-409,"BioActive Nutritional, Inc.",Geldrop,Netherlands,Human Resources,182315,3316674480
-410,Access Business Group LLC,Yokotemachi,Japan,Business Development,111152,2022966400
-411,Merck Sharp & Dohme Corp.,Chengyue,China,Services,67432,6281290800
-412,Procter & Gamble Manufacturing Company,Huangling,China,Legal,168915,5429603760
-413,"Teva Parenteral Medicines, Inc.",Palermo,Italy,Research and Development,43966,3797563250
-414,"PD-Rx Pharmaceuticals, Inc.",Dongjiahe,China,Training,21966,590424114
-415,Baxter Healthcare Corporation,Pu’an,China,Services,35627,915150749
-416,Conopco Inc. d/b/a Unilever,Juanshui,China,Human Resources,111158,4457880432
-417,"Molnlycke Health Care US, LLC",Shuntian,China,Engineering,60529,2880454052
-418,Mylan Pharmaceuticals Inc.,Tiexi,China,Sales,194506,5652344360
-419,Dukal Corporation,Houston,United States,Services,37819,3325462489
-420,"SJ Creations, Inc.",Huating,China,Legal,107560,10510763200
-421,"Allergy Laboratories, Inc.",Xinquansi,China,Marketing,124390,12303290510
-422,Kroger Company,Maszewo Duże,Poland,Marketing,169107,6719804859
-423,Rebel Distributors Corp,Huangzhawan,China,Marketing,160463,6671409688
-424,Mylan Pharmaceuticals Inc.,Schenectady,United States,Legal,171513,3988191789
-425,Jubilant HollisterStier LLC,Chełm,Poland,Engineering,134560,4983564160
-426,CleanWell,Henan’an,China,Product Management,45442,2539798822
-427,Contract Pharmacy Services-PA,Rongdoi,China,Legal,6192,145623456
-428,"Hospira, Inc.",Wilkołaz,Poland,Training,191148,8414143812
-429,"New World Imports, Inc",Wenquan,China,Training,184771,11338472415
-430,Bryant Ranch Prepack,Ningshan Chengguanzhen,China,Engineering,32409,1035467550
-431,Chain Drug Consortium LLC,Quimper,France,Product Management,28895,1125026825
-432,Mylan Pharmaceuticals Inc.,St. Catharines,Canada,Legal,50162,1464981210
-433,"Hospira, Inc.",Tymbark,Poland,Accounting,124898,5950640312
-434,A-S Medication Solutions LLC,Masaki-chō,Japan,Engineering,134164,7536528536
-435,"Nosmo Co., Ltd",Tangkeng,China,Training,10453,218101845
-436,REMEDYREPACK INC.,Longshan,China,Training,123318,7360234830
-437,WALGREEN COMPANY,Tunggar,China,Engineering,126280,10207970080
-438,H.E.B.,Ehu,China,Sales,92994,2233343904
-439,"Physicians Total Care, Inc.",Alquerubim,Portugal,Marketing,40622,2228929140
-440,Cardinal Health,Zhanggongmiao,China,Research and Development,191736,11633965272
-441,Delta Brands Inc,Wrocław,Poland,Sales,106425,6376028175
-442,"Glenmark Generics Inc., USA",Kolomak,Ukraine,Research and Development,42549,799538259
-443,Fabrication Enterprises,Cheyenne,United States,Legal,172670,8607254160
-444,THE KROGER CO,Corpus Christi,United States,Sales,69999,2810109855
-445,"Ajes Pharmaceuticals,LLC",Huixing,China,Business Development,148961,11704014731
-446,Family Dollar,Huiqi,China,Sales,130797,2864585097
-447,"Physicians Total Care, Inc.",Lyon,France,Research and Development,111179,3013951511
-448,Publix Super Markets Inc,Laojunmiao,China,Marketing,43414,3110960412
-449,"Dasan E&T Co., Ltd.",Dongchuan,China,Sales,140315,4654248550
-450,"Dental Technologies, Inc.",Palma De Mallorca,Spain,Sales,149477,8146347023
-451,Ricola USA Inc.,Chynów,Poland,Research and Development,112551,10611308280
-452,Cadila Healthcare Limited,Maoping,China,Services,175161,8590070601
-453,REMEDYREPACK INC.,Hutang,China,Marketing,151847,6940318982
-454,"Actavis Pharma, Inc.",Penelas,Portugal,Services,158044,15730119320
-455,"Physicians Total Care, Inc.",Lindavista,Mexico,Human Resources,156819,8273299983
-456,"Hankuk Bowonbio Co., Ltd",Katwijk,Netherlands,Human Resources,183230,13079323860
-457,American Health Packaging,Young America,United States,Research and Development,146507,10873603033
-458,"Hospira, Inc.",Giesteira,Portugal,Product Management,99901,3093134762
-459,Midlothian Laboratories,Rochester,United States,Research and Development,100996,4280008488
-460,Carilion Materials Management,Zlynka,Ukraine,Product Management,153842,9122984442
-461,Zermat Internacional S.A. de C.V.,Mértola,Portugal,Engineering,45831,1899465795
-462,Rite Aid Corporation,Heshang,China,Research and Development,37623,2405990850
-463,"Rugby Laboratories, Inc",Leyuan,China,Legal,118273,4991593692
-464,A-S Medication Solutions LLC,Tours,France,Training,144248,2844570560
-465,Bryant Ranch Prepack,Sokółka,Poland,Research and Development,176361,13812417159
-466,West-ward Pharmaceutical Corp,Ribeiro,Portugal,Accounting,95662,8562418634
-467,"Physicians Total Care, Inc.",Flushing,United States,Human Resources,106150,4816343950
-468,Rite Aid Pharmacy,Hengfeng,China,Engineering,72334,1308449726
-469,"Sun & Skin Care Research, LLC",Skarbimierz Osiedle,Poland,Human Resources,78673,7434047789
-470,Ventura Corporation LTD.,Couço,Portugal,Training,120956,3274278920
-471,"Boehringer Ingelheim Pharmaceuticals, Inc.",Angers,France,Training,50401,4088932328
-472,Clinical Solutions Wholesale,Yaizu,Japan,Services,67984,1993902736
-473,MedCare Group LLC,Huogezhuang,China,Product Management,152414,8155063484
-474,Zydus Pharmaceuticals (USA) Inc.,Saint Augustine,United States,Product Management,82221,2110448628
-475,"Navidea Biopharmaceuticals, Inc.",Béthune,France,Legal,179269,3379041381
-476,"Nelco Laboratories, Inc.",Trollhättan,Sweden,Accounting,100952,1972803984
-477,"ALK-Abello, Inc.",Tiegai,China,Product Management,121729,5675249438
-478,Apotex Corp,Liandu,China,Support,89954,7406902314
-479,"Preferred Pharmaceuticals, Inc.",Shimodate,Japan,Training,104327,6092696800
-480,Cardinal Health (Leader),Tangzhuang,China,Legal,129061,5403913131
-481,"Physicians Total Care, Inc.",Shayu,China,Product Management,76807,1684070282
-482,"IVAX Pharmaceuticals, Inc.",Xiadong,China,Human Resources,65412,2725652628
-483,St Marys Medical Park Pharmacy,Hepo,China,Training,144107,7723414665
-484,"ALK-Abello, Inc.",Kosmach,Ukraine,Sales,122762,11158329228
-485,"Allergy Laboratories, Inc.",Wierzchowo,Poland,Accounting,102201,7320759831
-486,Baxter Healthcare Corporation,Ehu,China,Engineering,169761,6776519598
-487,"Watson Pharma, Inc.",Lingcheng,China,Sales,160004,4145223628
-488,Amerisource Bergen,Hässelby,Sweden,Training,79112,3563441816
-489,"Ventura Corporation (San Juan, P.R)",Huoqiu Chengguanzhen,China,Legal,34683,1470038955
-490,A-S Medication Solutions LLC,La Palma,Mexico,Sales,29448,1080329328
-491,Northwind Pharmaceuticals,Nantes,France,Marketing,135303,10271391942
-492,"NCS HealthCare of KY, Inc dba Vangard Labs",Foros de Salvaterra,Portugal,Marketing,141550,13955556050
-493,"New Horizon Rx Group, LLC",Bagnolet,France,Human Resources,122040,4202203320
-494,United Exchange Corp.,Yuecheng,China,Human Resources,62377,2971453149
-495,L'Oreal USA Products Inc,Liulihe,China,Accounting,193874,5388146208
-496,McKesson,Wanganui,New Zealand,Services,183918,12115966086
-497,Uriel Pharmacy Inc,Stockholm,Sweden,Engineering,135210,5825928480
-498,"Nelco Laboratories, Inc.",Portland,United States,Engineering,195406,8620726502
-499,"Everett Laboratories, Inc.",Mulhouse,France,Engineering,49712,3700958976
-500,"Zila Therapeutics, Inc.",Marttila,Finland,Training,24657,2274361680
-501,"Preferred Pharmaceuticals, Inc.",Yipeng,China,Product Management,113560,8666672080
-502,Greenstone LLC,Santa Cruz das Flores,Portugal,Accounting,43471,3738071290
-503,Rite Aid Corporation,Chengdong,China,Accounting,152177,14566230263
-504,"Amneal Pharmaceuticals, LLC",Pokotylivka,Ukraine,Accounting,179677,9026433449
-505,"CVS Pharmacy, Inc",Belfort,France,Human Resources,126982,6460463214
-506,Major Pharmaceuticals,Rivne,Ukraine,Sales,71571,1918317513
-507,"NCS HealthCare of KY, Inc dba Vangard Labs",Chong’ansi,China,Services,184463,17696273442
-508,"Par Pharmaceutical, Inc.",Baoxing,China,Research and Development,148913,6793113234
-509,Procter & Gamble Manufacturing Co.,Tukhlya,Ukraine,Legal,100581,7116407493
-510,"Norco, Inc.",El Mirador,Mexico,Support,199703,16968164801
-511,"Golden State Medical Supply, Inc.",Kouzhen,China,Legal,184391,9727362814
-512,Keltman Pharmaceuticals Inc.,Xinzhaiping,China,Sales,21237,871439058
-513,Dynamic Pharmaceuticals Inc.,Kallinge,Sweden,Human Resources,144417,9504804855
-514,BJWC,Yushu,China,Accounting,94976,7996504320
-515,"Geri-Care Pharmaceuticals, Corp",Xinxing,China,Marketing,105654,7389863376
-516,"Liddell Laboratories, Inc.",Midland,United States,Research and Development,191206,16899933516
-517,REMEDYREPACK INC.,Yancheng,China,Legal,100963,2217248443
-518,"Vivus, Inc.",Cavadas,Portugal,Research and Development,97238,7385128862
-519,Bryant Ranch Prepack,Rättvik,Sweden,Sales,187697,6798573037
-520,STAT Rx USA LLC,Skurup,Sweden,Accounting,19796,559771492
-521,"Ecometics, Inc",Luopu,China,Support,34687,1952947474
-522,Rebel Distributors Corp,Jefferson City,United States,Legal,111765,8563546065
-523,"General Injectables & Vaccines, Inc",Yulin,China,Sales,143421,7689660336
-524,Mission Pharmacal Company,Yushanpu,China,Engineering,155753,14336284885
-525,Jubilant HollisterStier LLC,Longwu,China,Accounting,126818,5406504976
-526,"Airgas Merchant Gases, LLC",Jiuzhou,China,Support,165481,5998851731
-527,MISSION PHARMACAL COMPANY,Zeewolde,Netherlands,Support,17887,1703969281
-528,"Eon Labs, Inc.",Borås,Sweden,Accounting,14827,302796994
-529,"UCB, Inc.",Jiangzao,China,Support,13239,955763127
-530,Cantrell Drug Company,Borlänge,Sweden,Training,55692,1966707288
-531,"Aphena Pharma Solutions - Tennessee, Inc.",Liaobu,China,Marketing,18466,631352540
-532,"Hisamitsu Pharmaceutical Co., Inc.",Roskoshnyy,Ukraine,Legal,91289,8556152814
-533,"Sun & Skin Care Research, LLC",Sanhu,China,Marketing,102532,6825657772
-534,"Shopko Stores Operating Co., LLC",Yangchao,China,Business Development,88679,1992173735
-535,Par Pharmaceutical Inc,Umeå,Sweden,Marketing,130841,9563822895
-536,Rebel Distributors Corp,Złotoryja,Poland,Product Management,143765,4032895780
-537,Walgreen Company,Kalynivka,Ukraine,Marketing,88213,6328400620
-538,"Menper Distributors, Inc.",Xianyuan,China,Engineering,129965,9159283375
-539,Meijer Distribution Inc,Huanghuai,China,Marketing,49109,2555583251
-540,"Ventura Corporation (San Juan, P.R)",Isidro Fabela,Mexico,Human Resources,63080,1499537760
-541,"Physicians Total Care, Inc.",Ōtsuchi,Japan,Support,38754,1058449248
-542,Bryant Ranch Prepack,Caldas da Rainha,Portugal,Legal,155037,13801703814
-543,"New World Imports, Inc",Anchorage,United States,Engineering,34516,2710506964
-544,Pharmacia and Upjohn Company,Eaubonne,France,Business Development,4391,190964590
-545,"NCS HealthCare of KY, Inc dba Vangard Labs",Yandang,China,Accounting,64681,1618706706
-546,"Nelco Laboratories, Inc.",Daye,China,Services,41076,1700751780
-547,"ALK-Abello, Inc.",Aurillac,France,Product Management,75575,6833869375
-548,"H&H Laboratories, Inc.",Quebradas,Portugal,Business Development,88187,3960919105
-549,Safeway,Binzhou,China,Accounting,8080,402699120
-550,"Supervalu, Inc",Jiangkou,China,Training,28497,622516965
-551,REMEDYREPACK INC.,Fundão,Portugal,Marketing,108775,5884292400
-552,McKesson,Umeå,Sweden,Services,124865,11991535140
-553,Sandoz Inc.,Beiling,China,Research and Development,119897,3546193569
-554,"Nelco Laboratories, Inc.",Grodków,Poland,Sales,195932,17661506412
-555,"LG Household and Healthcare, Inc.",Columbus,United States,Training,146846,12178232472
-556,"Dispensing Solutions, Inc.",Lüxiang,China,Research and Development,129966,12952801458
-557,Gurwitch Products,Setaka,Japan,Research and Development,32514,1109865390
-558,Heel Inc,Amqui,Canada,Human Resources,152394,5185510638
-559,"APP Pharmaceuticals, LLC",Hekou,China,Support,155065,6899307045
-560,"Vivier Pharma, Inc.",Vilares,Portugal,Marketing,169841,10349261335
-561,Kremers Urban Pharmaceuticals Inc.,Duas Igrejas,Portugal,Legal,197566,15293979192
-562,Northstar RxLLC,Montalvão,Portugal,Accounting,109661,3460462516
-563,"Eon Labs, Inc.",Venda do Alcaide,Portugal,Business Development,7405,167367810
-564,B. Braun Medical Inc.,Jiuxian,China,Sales,178307,3585753770
-565,Delta Brands Inc,Laiwu,China,Product Management,70530,2380387500
-566,"Solco healthcare U.S., LLC",Kisai,Japan,Marketing,196764,16656466128
-567,"Bare Escentuals Beauty, Inc.",Benito Juarez,Mexico,Human Resources,184270,7506238450
-568,"Menper Distributors, Inc.",Nielisz,Poland,Human Resources,113911,3635811298
-569,Western Family Foods Inc,Chiguang,China,Human Resources,33525,1658716425
-570,Legacy Pharmaceutical Packaging,Nanyang,China,Product Management,4788,378381276
-571,"Physicians Total Care, Inc.",Imari,Japan,Legal,124446,12368687940
-572,"X-GEN Pharmaceuticals, Inc.",Nuoxizhi,China,Research and Development,92484,2924991468
-573,Rimmel Inc.,El Mirador,Mexico,Engineering,131880,8990787120
-574,Cardinal Health,Mrągowo,Poland,Human Resources,46089,1575967266
-575,Jubilant HollisterStier LLC,Loma Alta,Mexico,Research and Development,3843,228650814
-576,RiteAid,Haizigou,China,Services,68618,6736229060
-577,Mylan Pharmaceuticals Inc.,Luzhou,China,Business Development,25208,1376003888
-578,Rising Pharmaceuticals Inc,Sollebrunn,Sweden,Training,162464,7379114880
-579,Novartis Pharmaceuticals Corporation,Canedo,Portugal,Product Management,92487,3989889180
-580,"Physicians Total Care, Inc.",Birmingham,United States,Marketing,113815,2721316650
-581,"Nelco Laboratories, Inc.",Abastumani,Georgia,Human Resources,156045,6660312690
-582,"ALK-Abello, Inc.",Asahikawa,Japan,Engineering,172060,14805935060
-583,Georgia-Pacific Consumer Products LP,Yangshuo,China,Product Management,105506,9328312990
-584,Cardinal Health,Racine,United States,Human Resources,148956,10150159752
-585,Clinical Solutions Wholesale,Albany,United States,Training,62305,1192206175
-586,"SHISEIDO CO., LTD.",Rungis,France,Services,175886,5661594454
-587,Arcet Equipment Company,Lerum,Sweden,Product Management,45538,1451387136
-588,"Mutual Pharmaceutical Company, Inc.",Korostyshiv,Ukraine,Support,54738,1117585746
-589,Ricola USA Inc.,Kanekomachi,Japan,Accounting,61358,3883715968
-590,"Stephen L. LaFrance Pharmacy, Inc.",Serednye Vodyane,Ukraine,Engineering,84961,2476443228
-591,Energizer Personal Care LLC,Turku,Finland,Services,140002,13481492590
-592,"Native Remedies, LLC",Berthierville,Canada,Marketing,4598,292405212
-593,sanofi-aventis U.S. LLC,Huangtang,China,Support,92679,4787148387
-594,"Antigen Laboratories, Inc.",Jingtan,China,Accounting,91430,4864350290
-595,Aidarex Pharmaceuticals LLC,Zhoutou,China,Product Management,182907,15077755638
-596,Ventura Corporation LTD,Brest,France,Legal,36819,1314475119
-597,"Galderma Laboratories, L.P.",Majin,China,Legal,60113,4465133527
-598,REMEDYREPACK INC.,Tokuyama,Japan,Services,190091,16907263813
-599,"Nasal and Sinus Health, Inc.",Jingyu,China,Legal,170882,16618103618
-600,Mylan Institutional Inc.,Sanban,China,Accounting,161698,14711607436
-601,"NCS HealthCare of KY, Inc dba Vangard Labs",Valbo,Sweden,Training,50591,1903941694
-602,Rebel Distributors Corp,Zihu,China,Product Management,18625,830675000
-603,Bayer HealthCare Consumer Care,Dushan,China,Engineering,95361,2608504794
-604,Ei Inc.,Kambaxoi,China,Marketing,4675,296867175
-605,"Shopko Stores Operating Co., LLC",Lutun,China,Engineering,127173,6649876170
-606,"NCS HealthCare of KY, Inc dba Vangard Labs",Xiangyangpu,China,Human Resources,17403,1333504875
-607,Jubilant HollisterStier LLC,Jialu,China,Legal,192680,15301489520
-608,Apotex Corp.,Göteborg,Sweden,Research and Development,148742,11652299538
-609,McKesson,Hebu,China,Business Development,33725,714362950
-610,Meijer Distribution Inc,Sosnówka,Poland,Product Management,153110,3569912760
-611,"Excellium Pharmaceutical, Inc",Cookshire-Eaton,Canada,Legal,134974,9511617780
-612,"Cephalon, Inc.",Stockholm,Sweden,Marketing,100420,7081618400
-613,Lake Erie Medical DBA Quality Care Products LLC,Saiki,Japan,Human Resources,124934,8235399412
-614,Carilion Materials Management,Taiping,China,Sales,26935,1636651405
-615,ESTEE LAUDER INC,Xiali,China,Training,154438,14278101976
-616,Mylan Institutional LLC,Fermelã,Portugal,Services,84942,5256550728
-617,McKesson,Västerås,Sweden,Business Development,14896,804428688
-618,"Hospira, Inc.",New York City,United States,Human Resources,67066,3904716652
-619,Uriel Pharmacy Inc.,Hualin,China,Legal,112735,6785519650
-620,Hannaford Brothers Company,Huangli,China,Business Development,168675,6237432825
-621,Mylan Institutional Inc.,Raglan,New Zealand,Human Resources,92937,8904944529
-622,Rebel Distributors Corp,Rockford,United States,Training,47258,913260850
-623,GUILIN TIANHE PHARMACEUTICAL CO LTD,Soest,Netherlands,Research and Development,154451,8055237454
-624,"Ascend Laboratories, LLC",Tiebiancheng,China,Sales,160842,12265650078
-625,AvPAK,Minamata,Japan,Services,168118,11889809314
-626,Cadila Healthcare Limited,Osielec,Poland,Services,166819,5934919563
-627,Lineage Therapeutics Inc,Zhoujiang,China,Product Management,130984,2505330968
-628,Uriel Pharmacy Inc.,Yejia,China,Services,170186,5673831054
-629,Baxter Healthcare Corporation,Niwiska,Poland,Services,72225,2389708575
-630,"Physicians Total Care, Inc.",Zhongben,China,Training,148908,11458470600
-631,Rebel Distributors Corp,Caen,France,Sales,188679,12835643691
-632,Cantrell Drug Company,Huangyang,China,Engineering,125285,3355508155
-633,"Jets, Sets, & Elephants Beauty Corp.",Sodankylä,Finland,Legal,66568,1984325512
-634,HA U DONG CHUN,Huanggang,China,Business Development,131571,4404865509
-635,Major Pharmaceuticals,Oliveira,Portugal,Sales,57440,4851612160
-636,REMEDYREPACK INC.,Pengbu,China,Accounting,28678,2824553576
-637,"Otsuka America Pharmaceutical, Inc.",Taifu,China,Accounting,151660,3040176360
-638,"Hospira, Inc.",Komono,Japan,Training,78768,4459292784
-639,Cardinal Health,San Miguel,Mexico,Support,149013,7661354382
-640,Krogers,Morelos,Mexico,Research and Development,168560,8883954800
-641,Kmart Corporation,Fort Worth,United States,Services,29509,712701368
-642,"Bath & Body Works, Inc.",Gujiadian,China,Legal,93512,3146024216
-643,Unit Dose Services,Dammarie-les-Lys,France,Sales,148687,6241880260
-644,Calmoseptine Inc.,Rybczewice,Poland,Accounting,198764,13392320792
-645,Teva Pharmaceuticals USA Inc,Jiaoqi,China,Human Resources,101850,7783784400
-646,"PD-Rx Pharmaceuticals, Inc.",Göteborg,Sweden,Research and Development,94325,9221306325
-647,"Aphena Pharma Solutions - Tennessee, LLC",Bordeaux,France,Product Management,192248,7497864248
-648,Rite Aid Corporation,Hepingyizu,China,Sales,197217,16519093137
-649,Rebel Distributors Corp,Songshi,China,Training,98192,4789903952
-650,Lancaster S.A.M.,Huazhu,China,Support,30409,1206994028
-651,Milk & Co Pty Ltd,Shahe,China,Legal,35710,3322137010
-652,"Valu Merchandisers, Co.",Baoshan,China,Research and Development,198680,16029899760
-653,Novartis Pharmaceuticals Corporation,Baoxing,China,Support,34330,1109339620
-654,"HAGER WORLDWIDE, INC.",Reguenga,Portugal,Services,131527,4752596618
-655,The Procter & Gamble Manufacturing Company,Bytkiv,Ukraine,Product Management,185617,6228935286
-656,"MedVantx, Inc.",Yousheng,China,Product Management,186352,9289833552
-657,"Blu Pharmaceuticals, LLC",Gaoyan,China,Engineering,87929,5554123214
-658,Kamins Dermatologics Inc.,Achadinha,Portugal,Training,136357,6050705518
-659,Jafra Cosmetics International Inc,Sala,Sweden,Services,193424,9751277536
-660,Gadal Laboratories Inc,Masaki-chō,Japan,Engineering,101995,7711229980
-661,"Bath & Body Works, Inc.",Gejiu,China,Business Development,73003,1954728328
-662,STAT Rx USA LLC,Tangyu,China,Business Development,27264,984802944
-663,"Aidance Skincare & Topical Solutions, LLC",Jiulong,China,Support,126319,12305491704
-664,"Vitality Works, Inc.",Kiukainen,Finland,Product Management,34031,1326936752
-665,Jubilant HollisterStier LLC,Zhangjiayuan,China,Training,181787,11073191531
-666,"American Regent, Inc.",Pedroso,Portugal,Marketing,127128,5023335792
-667,HEB,Mubo,China,Sales,69602,6597225570
-668,NARTEX LABORATORIOS HOMEOPATICOS SA DE CV,Mengdadazhuang,China,Marketing,142073,6549991519
-669,Bonita Pharmaceuticals LLC,Xumu,China,Support,35134,1674837780
-670,"Blenheim Pharmacal, Inc.",Xuji,China,Engineering,97725,8897763525
-671,"Deseret Biologicals, Inc.",Shadili,China,Training,146267,11056029996
-672,Crosstex International Inc.,San Antonio,United States,Research and Development,74848,5838817632
-673,Aurobindo Pharma Limited,Sunzhuang,China,Engineering,197909,11873154637
-674,Unit Dose Services,Nanwai,China,Marketing,61120,1117395840
-675,Baxter Healthcare Corporation,Villejuif,France,Legal,135652,6071919172
-676,Amerisource Bergen,Francisco Villa,Mexico,Human Resources,10932,927099192
-677,"Antigen Laboratories, Inc.",Sambir,Ukraine,Training,94045,2012657045
-678,"Allergy Laboratories, Inc.",Gaula,Portugal,Marketing,30496,2418210816
-679,Ranbaxy Pharmaceuticals Inc.,Ath,Belgium,Support,90365,2778814115
-680,"Vitality Works, Inc.",Nanshan,China,Legal,111978,10180591848
-681,"ECI Pharmaceuticals, LLC",Xiashu,China,Training,67605,2002662915
-682,"Safetec of America, Inc.",Nancheng,China,Marketing,155839,7271759418
-683,Meijer Distribution Inc,Colorado Springs,United States,Product Management,92218,5810102872
-684,Cardinal Health,Tanxi,China,Marketing,161816,11050576456
-685,"ProPhase Labs, Inc.",Trinaterra,Portugal,Legal,166493,13251177870
-686,Walgreen Company,Chamalières,France,Sales,60321,5844079443
-687,Walgreens,Magisterial,Mexico,Sales,143969,7342850907
-688,American Health Packaging,Milwaukee,United States,Human Resources,98601,2527636635
-689,"Preferred Pharmaceuticals, Inc",Bolembre,Portugal,Training,15954,1174581342
-690,"Allergy Laboratories, Inc.",Longquan,China,Engineering,6628,339181272
-691,"EQUATE (Walmart Stores, Inc.)",Kainan,Japan,Training,171681,8687917005
-692,Rij Pharmaceutical Corporation,Isawa,Japan,Accounting,152498,4651493996
-693,L'Oreal USA Products Inc,Yajin,China,Sales,194372,6288322944
-694,Sagent Pharmaceuticals,Łeba,Poland,Marketing,11823,812854896
-695,Camber Pharmaceuticals,Sośnie,Poland,Marketing,43836,3311327604
-696,KAS Direct LLC dba BabyGanics,Liantan,China,Business Development,128391,12117542580
-697,Melaleuca Inc.,Quxia,China,Research and Development,189526,8326635284
-698,"Nelco Laboratories, Inc.",Warsaw,Poland,Product Management,65470,5184765710
-699,"Western Family Foods, Inc",Compiègne,France,Training,104575,4115026250
-700,"General Injectables & Vaccines, Inc",Agrela,Portugal,Support,161754,3803483556
-701,"Aaron Industries, Inc.",Stockholm,Sweden,Accounting,18971,1247532960
-702,Neutrogena Corporation,Yashiro,Japan,Accounting,104350,6599720100
-703,CLINIQUE LABORATORIES INC.,Huntington,United States,Marketing,183582,4869145386
-704,"EQUATE (Walmart Stores, Inc.)",Handa,Japan,Services,131446,3446382674
-705,BluePoint Laboratories,Piltown,Ireland,Engineering,185489,11785414593
-706,H E B,Motala,Sweden,Marketing,163292,11289355712
-707,Medicine Shoppe International Inc,Dioknisi,Georgia,Research and Development,103488,2698139136
-708,Stat Rx USA,Dingjiaqiao,China,Marketing,69616,1686308368
-709,"SHISEIDO CO., LTD.",Longshe,China,Legal,177132,8168619312
-710,JHP Pharmaceuticals LLC,Veiros,Portugal,Product Management,11673,1031694759
-711,"Watson Laboratories, Inc.",Qingtaiping,China,Training,192123,7837081416
-712,West-Ward Pharmaceutical Corp,Fushan,China,Support,146781,13672796931
-713,Procter & Gamble Manufacturing Company,Hezhi,China,Business Development,14765,883951020
-714,Citron Pharma LLC,Viana do Alentejo,Portugal,Training,144475,3475346125
-715,Uriel Pharmacy Inc.,Arruda dos Vinhos,Portugal,Training,126159,2600010831
-716,"Physicians Total Care, Inc.",Avignon,France,Sales,124273,4787120233
-717,REMEDYREPACK INC.,Kinnegad,Ireland,Sales,19170,1376271810
-718,The Body Shop Wake Forest,Tanabe,Japan,Support,144478,11522842890
-719,Cardinal Health,Cobh,Ireland,Legal,160321,14333819647
-720,Apotex Corp.,Roissy Charles-de-Gaulle,France,Engineering,72324,3793900068
-721,REMEDYREPACK INC.,Middleton,United Kingdom,Support,187103,17348564366
-722,"Glenmark Generics Inc., USA",Babice,Poland,Training,139993,10570871430
-723,"Preferred Pharmaceuticals, Inc.",Yucheng,China,Engineering,53893,5230746794
-724,"Allermed Laboratories, Inc.",Baihe,China,Marketing,133891,4058905665
-725,State of Florida DOH Central Pharmacy,Changmaoling,China,Business Development,164776,4283681672
-726,"Phoenix Research Industries, Inc.",Bowen Island,Canada,Services,33076,3230334464
-727,Pharmacia and Upjohn Company,Logroño,Spain,Sales,118653,10167019611
-728,Mission Hills S.A de C.V,Blaye,France,Human Resources,176654,3765733318
-729,Cantrell Drug Company,Baohe,China,Engineering,13829,1335853742
-730,State of Florida DOH Central Pharmacy,Druzhba,Ukraine,Human Resources,82718,4633531488
-731,Safeway,Jiudian,China,Services,192287,16902027300
-732,REMEDYREPACK INC.,Changshu City,China,Engineering,69311,4499046321
-733,"General Injectables & Vaccines, Inc",Łękawica,Poland,Support,82658,7147850550
-734,"Global Pharmaceuticals, Division of Impax Laboratories Inc.",Zhangxiong,China,Training,162124,9730358232
-735,"Physicians Total Care, Inc.",Kaavi,Finland,Sales,72719,3102774292
-736,Apotex Corp.,Fornos,Portugal,Human Resources,140313,5735013249
-737,"Patriot Pharmaceuticals, LLC",Lianyi,China,Marketing,169871,6322089007
-738,"Taro Pharmaceuticals U.S.A., Inc.",Tangjiapo,China,Product Management,139782,9690247368
-739,"Allergan, Inc.",Houston,United States,Research and Development,116219,9249056677
-740,Walgreen,Shenshu,China,Marketing,33866,1540191814
-741,"Nelco Laboratories, Inc.",Luyang,China,Support,45628,3128483820
-742,American Health Packaging,Camlachie,Canada,Services,19166,967135526
-743,"Nelco Laboratories, Inc.",Hobart,Australia,Product Management,193629,3694247691
-744,Tris Pharma Inc,Nueva Esperanza,Mexico,Marketing,93923,5756164978
-745,"AMI Cosmetic Co.,Ltd.",Liutao,China,Business Development,196440,8676361920
-746,Unit Dose Services,Tottori,Japan,Services,64672,1894178208
-747,Topco Associates LLC,Tulsa,United States,Product Management,173356,4123965884
-748,"Deseret Biologicals, Inc.",Guzhan,China,Human Resources,140395,4492499605
-749,CVS Pharmacy,El Mirador,Mexico,Business Development,131040,6833342880
-750,"AMI Cosmetic Co.,Ltd.",Ewirgol,China,Product Management,145535,10477937860
-751,"Taro Phamaceuticals U.S.A., Inc.",Foros da Catrapona,Portugal,Product Management,163797,15404452662
-752,"ALK-Abello, Inc.",Pinheiral,Portugal,Training,143603,11793970787
-753,Bryomed Inc.,Askeaton,Ireland,Human Resources,40506,2291302902
-754,REMEDYREPACK INC.,Dongpu,China,Services,63219,3421096185
-755,Cardinal Health,Bor Tungge,China,Business Development,186244,10151974196
-756,"Biofilm, Inc",Yangchengzhuang,China,Services,114741,7550990469
-757,Chantecaille Beaute Inc,Peixing,China,Accounting,165766,16475482740
-758,Guthy-Renker LLC,Genzi,China,Engineering,163101,4324623015
-759,Kmart Corporation,Xiaoyue,China,Business Development,37872,1151611776
-760,DIRECT RX,Chishui,China,Human Resources,166611,4194431925
-761,"Church & Dwight Co., Inc.",Jiedu,China,Support,54031,2798859831
-762,Sanum Kehlbeck GmbH & Co. KG,Jiamaying,China,Training,179368,17237982272
-763,"Norco, Inc.",Tianxing,China,Engineering,3485,244117280
-764,Amerisource Bergen,San Francisco,Mexico,Product Management,67316,1612689412
-765,Guthy-Renker LLC,Laocheng,China,Marketing,189515,10485675435
-766,Stat Rx USA,Anwen,China,Product Management,190739,7725883195
-767,"Allergan, Inc.",Rączna,Poland,Sales,109407,3868959741
-768,"Medline Industries, Inc.",Nowy Tomyśl,Poland,Human Resources,61992,2700309528
-769,"Physicians Total Care, Inc.",Guluoshan,China,Research and Development,79331,3801779513
-770,Greenstone LLC,Hou’an,China,Legal,73264,5037046528
-771,Heritage Pharmaceuticals Inc.,Changfeng,China,Support,109045,3182151190
-772,sanofi-aventis U.S. LLC,Libertad,Mexico,Sales,51720,4892505120
-773,US EXCY-LINE INC.,Shiozawa,Japan,Accounting,186440,15294791840
-774,Aurolife Pharma LLC,Taipingxi,China,Research and Development,177492,3659352564
-775,"Chattem, Inc.",Kościerzyna,Poland,Marketing,192583,15882705176
-776,SHIONOGI INC.,Enköping,Sweden,Human Resources,189213,8767184355
-777,Medicine Shoppe International Inc,Shanghu,China,Research and Development,137174,4430720200
-778,Filo America,Zengfu,China,Services,144110,13412461810
-779,Parfums Christian Dior,Caotang,China,Services,165274,14816153004
-780,"Aptalis Pharma US, Inc.",Auxerre,France,Human Resources,97923,6884378592
-781,Akorn Inc.,Rydułtowy,Poland,Legal,13326,694404534
-782,REMEDYREPACK INC.,El Paso,United States,Marketing,137809,8353430344
-783,Meijer Distribution Inc,Paris 11,France,Engineering,83871,4482485595
-784,Natura Bisse International,Adelaide Mail Centre,Australia,Sales,44273,1963109093
-785,DefyAging.com Inc.,Bordeaux,France,Sales,129309,4499048037
-786,Virtus Pharmaceuticals LLC,Bytkiv,Ukraine,Marketing,166416,5217640848
-787,Conopco Inc. d/b/a Unilever,Oymak,China,Services,199790,4445327500
-788,Stat Rx USA,Carleton-sur-Mer,Canada,Human Resources,87849,6681531393
-789,SMART SENSE (Kmart),Tucson,United States,Training,168756,14157109596
-790,"Fresenius Kabi USA, LLC",Bourgoin-Jallieu,France,Business Development,137382,3073647486
-791,Eisai Inc.,Sławatycze,Poland,Services,24551,1862414309
-792,AmerisourceBergen (Good Neighbor Pharmacy) 46122,Songkan,China,Support,34404,1882999728
-793,Save-A-Lot Food Stores Ltd,Vårgårda,Sweden,Legal,159880,5012557760
-794,Topco Associates LLC,Terpinnya,Ukraine,Human Resources,178963,13822386268
-795,Heritage Pharmaceuticals Inc.,Jinshi,China,Engineering,127075,8955356475
-796,Lake Erie Medical DBA Quality Care Products LLC,Beiyang,China,Services,185752,16108784944
-797,"Aphena Pharma Solutions - Tennessee, LLC",Listowel,Ireland,Marketing,64357,4561366732
-798,"Amercare Products, Inc.",Huancheng,China,Business Development,163603,9176983079
-799,LUPIN PHARMACEUTICALS INC,Skórcz,Poland,Legal,104445,7953904530
-800,Rebel Distributors Corp,Chłapowo,Poland,Business Development,182958,18263050518
+id,company_name,city,country,size,annual_budget
+1,West-ward Pharmaceutical Corp,Mayenne,France,166880,3063416160
+2,Coltene Whaledent Inc,Kuivaniemi,Finland,40006,2365954840
+3,Guthy-Renker LLC,Fengyan,China,122205,4807911315
+4,Chia Gi LTD,Mizhou,China,155476,7022384492
+5,AbbVie Inc.,Liuge,China,5476,499110020
+6,Wal-Mart Stores Inc,Bojadła,Poland,2477,166969616
+7,Reckitt Benckiser LLC,Tacoma,United States,59496,2275424520
+8,"CR Pharmacy Services, Inc.",São Martinho do Campo,Portugal,46048,1833032736
+9,Uriel Pharmacy Inc.,Huashan,China,169880,8733021160
+10,Dr. Reddy's Laboratories Limited,Zhenqian,China,194068,12869619420
+11,"Roxane Laboratories, Inc",Quchi,China,20778,760516356
+12,"Aaron Industries, Inc.",Rybarzowice,Poland,84107,4337650311
+13,Kinray Inc.,Casal da Serra,Portugal,42752,2122893312
+14,"Physicians Total Care, Inc.",Wenwuba,China,112335,3042144135
+15,"ALK-Abello, Inc.",Zhougang,China,23941,2256391368
+16,"MallyGirl, LLC",Baltimore,United States,127154,10566370246
+17,GlaxoSmithKline Consumer Healthcare LP,Shuitian,China,149844,13587554232
+18,"Eco-Logics, Inc.",Wucun,China,141756,8051032020
+19,Apotheca Company,Yishan,China,30430,1216560970
+20,Major Pharmaceuticals,Besko,Poland,124172,10003544664
+21,Athlete's Needs Inc,Lugu,China,52606,4578984058
+22,"Cephalon, Inc.",Lamawan,China,78913,2269932445
+23,STAT RX LLC USA,Vila Alva,Portugal,39034,1391093692
+24,"Upsher-Smith Laboratories, Inc.",Dikou,China,88742,2033700414
+25,Uriel Pharmacy Inc.,Languan,China,62495,3990055770
+26,"Nelco Laboratories, Inc.",Bobadela,Portugal,84442,1578727632
+27,"Nelco Laboratories, Inc.",Linpu,China,75417,6794694615
+28,"Nelco Laboratories, Inc.",Qiewa,China,189824,7260768000
+29,Citron Pharma LLC,Gondifelos,Portugal,32226,1363933224
+30,"Nelco Laboratories, Inc.",Saint Louis,United States,180895,18058386060
+31,"Nova Homeopathic Therapeutics, Inc.",Bazhu,China,140002,3376988242
+32,Carilion Materials Management,Changtang,China,175150,14598227050
+33,"Alcon Laboratories, Inc.",Fushun,China,172288,5582648064
+34,"WESTERN FAMILY FOODS, INC.",Fenggang,China,21949,917468200
+35,"Nelco Laboratories, Inc.",Vista Hermosa,Mexico,157566,12097287216
+36,"General Injectables & Vaccines, Inc",Lidun,China,153418,10657334788
+37,Cardinal Health,Kärdla,Estonia,43077,4150038180
+38,"Novartis Consumer Health, Inc.",Qiwen,China,33602,1087259914
+39,The Dial Corporation,Baiguo,China,103477,7449723138
+40,"Doori Cosmetics Co., Ltd",Hekou,China,5303,335478386
+41,"Physicians Total Care, Inc.",Mosteiro,Portugal,87864,4673574024
+42,Conopco Inc. d/b/a Unilever,Fuxing,China,157610,13543900130
+43,Apotex Corp.,Narong,China,148131,6288901605
+44,Apotheca Company,Xinhua,China,180756,11769746184
+45,Cardinal Health,Baipu,China,99289,2018247503
+46,"Physicians Total Care, Inc.",Yucheng,China,119069,6617259675
+47,West-ward Pharmaceutical Corp,Kawasaki,Japan,8557,556709863
+48,"Nelco Laboratories, Inc.",Lubochnia,Poland,131833,4598862372
+49,"Nelco Laboratories, Inc.",Yixingfu,China,117859,10320794771
+50,North Safety Products,Souto,Portugal,19034,995516268
+51,Kroger Company,Helixi,China,2557,135909664
+52,"Acella Pharmaceuticals, LLC",Washington,United States,89460,4713915780
+53,"TROY MANUFACTURING, INC",Tendō,Japan,177191,4482223536
+54,Meijer Distribution Inc,Luzino,Poland,154277,14849932635
+55,"Nelco Laboratories, Inc.",Xiaoying,China,107083,7911720372
+56,"Kingdom Animalia, LLC DBA Hourglass Cosmetics",Jishui,China,81292,4208405548
+57,Apotheca Company,Jiakexi,China,24996,953847360
+58,"Salix Pharmaceuticals, Inc.",Sainte-Agathe-des-Monts,Canada,65671,5450233303
+59,CVS Pharmacy,Hōjō,Japan,49552,3653914928
+60,Jubilant HollisterStier LLC,Sanzao,China,90865,8832532325
+61,"Hospira, Inc.",Huangmao,China,82759,2431624938
+62,Landy International,Messina,Italy,111180,7346774400
+63,Patterson Dental Supply Inc,Philadelphia,United States,18971,1718677745
+64,Nomax Inc.,Tuguanpu,China,82641,5564879658
+65,Uriel Pharmacy Inc.,Västerås,Sweden,97285,2006600410
+66,Citron Pharma LLC,Les Clayes-sous-Bois,France,104031,9044663202
+67,"Stephen L. LaFrance Pharmacy, Inc.",Baita,China,190942,15867853026
+68,Advantage Sales and Marketing,Sardoal,Portugal,101580,6796920960
+69,St Marys Medical Park Pharmacy,Lajeosa do Mondego,Portugal,77022,5359344804
+70,Remedy Makers,Pisarzowice,Poland,119127,4720169121
+71,"Lil' Drug Store Products, Inc.",Tahe,China,21945,657472200
+72,Apotex Corp.,Micheng,China,105006,6655595298
+73,Ventura Corporation LTD.,Limeiras,Portugal,139871,8334912890
+74,CareFusion 213 LLC,Leceia,Portugal,22043,1850531893
+75,Meijer Distribution Inc,Baton Rouge,United States,115711,6785293040
+76,Lake Erie Medical DBA Quality Care Products LLC,Wangpu,China,99636,2190896004
+77,Seoul Propolis,Yangping,China,117134,5136794436
+78,"MARTIN EKWEALOR PHARMACEUTICALS, INC.",Xikou,China,40416,1154402208
+79,Rebel Distributors Corp,Shatou,China,93567,8357217306
+80,Sagent Pharmaceuticals,Chengbei,China,42617,844370621
+81,LLC Federal Solutions,Zalewo,Poland,104421,8671224261
+82,Home Health,Rubizhne,Ukraine,47506,1005511996
+83,Bryant Ranch Prepack,Invermere,Canada,178895,15616996815
+84,Jafra cosmetics International,Belfort,France,170730,8687937510
+85,American Health Packaging,Saint-Fargeau-Ponthierry,France,91953,2891462085
+86,Mylan Pharmaceuticals Inc.,Jiuli,China,15611,767077707
+87,"Paddock Laboratories, Inc.",Dikou,China,110045,8184486830
+88,REMEDYREPACK INC.,Cincinnati,United States,100592,2159911424
+89,MKR International Inc,Villeurbanne,France,115433,4191487663
+90,"Northwind Pharmaceuticals, LLC",Xiangqiao,China,18187,538317013
+91,"Kareway Product, Inc.",Prochowice,Poland,180006,4238061264
+92,REMEDYREPACK INC.,Paris 04,France,111384,2191814352
+93,"ALK-Abello, Inc.",Wutongkou,China,19200,1249286400
+94,Western Family Foods Inc,Clones,Ireland,143756,5356348560
+95,Winthrop U.S.,Clermont-Ferrand,France,109220,6066515680
+96,Kosan Kozmetik Sanayi ve Ticaret A.S.,Skövde,Sweden,187473,16251097005
+97,"Roxane Laboratories, Inc.",Macinhata da Seixa,Portugal,158021,14289839030
+98,REMEDYREPACK INC.,Jastrzębia Góra,Poland,25957,933725204
+99,CHRISTLTD,Majia,China,181832,17821899816
+100,Physician Therapeutics LLC,'s-Hertogenbosch,Netherlands,91335,6873232755
+101,Apotheca Company,Quxi,China,101872,2603950192
+102,Cardinal Health,Askim,Norway,1772,118801968
+103,"ALK-Abello, Inc.",Arcueil,France,155064,4508950992
+104,The Fuller Brush Company,Arklow,Ireland,10176,523422912
+105,"Phoenix Global Supply Group, Inc",Boyu,China,105197,9976567889
+106,"The Hain Celestial Group, Inc.",Chexi,China,12112,488016704
+107,Zydus Pharmaceuticals USA Inc,Tonghong,China,168039,8741892897
+108,"Rising Pharmaceuticals, Inc.",Liaodian,China,138256,8368082656
+109,"Ventura International, LTD",Zhangdian,China,115014,7897781352
+110,Clinical Therapeutic Solutions,Longxi,China,92158,2820311274
+111,Major Pharmaceuticals,Staten Island,United States,195169,9814073165
+112,Biotanico Inc.,Lancaster,United States,7563,517619283
+113,Insight Pharmaceuticals,Shigu,China,29647,2563516796
+114,Valu Merchandisers Company (Best Choice),Tojal,Portugal,109165,3418829470
+115,"CoValence, Inc.",Kaiyuan,China,123871,2867365908
+116,St Marys Medical Park Pharmacy,Qinhe,China,49674,3145953768
+117,"Genentech, Inc.",Yidao,China,170893,14627415442
+118,H E B,Yonghe,China,39555,813250800
+119,THE KROGER CO,Khulo,Georgia,68176,1661926352
+120,Jubilant HollisterStier LLC,Erhe,China,192463,14017272753
+121,Wockhardt Limited,Xiaochuan,China,159492,3584582700
+122,Washington Homeopathic Products,Albi,France,311,10494695
+123,"General Injectables & Vaccines, Inc",Xiayang,China,34935,732552015
+124,Unit Dose Services,Nanlü,China,79387,7233187731
+125,GlaxoSmithKline LLC,Cachadinha,Portugal,190031,18636340170
+126,SUPERVALU INC,Sijihong,China,166220,7768457920
+127,Quality Home Products,Shixi,China,43509,3730287624
+128,"Mycone Dental Supply Co., Inc DBA Keystone Industries and Deepak Products Inc.",Kristianstad,Sweden,107020,7766227360
+129,"Allermed Laboratories, Inc.",Xianghu,China,105245,10403889230
+130,National Vitamin Company,Guanfang,China,89967,4883498727
+131,CA-BOTANA INTERNATIONAL,Whitegate,Ireland,191791,11100095916
+132,"Encompass Medical & Specialty Gases, Ltd.",Dandu,China,78829,4902375510
+133,Neutrogena Corporation,Joliette,Canada,1134,76000680
+134,"LG Household and Healthcare, Inc.",Baicun,China,69280,2980910560
+135,"Geiss, Destin & Dunn, Inc",Beaumont,Ireland,44074,2530420562
+136,REMEDYREPACK INC.,Tianya,China,16159,1259319347
+137,GlaxoSmithKline LLC,Yingkeng,China,110788,5228528872
+138,Merck Sharp & Dohme Corp.,Hafnarfjörður,Iceland,74367,2320399134
+139,Neutrogena Corporation,Retorta,Portugal,80549,2302493165
+140,Major Pharmaceuticals,Sartana,Ukraine,124564,9858119524
+141,EQUALINE (SuperValu),Fangjun,China,110867,8698181352
+142,Valeant Pharmaceuticals North America LLC,Hujiagou,China,92246,3351297180
+143,"Supio Co,. Ltd.",Altunemil,China,27724,1629450376
+144,Topco Associates LLC,Jednorożec,Poland,148901,13399303188
+145,Coty US LLC,Chenggang,China,18620,986282780
+146,Uriel Pharmacy Inc,Vandœuvre-lès-Nancy,France,31223,2902708641
+147,Bryant Ranch Prepack,Jiangkou,China,29052,1149500484
+148,Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC,Xinxiang,China,124173,5997928419
+149,Select Corporation,Jindong,China,69876,5207019768
+150,Par Pharmaceutical Inc,Cincinnati,United States,27442,1412329972
+151,"AvKARE, Inc.",Nikkō,Japan,185113,8393578759
+152,Select Corporation,Niujiang,China,119350,6738142950
+153,Uriel Pharmacy Inc.,Dębno,Poland,186453,3548200590
+154,REMEDYREPACK INC.,La Rochelle,France,162310,16188312470
+155,Select Corporation,Huntington,United States,84310,2311190030
+156,Cardinal Health,Tangwu,China,88628,5386455328
+157,Par Pharmaceutical,Zielona Góra,Poland,99637,4167516799
+158,Uriel Pharmacy Inc,Olsztyn,Poland,4101,113462367
+159,REMEDYREPACK INC.,Jiagao,China,143195,4581237635
+160,"Magna Pharmaceuticals, Inc.",Tantou,China,166932,8445590676
+161,Mylan Institutional Inc.,Kawasaki,Japan,124472,10364534496
+162,"Physicians Total Care, Inc.",Kozova,Ukraine,113115,9397820430
+163,Sandoz Inc,Hushan,China,22115,535293575
+164,Target Corporation,Yuanyang,China,118231,3903514696
+165,CVS Pharmacy,Rotterdam,Netherlands,111965,4069927750
+166,Mylan Pharmaceuticals Inc.,Hengtanggang,China,186778,11849569876
+167,Pfizer Laboratories Div Pfizer Inc,Langenburg,Canada,63400,1973515200
+168,Meijer Distribution Inc,Zamarski,Poland,14714,508957260
+169,"Safeway, Inc.",Wichita,United States,57826,3850864644
+170,"Cypress Pharmaceutical, Inc.",Long’an Chengxiangzhen,China,98337,3374335818
+171,"H and P Industries, Inc. dba Triad Group",Huage,China,96707,9299345120
+172,Gil Pharmaceutical Corp,Odivelas,Portugal,189018,8627726610
+173,"Innovus Pharmaceuticals, Inc.",Annopol,Poland,80449,5909139948
+174,"Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",Yingchengzi,China,182469,15479757615
+175,Jubilant HollisterStier LLC,Nanqiao,China,66567,4188861609
+176,BluePoint Laboratories,Shanban,China,48363,3286024035
+177,Clinical Solutions Wholesale,Jiaocha,China,14709,1204078740
+178,Actavis Elizabeth LLC,Chunmuying,China,5141,436630271
+179,"Enzymatic Therapy, LLC",Gustavsberg,Sweden,72268,4128309500
+180,"Ningbo Dowland Daily Health Co., Ltd",Tuzhai,China,64263,4313653875
+181,"Pharmalucence, Inc.",Palatine,United States,12173,340795308
+182,Worldwide Sales & Distribution Corp.,Miami,United States,148237,8524072211
+183,"Trigen Laboratories, Inc.",Dagui,China,48537,3145780044
+184,SHISEIDO AMERICAS CORPORATION,Gaocun,China,95497,7211455955
+185,Prasco Laboratories,La Rochelle,France,178220,11516398180
+186,BluePoint Laboratories,Sandaogou,China,114270,10995973560
+187,"Blenheim Pharmacal, Inc.",Trondheim,Norway,135918,12317976504
+188,"Nelco Laboratories, Inc.",Korsze,Poland,66954,4455587838
+189,"NCS HealthCare of KY, Inc dba Vangard Labs",Baleal,Portugal,185436,7487905680
+190,BluePoint Laboratories,Avon,France,142096,4425437824
+191,"Breckenridge Pharmaceutical, Inc.",Jindou,China,81521,6661733078
+192,Winning Solutions,Chenglin,China,180548,11822463588
+193,West-Ward Pharmaceutical Corp,Huanggang,China,193150,14701419100
+194,"Tarte, Inc",Bromma,Sweden,183912,16760636208
+195,"Physicians Total Care, Inc.",Troyes,France,62351,1546803608
+196,GlaxoSmithKline Consumer Healthcare LP,Barkol,China,34790,2860259850
+197,State of Florida DOH Central Pharmacy,Jindong,China,40682,3351789980
+198,"BioActive Nutritional, Inc.",San Francisco,United States,134962,9484319588
+199,"Watson Pharma, Inc.",Kobleve,Ukraine,112814,2953808962
+200,Uriel Pharmacy Inc.,Uppsala,Sweden,21877,875014369
+201,LOCCITANE,Waterloo,Canada,155816,13404383032
+202,P & R Home IV Service,Stord,Norway,71350,3740167000
+203,"Autumn Harp, Inc",Huangbayi,China,47514,1601934510
+204,PureLife Dental,Famões,Portugal,131044,11268866692
+205,"APP Pharmaceuticals, LLC",Jednorożec,Poland,5401,356709045
+206,REMEDYREPACK INC.,Hualongyan,China,33402,3334154238
+207,REMEDYREPACK INC.,Chenhu,China,141773,7714294249
+208,Neutrogena Corporation,Miguel Hidalgo,Mexico,56659,1104963818
+209,"Church & Dwight Co., Inc.",Huangrangping,China,157605,7498373085
+210,"CVS Pharmacy, Inc.",Xinyang,China,20664,951060600
+211,"CutisPharma, Inc.",Trollhättan,Sweden,31938,1836466938
+212,"Breckenridge Pharmaceutical, Inc.",Chengkou,China,109055,4644325285
+213,"Larken Laboratories, Inc.",Ewirgol,China,125095,5446261015
+214,Kmart Corporation,Sishan,China,171918,4188438234
+215,Gericare Pharmaceuticals,Dingzhai,China,158791,3308092903
+216,Contract Pharmacal Corp,Orlando,United States,197488,8121694000
+217,"Golden State Medical Supply, Inc.",Babiak,Poland,149003,7313961258
+218,Cantrell Drug Company,Potou,China,92512,5667655168
+219,BluePoint Laboratories,Tunguang,China,33920,912380160
+220,Darby Dental Supply LLC,Vale de Rolas,Portugal,173344,6536975584
+221,Apollo Health and Beauty Care,Charlotte,United States,40436,1314655232
+222,Procter and Gamble Manufacturing Company,Kupu,China,90820,4459080360
+223,CVS PHARMACY,Silao,China,68881,4112264581
+224,"Prime Enterprises, Inc.",Rungis,France,168402,11897769702
+225,"Merz Pharmaceuticals, LLC",Houston,United States,70352,1843503808
+226,SARAH CHAPMAN LTD,Maisons-Alfort,France,4348,325043436
+227,Zenith Medicosm SL,Stockholm,Sweden,23365,686230050
+228,Alexso Inc.,Gulou,China,16920,1240320600
+229,"SJ Creations, Inc.",Serzedo,Portugal,34101,3167437284
+230,"Valu Merchandisers Company, Inc.",Calhetas,Portugal,146813,6468874406
+231,"Church & Dwight Co., Inc.",Shanlian,China,58711,4466967724
+232,Meijer Distribution Inc,Amsterdam Nieuw West,Netherlands,54902,2640456788
+233,Sandoz Inc.,Mao’er,China,109410,7042393470
+234,Safeway,Luocun,China,125054,11507719188
+235,American Sales Company,Leidian,China,78031,1917923949
+236,"Nelco Laboratories, Inc.",Clonskeagh,Ireland,133647,3576527367
+237,"Dong Sung Pharm. Co., Ltd.",Pnikut,Ukraine,141401,3054544402
+238,"Antigen Laboratories, Inc.",Delingha,China,35213,1772164651
+239,"Otsuka America Pharmaceutical, Inc.",Lingxi,China,192016,4419056224
+240,"Physicians Total Care, Inc.",Hecun,China,9039,683917857
+241,"Jets, Sets, & Elephants Beauty Corp.",Yanhe,China,158941,4846428972
+242,LIVE BETTER (The Great Atlantic & Pacific Tea Company),Jinghai,China,154735,6138182715
+243,"Blacksmith Brands, Inc.",Tiehe,China,62446,4627560830
+244,Bryant Ranch Prepack,Oslo,Norway,25903,1911693206
+245,Valeant Pharmaceuticals North America LLC,Xinxu,China,175351,16185774055
+246,"Novartis Cosnumer Health, Inc",Datun,China,30787,2294216453
+247,Dr. Reddy's Laboratories Limited,Alfta,Sweden,10787,810103700
+248,American Sales Company,Paris 05,France,40539,981165417
+249,"Physicians Total Care, Inc.",Campbellton,Canada,9830,248699000
+250,"Elcure Co., Ltd.",Sokolniki,Poland,174294,9636192378
+251,Apotheca Company,Cihe,China,147780,4673394720
+252,"Physicians Total Care, Inc.",Romilly-sur-Seine,France,7344,316107792
+253,Mylan Pharmaceuticals Inc.,Okazaki,Japan,167727,13710843615
+254,"Hospira, Inc.",Ogawa,Japan,127433,11651581489
+255,McKesson (Sunmark),Shangganshan,China,124494,4296910410
+256,Legacy Pharmaceutical Packaging,Alminhas,Portugal,54675,4183457625
+257,Rite Aid Corporation,Chengguan,China,141148,5832799952
+258,Industrias Lavin de Mexico S.A. de C.V.,Dongpu,China,5529,444808050
+259,"Fresenius Kabi USA, LLC",Liandu,China,164812,14010668120
+260,Cephazone Pharma LLC,Zator,Poland,99954,8851526424
+261,Lake Erie Medical DBA Quality Care Products LLC,Stetseva,Ukraine,182243,10862594015
+262,"Newton Laboratories, Inc.",Date,Japan,40101,2651798928
+263,REMEDYREPACK INC.,Bielsk Podlaski,Poland,129022,9167916254
+264,Conopco Inc. d/b/a Unilever,Jarocin,Poland,9840,378151200
+265,Lake Erie Medical DBA Quality Care Products LLC,Bayan Qagan,China,167374,15844124962
+266,"American Regent, Inc.",Shidu,China,36970,3273065010
+267,REMEDYREPACK INC.,Fornelos,Portugal,37990,1929018230
+268,"Dong Sung Pharm. Co., Ltd.",Xindu,China,170574,9702931416
+269,Aidarex Pharmaceuticals LLC,Dongsheng,China,46948,1115766168
+270,STAT Rx USA LLC,Hekou,China,71131,4667616220
+271,"The Hain Celestial Group, Inc.",Palmdale,United States,110739,3153625242
+272,Dolgencorp Inc,Sanjiang,China,1232,120022672
+273,McKesson Packaging Services Business Unit of McKesson Corporation,Foros do Trapo,Portugal,30251,1434381416
+274,Dr. Reddy's Laboratories Limited,Laval,France,112713,10018156866
+275,Seroyal USA,Le Chambon-Feugerolles,France,40327,2450066885
+276,America Medic,Seixo da Beira,Portugal,78457,6546922822
+277,Kroger Company,Stockholm,Sweden,72573,5359080612
+278,SHISEIDO AMERICA INC.,Paris 14,France,109416,7857928872
+279,DZA Brands LLC,Yanguan,China,162342,13167721962
+280,Aurobindo Pharma Limited,Chenjiaba,China,78222,5441356986
+281,McKesson,Shicha,China,19755,1154719260
+282,McKesson Medical-Surgical,Tomigusuku,Japan,55824,3961326864
+283,Dr.Reddy's Laboratories Ltd.,Beisijiazi,China,114499,2757937413
+284,Target Corporation,Mnich,Poland,188735,6664987790
+285,Chain Drug Marketing Association,Czchów,Poland,61925,5268579000
+286,Target Corporation,Taiyangling,China,73015,5377408720
+287,Nash-Finch Company,Domaradz,Poland,36732,3588202152
+288,"Deseret Biologicals, Inc.",Yunxiang,China,84104,8256910200
+289,"NATURE REPUBLIC CO., LTD.",Leidschendam,Netherlands,185601,16234333869
+290,"Novartis Consumer Health, Inc",Lingquan,China,91184,7304385504
+291,International Nature Nutraceuticals,Ziliang,China,79874,5490299138
+292,Apotheca Company,Tengqiao,China,6440,603395800
+293,Kao Brands Company,Hongshi,China,154887,8764280895
+294,"SJ Creations, Inc.",Baitu,China,186916,3501684344
+295,NASH-FINCH COMPANY,Ystad,Sweden,54886,1043382860
+296,REMEDYREPACK INC.,Aqqan,China,123729,11356466265
+297,Insight Pharmaceuticals,Xilu,China,15973,685880620
+298,"Preferred Pharmaceuticals, Inc",Dadoupu,China,160913,10947394129
+299,Cleansia Co Ltd,Kornyn,Ukraine,80442,5398623504
+300,"Gurwitch Products, L.L.C.",Bajia,China,113452,5415404316
+301,Rebel Distributors Corp,Ise,Japan,70600,3568124000
+302,Kmart Corporation,Meipu,China,1301,50166560
+303,Dr.Reddy's Laboratories Limited,Melbourne,Australia,22201,2069777029
+304,Conopco Inc. d/b/a Unilever,Kramators’k,Ukraine,35574,3275191458
+305,"Safetec of America, Inc.",Beauvais,France,1415,68783150
+306,WHITE MANUFACTURING INC. DBA MICRO WEST,Douba,China,17602,899638220
+307,Major Pharmaceuticals,Nanhai,China,186681,15106413201
+308,Procter & Gamble Manufacturing Company,Zhenping Chengguanzhen,China,107155,5451832090
+309,Richmond Division of Wyeth,Fuliang,China,104296,2605835560
+310,CSL Behring AG,Chongxian,China,91119,6607129809
+311,"Physicians Total Care, Inc.",Longsheng,China,22489,547809551
+312,"Newton Laboratories, Inc.",Szprotawa,Poland,28931,1264168976
+313,"Nelco Laboratories, Inc.",Châlons-en-Champagne,France,88574,8332156180
+314,Duane Reade,Nadrupe,Portugal,118133,7729914722
+315,Akorn,Jin’e,China,27539,731986620
+316,Syntrion GmbH,Jackson,United States,113231,7547072612
+317,STAT RX USA LLC,Ishikawa,Japan,89976,6036759768
+318,Amerisource Bergen,Gori,Georgia,171673,15610054217
+319,CHANEL PARFUMS BEAUTE,Lubbock,United States,188400,13976077200
+320,"Hevert Pharmaceuticals, Inc.",Włoszczowa,Poland,192081,7674020112
+321,Conopco Inc. d/b/a Unilever,Dafeng,China,94371,4011428097
+322,American Health Packaging,Kakamigahara,Japan,130853,10678782477
+323,Parke-Davis Div of Pfizer Inc,San Juan,Mexico,163080,13131364680
+324,"Golden State Medical Supply, Inc.",Casal do Relvas,Portugal,101406,2350591080
+325,"ALK-Abello, Inc.",'s-Hertogenbosch,Netherlands,189716,11697509128
+326,Handock Cosmetics Inc,Älvsjö,Sweden,185058,11899044342
+327,Walgreen Company,Nanyuan,China,80451,3199455819
+328,State of Florida DOH Central Pharmacy,Gyōda,Japan,66438,5404000482
+329,"Kareway Product, Inc.",Santa Cruz,Portugal,192475,12084927825
+330,"International Labs, Inc.",Espinheira,Portugal,86097,7395732300
+331,"Rituals Cosmetics USA, Inc.",Yanglinshi,China,185784,15456299880
+332,ENCHANTE ACCESSORIES INC.,Mońki,Poland,69334,2144569954
+333,"Antigen Laboratories, Inc.",Shuitou,China,83877,2442330486
+334,"Paddock Laboratories, LLC",Liudu,China,68769,2506423743
+335,"MSD Consumer Care, Inc.",Dalian,China,159113,4637984837
+336,"NCS HealthCare of KY, Inc dba Vangard Labs",Xinpu,China,87762,6693432216
+337,"H.J. Harkins Company, Inc.",Oskarshamn,Sweden,47456,3683534720
+338,Home Sweet Homeopathics,Lhasa,China,181873,13633018207
+339,"Doori Cosmetics Co., Ltd",Los Fresnos,Mexico,168493,16823015092
+340,Ecolab Inc.,Cabanas,Portugal,38771,3128276906
+341,Bryant Ranch Prepack,Pengxing,China,103370,4504347750
+342,Cardinal Health,Lanxi,China,38248,2104749192
+343,McKesson,Derhachi,Ukraine,131893,5935185000
+344,"NCS HealthCare of KY, Inc dba Vangard Labs",Buchou,China,69580,2506619500
+345,Jubilant HollisterStier LLC,Wenheng,China,142996,6233481632
+346,Julep Nail Parlor,Issoudun,France,143719,12206342108
+347,Greenstone LLC,Kiel,Germany,193350,18532017450
+348,"Northwind Pharmaceuticals, LLC",Sosnowiec,Poland,29051,1877856640
+349,Natural Health Supply,Bowang,China,70345,3700498725
+350,Wakefern Food Corporation,Iizuka,Japan,154915,5311570605
+351,Virtus Pharmaceuticals LLC,Richmond,United States,16590,928177320
+352,CVS Pharmacy,Penglai,China,95815,4257252080
+353,"Amylin Pharmaceuticals, LLC",Paris 17,France,184496,17249453520
+354,Camber Pharmaceuticals,Shangcun,China,2543,75201596
+355,Ajanta Pharma Limited,Marne-la-Vallée,France,178538,6215443394
+356,LVMH Fragrance Brands,Maceda,Portugal,193095,5041131165
+357,TOP CARE (Topco Associates LLC),Marinha,Portugal,104579,7946330736
+358,"Allergy Laboratories, Inc.",Mibu,Japan,110233,8019450750
+359,Marco Pharma International LLC.,Xiangcunxiang,China,110774,10583901830
+360,"Preferred Pharmaceuticals, Inc",Beidaihehaibin,China,37641,1452076857
+361,Kremers Urban Pharmaceuticals Inc.,Tangzhai,China,34720,2608027520
+362,"ALK-Abello, Inc.",Sarnów,Poland,156484,14884445112
+363,International Wholesale Inc.,Jedlińsk,Poland,165567,11113850442
+364,"Hospira, Inc.",Ballivor,Ireland,32098,2887183002
+365,GlaxoSmithKline LLC,Cangshan,China,124820,4947115880
+366,Bryant Ranch Prepack,Jingyang,China,169438,4963347334
+367,Rebel Distributors Corp,Yucun,China,193327,4308485522
+368,"Allermed Laboratories, Inc.",Orvalho,Portugal,11947,695160089
+369,Beiersdorf Inc,Jinjing,China,182458,14972138564
+370,Kmart Corporation,Zhifudao,China,142404,9409629108
+371,Meda Consumer Healthcare Inc.,Sydney,Australia,4093,329854870
+372,Aurobindo Pharma Limited,Baruchowo,Poland,74247,7130533386
+373,"Nelco Laboratories, Inc.",Nailung,China,87009,4405178661
+374,Meijer Distribution Inc,Donnycarney,Ireland,2064,158345952
+375,SHISEIDO AMERICAS CORPORATION,Xiangxiang,China,42939,1897216776
+376,"Team Technologies, Inc",Rimbo,Sweden,104010,3181769910
+377,L'Oreal USA Products Inc,Manukau City,New Zealand,165625,7085934375
+378,L'Oreal USA Products Inc,Changling,China,22748,605551760
+379,"Roxane Laboratories, Inc",Annapolis,United States,23487,1785340818
+380,Uriel Pharmacy Inc.,Vale de Santarém,Portugal,17443,1297671985
+381,LLC Federal Solutions,Hexi,China,3394,118681392
+382,Paramesh Banerji Life Sciences LLC,Vitoria-Gasteiz,Spain,122940,10617590160
+383,"La Prairie, Inc.",Kuznetsovs’k,Ukraine,127301,7942182089
+384,"SJ Creations, Inc.",Kretinga,Lithuania,87151,3539550714
+385,"Dolgencorp, LLC",Binglincha,China,110396,6027180016
+386,Hannaford Brothers Company,Spånga,Sweden,146450,5162948300
+387,"ALK-Abello, Inc.",Qianjin,China,15527,1115537315
+388,BCM Cosmetique SAS,Changxing,China,90899,8621315655
+389,Bonne Bell LLC,Dabao,China,179656,4723156240
+390,Unit Dose Services,Lubrza,Poland,124453,4304331458
+391,Rebel Distributors Corp,Chaumont,France,144242,6327175330
+392,"ALK-Abello, Inc.",Aoqiao,China,84153,8286293451
+393,Rebel Distributors Corp,Cisek,Poland,184315,15554527165
+394,PHARMAZEUTISCHE FABRIK DR. RECKEWEG & CO,Heerlen,Netherlands,168353,9765315765
+395,"Aphena Pharma Solutions - Tennessee, LLC",Minshan,China,50674,2853250244
+396,Ranbaxy Laboratories Inc.,Shuinan,China,194940,3817704960
+397,REMEDYREPACK INC.,Guifões,Portugal,97631,8574930730
+398,"Zila, Inc.",Nanxi,China,64415,6042642320
+399,REMEDYREPACK INC.,Ożarowice,Poland,10717,954745379
+400,"Allergy Laboratories, Inc.",Liuqiao,China,184752,15145045200
+401,Novartis Pharmaceuticals Corporation,Chenjiatan,China,177251,14211630678
+402,L. Perrigo Company,Biqiao,China,85019,7856520771
+403,Aidarex Pharmaceuticals LLC,Luocun,China,130495,10506804925
+404,Dollar General,Carvalhal Redondo,Portugal,21938,2164622460
+405,"SKINFOOD CO., LTD.",Pudasjärvi,Finland,41556,3911458500
+406,Celgene Corporation,Chenji,China,56579,2069094030
+407,Mckesson (Sunmark),Zhaobei,China,46802,2085777932
+408,PUR MINERALS,Little Rock,United States,22094,526500020
+409,"Medimetriks Pharmaceuticals, Inc.",Nanyang,China,25011,1299721626
+410,"Tamnamo Co., Ltd",Pinhal da Marquesa,Portugal,167328,9928741536
+411,REMEDYREPACK INC.,Geshan,China,24968,1272069664
+412,Direct Rx,Xinjia,China,53121,3407977755
+413,"Physicians Total Care, Inc.",Balrothery,Ireland,38703,2705649324
+414,"Deseret Biologicals, Inc.",Changsheng,China,81378,3979953846
+415,Bedford Laboratories,Muskegon,United States,36065,1892943655
+416,Clinical Solutions Wholesale,Liuhe,China,63803,5853095811
+417,"Bayer HealthCare LLC, Consumer Care",Lijiaxiang,China,70983,3512238840
+418,Corner Homecare,Markowa,Poland,1794,168225174
+419,Rite Aid,Guéret,France,95045,7147288955
+420,Insight Pharmaceuticals,Castanheira de Pêra,Portugal,26878,1459125986
+421,"Poly Pharmaceuticals, Inc.",Wukou,China,64468,5514141444
+422,"Del Rio Welders Equipment, Inc.",Zhongtong,China,100646,6247298512
+423,Ethex Corporation,Baita,China,143886,8777477658
+424,Kosan Kozmetik Sanayi ve Ticaret A.S.,Metz,France,59303,4048082083
+425,"NATURE REPUBLIC CO., LTD.",Kildare,Ireland,9962,446138208
+426,Patterson Dental Supply Inc,Ōmachi,Japan,131852,9472643236
+427,Cardinal Health,Uppsala,Sweden,16329,1054820742
+428,Cardinal Health,Sunne,Sweden,78305,6525782090
+429,Janssen Cosmetics GmbH,Zalishchyky,Ukraine,8815,879331510
+430,White Manufacturing Inc. DBA Micro-West,Nora,Sweden,43728,994462176
+431,"Accord Healthcare, Inc.,",Mawang,China,53844,1469187384
+432,"Alva-Amco Pharmacal Companies, Inc.",Vale de Açores,Portugal,107339,4577149638
+433,Susanne Lang Fragrance Inc.,Chandler,United States,131760,6546759120
+434,"Air Products and Chemicals, Inc.",Poroshkovo,Ukraine,34713,2991913470
+435,"Janssen Pharmaceuticals, Inc.",Jankowice,Poland,36906,2589657114
+436,Compressed Gases Inc,Pompano Beach,United States,145165,12327556965
+437,State of Florida DOH Central Pharmacy,Xidianzi,China,50225,4481827875
+438,"Golden State Medical Supply, Inc.",Ziyang Chengguanzhen,China,163765,7608194370
+439,Gambro Renal Products,Danderyd,Sweden,121188,9453875880
+440,"DOLGENCORP, LLC",Vilhelmina,Sweden,71191,3498396931
+441,Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC,Düsseldorf,Germany,190109,9011546818
+442,"Aphena Pharma Solutions - Tennessee, LLC",Wuyang,China,149953,11581170096
+443,Guna spa,Kangshan,China,32448,1967646720
+444,Health Tech Inc,Kalix,Sweden,76524,6617259852
+445,"Aphena Pharma Solutions - Tennessee, LLC",Sernancelhe,Portugal,25323,1637840994
+446,Organon USA Inc.,Eshan,China,67625,3326000375
+447,Virtus Pharmaceuticals,Ingersoll,Canada,87149,3927021089
+448,HyVee Inc,Bairros,Portugal,101806,2410257050
+449,AvPAK,Harrisburg,United States,78979,4722154410
+450,Virtus Pharmaceuticals,Zhenlong,China,160905,9704019645
+451,REMEDYREPACK INC.,Saint-Rémi,Canada,2734,112268976
+452,"Energique, Inc.",Baranowo,Poland,107638,8336993652
+453,REMEDYREPACK INC.,Zhongzuiling,China,180662,9776343468
+454,AMOREPACIFIC,San Diego,United States,56132,3623152204
+455,Neutrogena Corporation,Mustvee,Estonia,125871,9425346351
+456,"HANGZHOU GUOGUANG TOURING COMMODITY CO., LTD.",Phoenix,United States,52301,3911382586
+457,King Bio Inc.,Dudchany,Ukraine,116360,7520579520
+458,Contract Pharmacy Services-PA,Shilibu,China,145455,6900239745
+459,"Physicians Total Care, Inc.",Hongsihu,China,24925,521007275
+460,CVS Pharmacy,Haizigou,China,157791,6613336392
+461,"Caraco Pharmaceutical Laboratories, Ltd.",Rodez,France,48950,4816728950
+462,"Nelco Laboratories, Inc.",Dengzhuang,China,171695,11375308835
+463,Lake Erie Medical DBA Quality Care Products LLC,Uddevalla,Sweden,98301,4499433372
+464,Lancaster S.A.M.,Gouxaria,Portugal,81937,4822320198
+465,Cardinal Health,Sioux Falls,United States,30188,670083036
+466,REMEDYREPACK INC.,Ferreira do Alentejo,Portugal,80610,3169262760
+467,"Physicians Total Care, Inc.",Chicago,United States,50194,1075707614
+468,Rebel Distributors Corp,Hengqiao,China,108692,9988142648
+469,CHANEL PARFUMS BEAUTE,Prince Albert,Canada,63934,5459771798
+470,"Dong Sung Pharm. Co., Ltd.",Pozhang,China,29290,2721451060
+471,Meijer Distribution Inc,Cete,Portugal,113787,9245307537
+472,The Doctor's Cosmetic Inc,Yangmaogong,China,95613,7779264906
+473,Hikma Pharmaceutical,Pavia,Portugal,2249,180551969
+474,Zydus Pharmaceuticals (USA) Inc.,Arras,France,82237,6948039656
+475,B. Braun Medical Inc.,Baoshan,China,97905,7107119760
+476,"Glenmark Generics Inc., USA",Taiyigong,China,11106,830662164
+477,Guthy-Renker LLC,Levandeira,Portugal,68394,2619626988
+478,QUALITY CHOICE (Chain Drug Marketing Association),Huibu,China,197517,15305197296
+479,Clinical Therapeutic Solutions,Shangqiu,China,19376,1277847200
+480,"Babor Cosmetics America, Corp.",Flor da Mata,Portugal,35443,1240753101
+481,RedPharm Drug Inc.,Tawen Aobao,China,133090,3858944550
+482,Uriel Pharmacy Inc.,Donggong,China,19401,1869557964
+483,"Glenmark Generics Inc.,USA",Enzan,Japan,9093,859497639
+484,KMART CORPORATION,Meaux,France,155172,9883370196
+485,STAT Rx USA LLC,Bilian,China,92668,9056721644
+486,"Yusef Manufacturing Laboratories, LLC",Ardee,Ireland,56190,3863399640
+487,Bryant Ranch Prepack,Toila,Estonia,35816,3236190496
+488,Hyland's,Songyuan,China,80552,4674674216
+489,"PD-Rx Pharmaceuticals, Inc.",Yangshan,China,84362,3718845684
+490,NorthStar Rx LLC,Łukowa,Poland,191598,10657063956
+491,"Newton Laboratories, Inc.",Hondo,Japan,192919,10357242353
+492,HARMON STORES INC.,Guadalupe,Mexico,154936,6207355904
+493,"Libertas Pharma, Inc.",Jinfeng,China,124486,11639067542
+494,Mylan Pharmaceuticals Inc.,Paris 01,France,109244,5291997848
+495,"Airgas Carbonic, Inc.",Pyzdry,Poland,27323,1579706568
+496,Machine & Welding Supply Company,Świnna,Poland,9914,457967316
+497,"Dental Technologies, Inc.",Arlington,United States,117852,2436354396
+498,E-Z-EM Canada Inc,Buenos Aires,Mexico,117659,6101442763
+499,Zydus Pharmaceuticals USA Inc,Szczawnica,Poland,37680,2048435520
+500,Procter & Gamble Manufacturing Co.,Xinji,China,152331,6966705954
+501,ART COSMETICS SRL,Bei’an,China,138728,4655434224
+502,Bracco Diagnostics Inc,Luyang,China,44870,1575834400
+503,"Sungwon Pharmaceutical Co., Ltd.",Adolfo Lopez Mateos,Mexico,125673,11030696229
+504,"ABLE C&C CO., LTD.",Lingda,China,111869,6775457854
+505,Hillestad Pharmaceuticals USA,Yongheshi,China,76926,5153118888
+506,Midlothian Laboratories,Vale Flores,Portugal,94371,7408972839
+507,Laboratoires Clarins S.A.,Nantes,France,108413,10288935765
+508,SAM'S WEST INC.,Floirac,France,83722,5874019242
+509,AvPAK,Lianzhou,China,80904,6184301760
+510,"Nelco Laboratories, Inc.",Lianghekou,China,97948,6801607068
+511,E. FOUGERA & CO. A division of Fougera Pharmaceuticals Inc.,Vimieiro,Portugal,138191,6514738313
+512,GlaxoSmithKline LLC,Dębe Wielkie,Poland,187968,10541433408
+513,"Janssen Pharmaceuticals, Inc.",Wenquan,China,157733,13582230897
+514,Winthrop U.S.,Guanyang,China,149808,6644733840
+515,A-S Medication Solutions LLC,Bålsta,Sweden,71011,3624827506
+516,AstraZeneca Pharmaceuticals LP,Köping,Sweden,160285,9084152375
+517,"Church & Dwight Co., Inc.",Volodymyr-Volyns’kyy,Ukraine,10221,589802805
+518,REMEDYREPACK INC.,Västerås,Sweden,176183,11385297826
+519,Mylan Pharmaceuticals Inc.,Rulong,China,145952,10357629632
+520,Mylan Institutional LLC,Hagi,Japan,198683,16607514604
+521,"NCS HealthCare of KY, Inc dba Vangard Labs",Huitang,China,129451,5794874015
+522,REMEDYREPACK INC.,Rauma,Finland,79772,4812245900
+523,O24 Naturals LLC,Vigo,Spain,187921,14024168388
+524,"UDL Laboratories, Inc.",Hebei,China,187886,8726741042
+525,Bryant Ranch Prepack,Wenshui,China,138887,3073708197
+526,Major Pharmaceuticals,Daigo,Japan,145508,13261162596
+527,"Tarte, Inc",Hampton,United States,46839,4570362264
+528,"Newton Laboratories, Inc.",Aubenas,France,69801,6257659650
+529,Uriel Pharmacy Inc.,Tashi,China,78630,2955780330
+530,Dr.Reddy's laboratories Ltd.,Luleå,Sweden,2881,210413835
+531,American Health Packaging,Baguim do Monte,Portugal,129444,9497694612
+532,McKesson,Esposende,Portugal,141431,13895030026
+533,Pro-Pharma LLC,Gōtsuchō,Japan,75194,5325991020
+534,Jubilant HollisterStier LLC,Yulao,China,198820,9783932200
+535,Mylan Pharmaceuticals Inc.,Argenteuil,France,96186,3701333466
+536,"General Injectables & Vaccines, Inc",Gémeos,Portugal,119300,7327406000
+537,"Blenheim Pharmacal, Inc.",Gyangqai,China,191453,6966783217
+538,Colgate-Palmolive Canada,Sarata,Ukraine,98177,2215265828
+539,Cardinal Health,Real,Portugal,105455,4669020125
+540,"Aphena Pharma Solutions - Tennessee, LLC",Changtu,China,110244,5607891792
+541,"Akorn, Inc.",Boleszkowice,Poland,99465,7745240085
+542,American Sales Company,Lapinjärvi,Finland,58524,3804352620
+543,"Accord Healthcare, Inc.",San Jose,Mexico,186659,17621542895
+544,Caldwell Consumer Health LLC,Shijiazhuang,China,49312,3048763712
+545,Bare Escentuals Beauty Inc.,Danderyd,Sweden,153598,9194990672
+546,SHISEIDO AMERICAS CORPORATION,Lappeenranta,Finland,187781,5923176083
+547,Washington Homeopathic Products,Shuinanxu,China,74517,2523071103
+548,Par Pharmaceutical Inc.,Chixi,China,65866,5739563240
+549,Rejoice International,Xiaoying,China,115171,9668835792
+550,Heritage Pharmaceuticals Inc.,Rzyki,Poland,118637,7892089151
+551,REMEDYREPACK INC.,Yvetot,France,43221,4127043627
+552,Cardinal Health,Wiskitki,Poland,160683,13167971850
+553,Publix Super Markets Inc,Annacotty,Ireland,22026,1872011766
+554,Perrigo New York Inc,Privas,France,31808,2127096384
+555,"Warner Chilcott (US), LLC",Jinxiang,China,34394,2334733508
+556,Procter & Gamble Manufacturing Co.,Belz,Ukraine,179994,16877497398
+557,"ALK-Abello, Inc.",Boulogne-Billancourt,France,185848,15711032376
+558,"Tarte, Inc",Mós,Portugal,54729,4258080387
+559,"Ascend Laboratories, LLC",Adelaide,Australia,71449,4516291290
+560,"Hospira, Inc.",Twyford,United Kingdom,63443,5578416104
+561,Jubilant HollisterStier LLC,Jiahe,China,66852,6637935636
+562,Sandoz Inc,Beidu,China,8988,701117928
+563,PuraVation Pharmaceuticals Inc,Hiratsuka,Japan,66996,5598051768
+564,"BioComp Pharma, Inc.",Wudangshan,China,31971,3112312908
+565,"Genentech, Inc.",Blois,France,21556,1456452696
+566,"Rising Pharmaceuticals, Inc.",Huaniao,China,48332,4788589564
+567,Bayer HealthCare Consumer Care,Shpola,Ukraine,77478,4036448844
+568,Apotex Corp,Bennäs,Finland,76522,7055022312
+569,Actavis Mid Atlantic LLC,El Mirador,Mexico,131632,5283181952
+570,Aurobindo Pharma Limited,Zhuangke,China,168262,14858207648
+571,Energetix Corp,Clarence-Rockland,Canada,9892,748606776
+572,"NUGA MEDICAL CO., LTD.",Dijon,France,51893,1876658452
+573,Meijer Distribution Inc,Fenghuang,China,176369,14247793296
+574,"TONYMOLY CO., LTD.",Xiwanzi,China,111606,7703938968
+575,REMEDYREPACK INC.,Arcueil,France,93094,7610620688
+576,"PD-Rx Pharmaceuticals, Inc.",Custóias,Portugal,93086,4621812986
+577,"CARWIN ASSOCIATES, INC",Saint-Étienne,France,197998,14590472620
+578,Rebel Distributors Corp,Chencun,China,147924,3702685644
+579,Sandoz Inc,Yokosuka,Japan,191118,7262292882
+580,"Dispensing Solutions, Inc.",Båstad,Sweden,132286,8636556082
+581,Filo America,Huolongping,China,193559,12613078676
+582,Heritage Pharmaceuticals Inc.,Kesheng,China,67403,4830166383
+583,Rebel Distributors Corp,Delães,Portugal,132801,10927264683
+584,Conopco Inc. d/b/a Unilever,Qulai,China,156153,13293617196
+585,ViiV Healthcare Company,Yiliu,China,195077,16141451288
+586,Wuxi Medical Instrument Factory,Bolnisi,Georgia,32002,1684553278
+587,Dolgencorp Inc,Guyang,China,66264,3712573128
+588,"Harris Pharmaceutical, Inc.",Enschede,Netherlands,4111,227272524
+589,Indiana Botanic Gardens,Zagórze,Poland,12748,763872908
+590,"MEIJER, INC.",Vanves,France,153304,11471891624
+591,JAFRA COSMETICS INTERNATIONAL,Kobylanka,Poland,171215,10400455175
+592,"Nelco Laboratories, Inc.",Norwalk,United States,8139,363862134
+593,"Physicians Total Care, Inc.",Lafayette,United States,92168,5839027136
+594,"Chester Packaging, LLC",Guashe,China,25915,1289608145
+595,Strides Arcolab Limited,Podbuzh,Ukraine,80099,3722120431
+596,WALGREENS Co.,Besançon,France,86865,2599695720
+597,Seton Pharmaceuticals,Labruge,Portugal,82069,1921071152
+598,Bryant Ranch Prepack,Malpique,Portugal,190431,10343831058
+599,"Dr. Fresh, Inc.",Tsinandali,Georgia,21745,660852295
+600,Rugby Laboratories Inc,San Jose,Mexico,21745,973828080
+601,"Upsher-Smith Laboratories, Inc.",Gengqing,China,175713,16366260246
+602,Ranbaxy Pharmaceuticals Inc.,Tieshan,China,87985,4676138795
+603,"Morton Grove Pharmaceuticals, Inc.",Tõrva,Estonia,171756,4478709456
+604,"Altura Pharmaceuticals, Inc.",Yasynuvata,Ukraine,35835,2136411030
+605,Aurobindo Pharma Limited,Qianguo,China,39641,882408660
+606,Jubilant HollisterStier LLC,Auray,France,174704,11574314704
+607,L'Oreal USA Products Inc,Xiangtang,China,121574,3785328064
+608,"Pinnacle Science, LLc",Greensboro,United States,73700,4657545200
+609,VIATREXX BIO INCORPORATED,Qinlan,China,94401,7181272872
+610,"Nature's Innovation, Inc.",Zizhao,China,98041,4391648554
+611,Procter & Gamble Manufacturing Company,Xingxi,China,149397,6433483011
+612,REMEDYREPACK INC.,Aveleda,Portugal,23888,1982441232
+613,Aidarex Pharmaceuticals LLC,Linquan,China,1001,72130058
+614,Topco Associates LLC,Drohobych,Ukraine,103757,6146875951
+615,Kmart Corporation,Siedlce,Poland,53511,3466870668
+616,McKesson Packaging Services Business Unit of McKesson Corporation,Vänersborg,Sweden,171851,11451291385
+617,REMEDYREPACK INC.,Oslo,Norway,169655,8163119980
+618,Clinical Solutions Wholesale,Mrzezino,Poland,20562,518326896
+619,"Two Hip Consulting, LLC",Mont-de-Marsan,France,168026,13921122126
+620,Dynarex Corporation,Velikiye Borki,Ukraine,192864,10823913408
+621,"Avon Products, Inc.",Trosa,Sweden,60158,2392964924
+622,"Deseret Biologicals, Inc.",Hagondange,France,44223,3062442750
+623,Rite Aid,Tierp,Sweden,159599,6796363816
+624,"Nelco Laboratories, Inc.",Wucheng,China,52798,1253318924
+625,Meijer Distribution Inc,Fengqiao,China,153497,12677777721
+626,"Physicians Total Care, Inc.",Uniejów,Poland,133754,7676543322
+627,REMEDYREPACK INC.,Tamano,Japan,1919,128323530
+628,"Antigen Laboratories, Inc.",Xiayang,China,92114,7711599852
+629,"Bath & Body Works, Inc.",Nida,Lithuania,114436,3814037444
+630,SHISEIDO AMERICA INC.,Gielniów,Poland,44575,4127511275
+631,Genesis Pharmaceutical,Almeirim,Portugal,2333,231659901
+632,"Valu Merchandisers, co",Dongkeng,China,1340,58570060
+633,"Taro Pharmaceuticals U.S.A., Inc.",Merrifield,United States,79097,5710249721
+634,Pan Aromas LLC,Fenjie,China,127875,11290851000
+635,SHISEIDO AMERICAS CORPORATION,Jinchuan,China,104327,5980023640
+636,American Health Packaging,Feitoria,Portugal,196017,19158897597
+637,REMEDYREPACK INC.,Shangjing,China,185467,14908950262
+638,Supervalu Inc,Pengjia Zhaizi,China,152773,14114697470
+639,Unifirst First Aid Corporation,Beicheng,China,142347,3392556051
+640,Mission Pharmacal Company,Zaojiacheng,China,35719,3383303680
+641,Stressa Incorporated,Tengqiao,China,195405,18851697375
+642,Mylan Institutional Inc.,Hexi,China,148064,5396488608
+643,Bare Escentuals Beauty Inc.,Shanhou,China,139459,11412208888
+644,Apotex Corp.,Åby,Sweden,140628,12122977368
+645,"BioActive Nutritional, Inc.",Yuncao,China,9887,216742814
+646,Target Corporation,Baima,China,53622,5300641944
+647,ALDI INC,Domsjö,Sweden,7629,352864137
+648,Publix Super Markets Inc,Carrazeda de Ansiães,Portugal,138256,2562160192
+649,Bobbi Brown Professional Cosmetics Inc.,Wujiabao,China,65577,3273407109
+650,Cardinal Health,Huangzhuang,China,41978,764041578
+651,"Medline Industries, Inc.",Liangshui,China,110783,3111562121
+652,"Apotheca, Inc.",Chayuan,China,186083,16296963057
+653,Walgreen Company,Zhangcunping,China,35345,2061143675
+654,SHISEIDO AMERICAS CORPORATION,Beihe,China,3132,219628368
+655,WOMENS CHOICE PHARMACEUTICALS LLC,Zwierzyniec,Poland,118558,11227205484
+656,Mylan Pharmaceuticals Inc.,Stockholm,Sweden,88658,5904622800
+657,"Preferred Pharmaceuticals, Inc.",Tongxing,China,181311,14737864635
+658,"Antigen Laboratories, Inc.",Grębków,Poland,62393,2483303793
+659,Greenstone LLC,Yanhe,China,61235,1628054945
+660,sanofi-aventis U.S. LLC,Trzcianka,Poland,1641,95176359
+661,"Merz Pharmaceuticals, LLC",Laval,Canada,76949,7240131410
+662,Mylan Pharmaceuticals Inc.,Oka,Canada,36487,2768013281
+663,Topco Associates LLC,Tours,France,27895,773612035
+664,"SJ Creations, Inc.",Mata,Portugal,32354,1180921000
+665,Walgreen Co,Wa’erma,China,112658,2530749312
+666,"Medline Industries, Inc.",Yushu,China,87784,6874891744
+667,Pfizer Laboratories Div Pfizer Inc,Tromsø,Norway,62351,1139713929
+668,Guerlain,Andrushivka,Ukraine,38654,3776379838
+669,Apace Packaging,Piotrków Kujawski,Poland,20894,1587526120
+670,Insight Pharmaceuticals,Sevilla,Spain,189697,4510615266
+671,DZA Brands LLC,Puqi,China,191565,12741371280
+672,Efficient Laboratories Inc.,Greensboro,United States,115627,9715905556
+673,Indiana Botanic Gardens,Chengmen,China,16317,1042607349
+674,"APP Pharmaceuticals, LLC",Niushou,China,31207,2088590889
+675,Apotheca Company,Muzidian,China,69299,5334637020
+676,Kremers Urban Pharmaceuticals Inc.,Massy,France,182227,15046301163
+677,Procter & Gamble Manufacturing Co.,Nice,France,45192,1829055816
+678,State of Florida DOH Central Pharmacy,Frydrychowice,Poland,161986,11463911206
+679,Reckitt Benckiser LLC,Zuitou,China,163244,5478305396
+680,Uriel Pharmacy Inc.,Takeo,Japan,40992,2426398464
+681,"Roberts Oxygen Company, Inc.",Chifeng,China,137064,10986776112
+682,Natural Health Supply,Zhoujiaba,China,138325,5344878000
+683,"WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",Timaru,New Zealand,145306,12654263622
+684,"Navarro Discount Pharmacies,LLC",Xiashixiang,China,59577,3683228871
+685,Water-Jel Technologies,Oleszyce,Poland,11387,341245616
+686,Qualitest Pharmaceuticals,Xinshidu,China,124151,7898238318
+687,"Taro Pharmaceuticals U.S.A., Inc.",Amiens,France,171605,15690359965
+688,Rebel Distributors Corp,Usu,China,181178,15588555120
+689,"AMI Cosmetic Co.,Ltd.",Duru,China,79011,4659199659
+690,Combe Incorporated,Lazaro Cardenas,Mexico,3858,290329932
+691,REMEDYREPACK INC.,Zhangjiagang,China,31951,2289065493
+692,Roerig,Gulao,China,68232,6120273936
+693,Rimmel Inc.,Kosai-shi,Japan,61531,1986343742
+694,Validus Pharmaceuticals LLC,Sakurai,Japan,128895,11504909910
+695,REMEDYREPACK INC.,West End,United Kingdom,54461,5277161978
+696,Neutrogena Corporation,Kaiyuan,China,132573,11301185385
+697,JAFRA COSMETICS INTERNATIONAL,Kindersley,Canada,154987,8326211614
+698,"PD-Rx Pharmaceuticals, Inc.",Shanghudi,China,37655,2006409020
+699,"Nelco Laboratories, Inc.",Louisville,United States,134018,4147589064
+700,bryant ranch prepack,Chicago,United States,90561,5502848604
+701,RITE AID CORPORATION,Gongxi,China,72456,2267945256
+702,"Falcon Pharmaceuticals, Ltd.",Paris 17,France,196655,13374113240
+703,Mylan Pharmaceuticals Inc.,Vitoria-Gasteiz,Spain,98030,7668004630
+704,"Neutraderm, Inc.",Haugesund,Norway,92353,5010242603
+705,REMEDYREPACK INC.,Tanushimarumachi-toyoki,Japan,4520,156279000
+706,Shield Line LLC,Xiyuan,China,126174,11128042104
+707,"P and J Oxyfill, LLC",Trondheim,Norway,42646,4229971448
+708,Procter & Gamble Manufacturing Company,Sanxing,China,74522,1644029842
+709,Neutrogena Corporation,Stockholm,Sweden,30226,773755374
+710,HOMEOLAB USA INC,Nanzamu,China,113429,8808328995
+711,Rite Aid Corporation,Wanglinkou,China,168286,10275206588
+712,"PD-Rx Pharmaceuticals, Inc.",Duozhu,China,182267,9408804807
+713,Performance Health LLC,Lüxiang,China,3025,244147750
+714,REMEDYREPACK INC.,Rudna Mała,Poland,146677,12964339999
+715,Cardinal Health,Wangzuizi,China,82470,2268914640
+716,Qualitest Pharmaceuticals,Pingqiao,China,177284,4134794732
+717,"Actavis Pharma, Inc.",Ōno-hara,Japan,21161,1988456848
+718,Aurobindo Pharma Limited,Anping,China,199729,9666683871
+719,"Ventura Corporation (San Juan, P.R)",Hola Prystan’,Ukraine,17991,1531016109
+720,"Columbia Cosmetics Manufacturing, Inc.",Zhuanqiang,China,101454,6332352864
+721,TRIZ LABORATORIES LTD,Strzelce Krajeńskie,Poland,188696,7234038552
+722,Lake Erie Medical & Surgial Supply DBA Quality Care Products LLC,Miedzichowo,Poland,132400,12689878000
+723,UIHC-P E T IMAGING CENTER,Gamagōri,Japan,103734,7340321574
+724,"Preferred Pharmaceuticals, Inc.",Tranås,Sweden,173486,14867056256
+725,Uriel Pharmacy Inc.,Gif-sur-Yvette,France,24092,758319792
+726,Organon USA Inc.,Baoshan,China,60436,5436701688
+727,"Physicians Total Care, Inc.",Scranton,United States,22189,1024621453
+728,"Nelco Laboratories, Inc.",Ejidal,Mexico,2055,132861915
+729,American Sales Company,Vitrolles,France,72254,2011840376
+730,Amneal Pharmaceuticals,Barvinkove,Ukraine,173561,6877701747
+731,Vi-Jon,Shangyu,China,47348,3139030356
+732,Sigan Industries,Maoya,China,173500,5983321000
+733,Greenstone LLC,Cete,Portugal,174722,11417034368
+734,"Physicians Total Care, Inc.",Qidi,China,168524,16265599432
+735,Galsor S.r.l,Vårby,Sweden,122756,10582917516
+736,American Health Packaging,San Juan,Mexico,40584,3837623040
+737,"Johnson & Johnson Healthcare Products, Division of McNEIL-PPC, Inc.",Jianshe,China,116150,2212192900
+738,"Donovan Industries, Inc.",Darya Boyi,China,146362,8516951142
+739,Mallinckrodt Inc.,Beizheng,China,120959,8849481399
+740,Apotex Corp,Xiasi,China,22269,933427404
+741,Tech Air of Naugatuck LLC,Yanyang,China,153556,6477606304
+742,Welding & Therapy Service Inc.,Taoyao,China,170485,15628871405
+743,"Marc Glassman, Inc.",Tanglag,China,99108,8068679604
+744,Apotheca Company,Kariya,Japan,197821,17974016060
+745,The Mentholatum Company,Tangzhai,China,66512,3971298496
+746,"Par Pharmaceutical, Inc.",Sundbyberg,Sweden,81463,4312651220
+747,"Greenbrier International, Inc.",Arboga,Sweden,198135,19322323335
+748,Darby Dental Supply LLC,Suchań,Poland,198123,17550725955
+749,"Elizabeth Arden, Inc",Changzheng,China,60456,2670764712
+750,Baxter Healthcare Corporation,Qumudi,China,18705,1659301845
+751,H E B,Jinchang,China,48931,1776684610
+752,"Daiichi Sankyo, inc.",Sicamous,Canada,39735,2009398950
+753,"Tom's of Maine, Inc.",Takayama,Japan,31005,2511125955
+754,The Body Shop Wake Forest,La Talaudière,France,27897,1742725590
+755,SUPERVALU INC.,Gravelbourg,Canada,43200,4290796800
+756,Rebel Distributors Corp.,Quxi,China,158995,13797427105
+757,"Ningbo Kleen Products Co., Ltd.",Pangnirtung,Canada,154107,2992449726
+758,A-S Medication Solutions LLC,Marseille,France,168355,7817396070
+759,"Mutual Pharmaceutical Co., Inc.",Gushi,China,91991,6750759535
+760,Pfizer Laboratories Div Pfizer Inc,Gävle,Sweden,143387,13014807829
+761,Carilion Materials Management,Huanglong,China,193855,17120304325
+762,Laboratoires M&L,Suhong,China,52006,3050515942
+763,REMEDYREPACK INC.,Klevan’,Ukraine,79949,5006886074
+764,"Antigen Laboratories, Inc.",Miguel Aleman,Mexico,163558,14851066400
+765,Par Pharmaceutical Inc,Wa’erma,China,127880,11082848080
+766,REMEDYREPACK INC.,Himi,Japan,79174,6372636086
+767,"NATURE REPUBLIC CO., LTD.",Fresno,United States,7005,135833955
+768,Rebel Distributors Corp.,Coulommiers,France,178130,3586113160
+769,Teva Pharmaceuticals USA Inc,Jiajiaying,China,136473,10273005075
+770,B. Braun Medical Inc.,Fort Wayne,United States,110001,9013591941
+771,A-S Medication Solutions LLC,Solna,Sweden,155131,9137836424
+772,Kimberly-Clark Corporation,Huangnan,China,9304,485929312
+773,"Golden State Medical Supply, Inc.",Dalang,China,172288,17117846528
+774,Aurobindo Pharma Limited,Xiangshui,China,102570,10097093370
+775,Wal-Mart Stores Inc.,Cagliari,Italy,191605,18202091790
+776,Cardinal Health,Châlons-en-Champagne,France,136744,6308137464
+777,NorthStar RxLLC,Bourg-lès-Valence,France,9658,431162094
+778,Mylan Pharmaceuticals Inc.,Yunlong,China,24900,1910726400
+779,Dalian Goodwood Medical Care Ltd.,Toulouse,France,185850,3431348550
+780,JayMac Pharmaceuticals LLC,Józefów,Poland,10310,267843490
+781,"Golden State Medical Supply, Inc.",Nanping,China,77639,5510428025
+782,"Fenwal, Inc.",Zhongguanyi,China,170749,11302730055
+783,Ecolab Inc.,Matsue-shi,Japan,72094,5261708496
+784,Mylan Institutional Inc.,Kulevcha,Ukraine,172487,11076252705
+785,Safeway,Yuwan,China,118991,3439672837
+786,Major Pharmaceuticals,Waalwijk,Netherlands,58427,1675160517
+787,Mylan Pharmaceuticals Inc.,Nianpan,China,107132,7631440888
+788,"Huckaby Pharmaceuticals, Inc.",Yaozhanzi,China,110124,11003700204
+789,State of Florida DOH Central Pharmacy,Jinjiang,China,144806,3080023620
+790,STAT Rx USA LLC,Heemskerk,Netherlands,115714,3850383350
+791,Mylan Institutional Inc.,Lhakangtang,China,129427,10346135526
+792,Lake Erie Medical DBA Quality Care Products LLC,Fresno,United States,72058,3585245790
+793,Cardinal Health,Xiangyang,China,99158,4814914164
+794,Westwood Manufacturing,Midland,United States,156831,13349297889
+795,Chain Drug Marketing Association Inc.,Yasynuvata,Ukraine,26005,2362684275
+796,"EQUATE (Walmart Stores, Inc.)",Chorkówka,Poland,144017,8289042452
+797,"Hisamitsu Pharmaceutical Co., Inc.",Etten-Leur,Netherlands,163215,12048531300
+798,"G&W Laboratories, Inc.",Wukeshu,China,28839,1555287270
+799,"ALK-Abello, Inc.",Lawrenceville,United States,12483,1157211549
+800,Pacific Health Collabroative,Baiyin,China,192911,13309122801
