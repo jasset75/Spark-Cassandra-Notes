@@ -45,7 +45,7 @@ I've choosed a set of frequently used types:
 + **language** mother tongue: German, English, Spanish
 + **image** a fake image URL with different sizes
 
-[More details about data template on Mockaroo](https://www.mockaroo.com/b085ea10)
+[More details about data template on Mockaroo](https://www.mockaroo.com/05d59200)
 
 ## Loading data from file system to memory
 
