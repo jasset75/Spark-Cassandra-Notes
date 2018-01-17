@@ -21,7 +21,7 @@ COLUMNS = ['id','company_name','city','country','size','annual_budget']
 locale.setlocale(locale.LC_ALL,'')
 
 ## Object Mapper
-class MockCompanies(Model):
+class MockData(Model):
   __keyspace__ = KEYSPACE
   id = Integer(primary_key=True)
   company_name = Text()
@@ -48,7 +48,7 @@ session.set_keyspace(KEYSPACE)
 session.execute("DROP TABLE IF EXISTS %s" % MOCK_DATA_TABLE)
 
 ## create CQL table
-sync_table(MockCompanies)
+sync_table(MockData)
 
 ## reading data from csv file
 df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING)
@@ -59,7 +59,7 @@ COLUMNS = ['id','company_name','city','country','size','annual_budget']
 
 ## saving data to database
 for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
-  MockCompanies.create(
+  MockData.create(
     id = ind,
     company_name = row['company_name'],
     city = row['city'],
