@@ -55,8 +55,6 @@ df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"
 
 df.fillna(0,inplace=True)
 
-COLUMNS = ['id','company_name','city','country','size','annual_budget']
-
 ## saving data to database
 for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
   MockCompanies.create(

@@ -12,23 +12,21 @@ from pandas import read_csv, concat
 from tqdm import tqdm
 
 KEYSPACE = "examples_bis"
-MOCK_DATA_TABLE = "mock_companies"
-FICHERO_DATOS = "./data/mock_companies.csv"
+MOCK_DATA_TABLE = "mock_drugs"
+FICHERO_DATOS = "./data/mock_drugs.csv"
 ENCODING="utf-8"
 
-COLUMNS = ['id','company_name','city','country','size','annual_budget']
+COLUMNS = ['id_drug','drug_name','id_company','id_patient']
 
 locale.setlocale(locale.LC_ALL,'')
 
 ## Object Mapper
-class MockData(Model):
+class MockDrugs(Model):
   __keyspace__ = KEYSPACE
-  id = Integer(primary_key=True)
-  company_name = Text()
-  city = Text()
-  country = Text()
-  size = Integer()
-  annual_budget = Float()
+  id_drug = Integer(primary_key=True)
+  drug_name = Text()
+  id_company = Integer()
+  id_patient = Integer()
 
 # Apache Cassandra connection
 list_of_ip = ['127.0.0.1']
@@ -48,22 +46,18 @@ session.set_keyspace(KEYSPACE)
 session.execute("DROP TABLE IF EXISTS %s" % MOCK_DATA_TABLE)
 
 ## create CQL table
-sync_table(MockData)
+sync_table(MockDrugs)
 
 ## reading data from csv file
 df = read_csv(os.path.abspath(FICHERO_DATOS),header=0,names=COLUMNS,quotechar='"',decimal=',',encoding=ENCODING)
 
 df.fillna(0,inplace=True)
 
-COLUMNS = ['id','company_name','city','country','size','annual_budget']
-
 ## saving data to database
 for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
-  MockData.create(
-    id = ind,
-    company_name = row['company_name'],
-    city = row['city'],
-    country = row['country'],
-    size = row['size'],
-    annual_budget = row['annual_budget']
+  MockDrugs.create(
+    id_drug = ind,
+    drug_name = row['drug_name'],
+    id_company = row['id_company'],
+    id_patient = row['id_patient'],
   )
