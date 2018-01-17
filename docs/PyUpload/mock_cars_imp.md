@@ -41,7 +41,7 @@ I've choosed a set of frequently used types:
 + **color** bodywork color of the car
 + **id_owner** id of the owner in the [collection of people](mock_data_imp.md)
 
-[More details about data template on Mockaroo](http://www.mockaroo.com/37137260)
+[More details about data template on Mockaroo](https://www.mockaroo.com/656d9340)
 
 ## Loading data from file system to memory
 
