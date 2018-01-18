@@ -41,6 +41,7 @@ $ sudo apt-get update
 ### Java 8 installation
 
 ```sh
+$ sudo apt-get install software-properties-common
 $ sudo add-apt-repository -y ppa:webupd8team/java
 $ sudo apt-get update
 $ sudo apt-get install oracle-java8-installer
