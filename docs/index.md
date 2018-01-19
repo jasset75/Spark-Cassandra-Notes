@@ -1,4 +1,4 @@
-# Spark-Cassandra solutions Development
+# Spark-Cassandra data analysis examples
 
 1. [Setting up the Environment](Environment.md)
 
