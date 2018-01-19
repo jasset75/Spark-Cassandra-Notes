@@ -10,7 +10,7 @@
    
    3. [Mock Data of Drug Comsumption by people](PyUpload/mock_drugs_imp.md)
    
-   4. [Mock Data of Pharmaceutical Companies](PyUpload/mock_drugs_imp.md)
+   4. [Mock Data of Pharmaceutical Companies](PyUpload/mock_companies_imp.md)
         
 3. Scala Examples
         
