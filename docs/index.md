@@ -7,6 +7,8 @@
    1. [Mock Data of people](PyUpload/mock_data_imp.md)
         
    2. [Mock Data of cars owned by people](PyUpload/mock_cars_imp.md)
+   
+   3. [Drug Comsumption by people](PyUpload/mock_drugs_imp.md)
         
 3. Scala Examples
         
