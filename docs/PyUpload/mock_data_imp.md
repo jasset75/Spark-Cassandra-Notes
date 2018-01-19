@@ -4,7 +4,7 @@
 
 Loading fake information about people into cassandra table
 
-> This Script loads generated mock data of fake people into Cassandra "examples" keyspace, in the table "mock-data" [mock_data_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py)
+> This Script loads generated mock data of fake people into Cassandra "mock-data" [mock_data_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_data_imp.py) table, whithin "examples" keyspace.
 
 ## Dependencies
 
@@ -74,7 +74,7 @@ class MockData(Model):
   smoker_bool = Boolean()
   drinker = Text()
   language = Text()
-image = Text()
+  image = Text()
 ```
 
 Simply with `sync_table(MockCars)` you can manage record persistence. *Model* descendant classes inherit a method to create records which will be posted into Cassandra table.
