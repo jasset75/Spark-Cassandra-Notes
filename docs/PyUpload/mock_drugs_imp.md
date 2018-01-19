@@ -72,5 +72,5 @@ for ind, row in tqdm(df.iterrows(), total=df.shape[0]):
     drug_name = row['drug_name'],
     id_company = row['id_company'],
     id_patient = row['id_patient'],
-)
+  )
 ```
