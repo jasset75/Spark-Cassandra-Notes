@@ -2,7 +2,7 @@
 
 # Mock data of Pharmaceutical Companies
 
-Loading fake information about pharmaceutical corporations. This dataset records information about drug manufacturer companies.
+Loading fake info about pharmaceutical corporations. This dataset records information about drug manufacturer companies.
 
 > This Script loads generated mock data of well known pharmaceutical companies, but with fake associated data, into Cassandra "mock-companies" [mock_companies_imp.py](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/mock_companies_imp.py) table within "examples_bis" keyspace.
 
