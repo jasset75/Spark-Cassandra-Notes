@@ -1,6 +1,6 @@
 [< Back Home](../)
 
-# Mock data of Medicines
+# Mock data of Pharmaceutical Companies
 
 Loading fake information about pharmaceutical corporations. This dataset records information about drug manufacturer companies.
 
