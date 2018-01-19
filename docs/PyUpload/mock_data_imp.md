@@ -26,7 +26,7 @@ from cassandra.cqlengine.columns import *
 COLUMNS = ['id','first_name','last_name','email','gender','birth_date','ip_address','probability','smoker_bool','drinker','language','image']
 ```
 
-Defined constant COLUMNS synthetize the structure of the CSV file [mock_data.csv](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/data/mock-data.csv)
+Defined constant COLUMNS synthetize the structure of the CSV file [mock_data.csv](https://github.com/jasset75/Spark-Cassandra-Notes/blob/master/examples/py-upload/data/mock_data.csv)
 
 This file was generated with online freemium tool [Mockaroo](http://www.mockaroo.com/) which is able to generate ramdom values into CSV format with several avalaible types.
 
