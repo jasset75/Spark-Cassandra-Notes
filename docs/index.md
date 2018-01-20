@@ -4,13 +4,13 @@
 
 2. Dataset used within the examples
         
-   1. [Mock Data of people](PyUpload/mock_data_imp.md)
+   1. [Mock data of people](PyUpload/mock_data_imp.md)
         
-   2. [Mock Data of cars owned by people](PyUpload/mock_cars_imp.md)
+   2. [Mock data of cars owned by people](PyUpload/mock_cars_imp.md)
    
-   3. [Mock Data of Drug Comsumption by people](PyUpload/mock_drugs_imp.md)
+   3. [Mock data of drug comsumption](PyUpload/mock_drugs_imp.md)
    
-   4. [Mock Data of Pharmaceutical Companies](PyUpload/mock_companies_imp.md)
+   4. [Mock data of pharmaceutical companies](PyUpload/mock_companies_imp.md)
         
 3. Scala Examples
         
