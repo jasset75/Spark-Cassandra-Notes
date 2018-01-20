@@ -1,4 +1,4 @@
-# Spark-Cassandra data analysis examples
+# Notes about Cassandra data computing with Apache Spark
 
 1. [Setting up the Environment](Environment.md)
 
