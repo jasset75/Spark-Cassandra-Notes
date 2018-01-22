@@ -114,13 +114,19 @@ $ sudo apt-get install python3
 > Virtualenv is optional but highly recommended to follow the examples
 
 ```sh
+$ sudo apt-get virtualenv
+$ echo "export VIRTUALENVS_HOME=/usr/local/spark-2.2.1" >> ~/.bashrc
 $ cd $VIRTUALENVS_HOME
 $ virtualenv -p `which python3` cassandra
-$ source $VIRTUALENVS_HOME/cassandra/bin/activate
 ```
 >`$VIRTUALENVS_HOME` is equal to whatever you create your virtual environments
 
-- Script execution
+> Virtual environment activation `$ source $VIRTUALENVS_HOME/cassandra/bin/activate`
+
+Script execution
+
+> cloning this repository `$ git clone https://github.com/jasset75/Spark-Cassandra-Notes.git spark-cassandra-notes`
+
 ```sh
 (cassandra) $ cd ~/spark-cassandra-notes/examples/py-upload
 (cassandra) $ pip install -r requirements.txt
