@@ -40,12 +40,10 @@ $ sudo apt-get update
 
 ### Java 8 installation
 
-~~```sh
-$ sudo apt-get install software-properties-common
-$ sudo add-apt-repository -y ppa:webupd8team/java
-$ sudo apt-get update
-$ sudo apt-get install oracle-java8-installer
-```~~
+~~$ sudo apt-get install software-properties-common~~
+~~$ sudo add-apt-repository -y ppa:webupd8team/java~~
+~~$ sudo apt-get update~~
+~~$ sudo apt-get install oracle-java8-installer~~
 
 >Note: Since January 2018, Oracle has discontinued JDK 8 binaries support, so I'll try OpenJDK 8 instead of Oracle JDK 9, because I've read some issues with.
 
