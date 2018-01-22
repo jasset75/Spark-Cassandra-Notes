@@ -75,6 +75,7 @@ $ sudo apt-key adv --keyserver pool.sks-keyservers.net --recv-key A278B781FE4B2B
 $ sudo apt-get update
 $ sudo apt-get install cassandra 
 ```
+> version check `$ cassandra -v`
 
 ### Apache Spark 2.2.1 installation 
 *(**with hadoop 2.7 support**)*
