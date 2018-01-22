@@ -66,18 +66,29 @@ sudo dpkg -i scala-2.11.6.deb
 $ scala -version
 ```
 
+### Cassandra 3.11 installation
+```sh
+$ echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+$ sudo apt-get install curl
+$ curl https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
+$ sudo apt-key adv --keyserver pool.sks-keyservers.net --recv-key A278B781FE4B2BDA
+$ sudo apt-get update
+$ sudo apt-get install cassandra 
+```
+
 ### Apache Spark 2.2.1 installation 
 *(**with hadoop 2.7 support**)*
 ```sh
-wget http://ftp.cixug.es/apache/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
-tar xvf spark-2.2.1-bin-hadoop2.7.tgz
-sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
+$ wget http://ftp.cixug.es/apache/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz
+$ tar xvf spark-2.2.1-bin-hadoop2.7.tgz
+$ sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
 ```
 
 ### Adding to $PATH environment variable
 ```bs
-echo "export SPARK_HOME=/usr/local/spark-2.2.1" >> ~/.bashrc
-echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
+$ echo "export SPARK_HOME=/usr/local/spark-2.2.1" >> ~/.bashrc
+$ echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
+$ source ~/.bashrc
 ```
 
 ### Python 3.5
