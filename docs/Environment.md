@@ -133,6 +133,8 @@ Script execution
 (cassandra) $ python mock_data_imp.py 
 ``` 
 
+> `requirements.txt` has python libraries that are dependencies for all the examples
+
 ### Jupyter 
 *optional*
 
