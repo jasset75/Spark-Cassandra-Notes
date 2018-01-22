@@ -50,16 +50,18 @@ $ sudo apt-get update
 
 >Note: Since January 2018, Oracle has discontinued JDK 8 binaries support, so I'll try OpenJDK 8 instead of Oracle JDK 9, because I've read some issues with.
 
-- version check
+> version check
 ```sh
 $ java -version
 ```
 
 ### Scala 2.11 installation
 ```sh
-sudo apt-get install scala=2.11.6
+wget www.scala-lang.org/files/archive/scala-2.11.6.deb
+sudo dpkg -i scala-2.11.6.deb
 ```
-- version check
+
+> version check
 ```sh
 $ scala -version
 ```
