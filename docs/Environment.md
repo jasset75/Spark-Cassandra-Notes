@@ -76,7 +76,7 @@ sudo mv spark-2.2.1-bin-hadoop2.7 /usr/local/spark-2.2.1
 
 ### Adding to $PATH environment variable
 ```bs
-echo "export SPARK_HOME=/usr/local/spark-2.2.1"
+echo "export SPARK_HOME=/usr/local/spark-2.2.1" >> ~/.bashrc
 echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 ```
 
