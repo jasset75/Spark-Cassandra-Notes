@@ -28,6 +28,7 @@ As development environment we will use an VMWare Virtual Machine with Ubuntu as 
 * Virtualenv 15.0.1
 * Java 1.8.0
 * Scala 2.11.6
+* sbt 0.13
 * Spark 2.2.1
 * Cassandra 3.11.1
 
@@ -65,7 +66,6 @@ sudo dpkg -i scala-2.11.6.deb
 ```sh
 $ scala -version
 ```
-
 ### Cassandra 3.11 installation
 ```sh
 $ echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
@@ -92,12 +92,25 @@ $ echo "export PATH=\$PATH:\$SPARK_HOME/bin" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
+### sbt 0.13 installation
+
+> To compile scala applications we need i.e. sbt compiler
+
+```sh
+$ echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+$ sudo apt-get update
+$ sudo apt-get install sbt
+```
+
 ### Python 3.5
+
 ```sh
 $ sudo apt-get install python3
 ``` 
 
 ### Virtualenv
+
 > Virtualenv is optional but highly recommended to follow the examples
 
 ```sh
