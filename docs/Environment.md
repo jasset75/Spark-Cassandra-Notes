@@ -19,7 +19,7 @@ We need an environment which be able to connect to Cassandra cluster and extract
 
 We could use several programming languages onto Spark; Scala is one of them, and it has Java Virtual Machine as a requirement, so we need to install Java + Scala in order to use Spark with, as well as python interpreter if we use this programming language.
 
-Spark is scalable, developing a cluster of nodes we could use pararell programming achiving the optimun. But for simplicity sake, we'll also install spark locally.
+Spark is scalable; so, developing a cluster of nodes we could use pararell programming achiving the optimun. But for simplicity sake, we'll also install spark locally. Spark also take advantage from multiple core or threads as well as GPU with specific conditions (i.e.: using [CUDA](http://www.spark.tc/gpu-acceleration-on-apache-spark-2/))
 
 As development environment we will use an VMWare Virtual Machine with Ubuntu as O.S.; this is the basic list of tuples product-version we are going to harness:
 
