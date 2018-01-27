@@ -70,6 +70,7 @@ sudo dpkg -i scala-2.11.6.deb
 ```sh
 $ scala -version
 ```
+
 ### Cassandra 3.11 installation
 ```sh
 $ echo "deb http://www.apache.org/dist/cassandra/debian 311x main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
