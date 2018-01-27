@@ -51,6 +51,10 @@ $ sudo apt-get update
 
 >Note: Since January 2018, Oracle has discontinued JDK 8 binaries support, so I'll try OpenJDK 8 instead of Oracle JDK 9, because I've read some issues with.
 
+```sh
+sudo apt-get install openjdk-8-jdk
+```
+
 > version check
 ```sh
 $ java -version
