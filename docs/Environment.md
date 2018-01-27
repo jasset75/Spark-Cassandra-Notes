@@ -153,7 +153,7 @@ $ pip install jupyter
 ```sh
 $ git clone https://github.com/datastax/spark-cassandra-connector
 $ cd spark-cassandra-connector
-$ ./sbt/sbt -Dscala-2.11=true assembly
+$ ./sbt/sbt assembly -Dscala-2.11=true 
 ```
 
 ### Using spark-shell
