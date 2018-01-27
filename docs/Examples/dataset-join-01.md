@@ -8,6 +8,7 @@ Language: Scala v2.11
 
 > - Previous Requirements 
 >   * [Setting up the Environment](../Environment.md)
+>   * [Scala applications template](../scala-app-template.md)
 > - Data sources
 >   * [Mock data of People](../PyUpload/mock_data_imp.md)
 >   * [Mock data of Cars owned by](../PyUpload/mock_data_imp.md)
