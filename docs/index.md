@@ -22,4 +22,6 @@
         
    4. [Dataset Join 02](Examples/dataset-join-02.md)
    
+4. Python Examples
+
    5. [Dataset Join 03](Examples/dataset-join-03.md)
