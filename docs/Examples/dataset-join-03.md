@@ -82,7 +82,8 @@ ds_drinkers = (
 )
 ```
 
-Table is created if no exists, otherwise exception is raise but silenced
+~~Table is created if no exists, otherwise exception is raise but silenced~~
+Nowadays it doesn't work, but in Scala [dataset-join-02](./dataset-join-02.md) it works flawlessly. I reported to maintener at  [datastax](https://datastax-oss.atlassian.net/browse/SPARKC-525)
 
 ```py
 try:
