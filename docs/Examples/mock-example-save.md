@@ -1,20 +1,24 @@
-# RDD join example
+[< Back Home](../)
+
+# Mock Data Save
 
 Github [repository](https://github.com/jasset75/spark-cassandra-notes)
 Path: [examples/mock-example-save](../../examples/mock-example-save/)
 Language: Scala v2.11
 
-> Previous Requirements 
-> * [Setting up the Environment](../Environment.md)
+> - Previous Requirements 
+>   * [Setting up the Environment](../Environment.md)
+>   * [Scala applications template](../scala-app-template.md)
+> - Data sources
+>   * [Mock data of People](../PyUpload/mock_data_imp.md)
 
-> Data sources
-> * [Mock data of People](../PyUpload/mock_data_imp.md)
+This example starts at [mock-example](./mock-example.md)
 
-This example is similar to [mock-example](./mock-example.md)
+This script takes the ten most repeated person's names, five from males plus five from females, and store full records who match h* first names with this list. Besides, It stores retrieved records into a new Cassandra table which has the same structure than original. Destination table is created if not exists.
 
 ## RDD join
 
-- First part is similar to before one, retrieving data from the same data source:
+First part is similar to before one, retrieving data from the same data source:
 
 ```scala
 // select from Cassandra Table with Cassandra-Scala type conversion
@@ -32,7 +36,8 @@ val males_result = male_names_c.reduceByKey{ case (v,count) => count + count } /
 ```
 > The same for female names.
 
-- This takes five most repeated *first names* for each gender:
+This takes five most repeated *first names* for each gender:
+
 ```scala
 // taking 5 highest male repeated names                   
 val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
@@ -41,14 +46,14 @@ val males_result_high = sc.parallelize(males_result.sortBy(_._2,false).take(5))
 val females_result_high = sc.parallelize(females_result.sortBy(_._2,false).take(5))
 ```
 
-- Unite them into a new RDD:
+Unite them into a new RDD:
 
 ```scala
 val highest = males_result_high
   .union(females_result_high)
 ```
 
-- In the other hand It takes from source the entire table in a RDD of [Tuple2](http://www.scala-lang.org/api/2.9.1/scala/Tuple2.html) (first_name,(<entire_record>)
+In the other hand It takes from source the entire table in a RDD of [Tuple2](http://www.scala-lang.org/api/2.9.1/scala/Tuple2.html) (first_name,(<entire_record>)
 > be careful with performance, but in this example the max number of records is near to 1k.
 
 ```scala
@@ -66,7 +71,8 @@ val pair_record_highest = record_names
     )
 ```
 
-- Already the two RDD's are ready to join each other, because `first_name` field is the key in both:
+Already the two RDD's are ready to join each other, because `first_name` field is the key in both:
+
 ```scala
 // RDD join
 val vip_named = highest
@@ -74,7 +80,8 @@ val vip_named = highest
   .map{ case (name, ( count, row)) => row }
 ```
 
-- This point needs a table at Cassandra cluster according to the RDD structure. Only it creates this one if not exists previously:
+This point needs a table at Cassandra cluster according to the RDD structure. Only it creates this one if not exists previously:
+
 ```scala
 // Cassandra connector  
 val cc =  CassandraConnector(sc.getConf)
@@ -101,14 +108,16 @@ cc.withSessionDo(
 )
 ```
 
-- Invoking `saveToCassandra` method will save them to Cassandra:
+Invoking `saveToCassandra` method will save them to Cassandra table:
+
 ```scala
 vip_named.saveToCassandra("examples","vip_named_people",SomeColumns("id","first_name","last_name","email","gender",
                           "birth_date","ip_address","probability","smoker_bool",
                           "drinker","language","image"))
 ```
 
-- If you select the table that the method just created, the output have to be something similar to this:
+If you select the table that the method just created, the output have to be something similar to this:
+
 ```
 cqlsh> SELECT id, first_name, last_name, gender, email FROM examples.vip_named_people;
 

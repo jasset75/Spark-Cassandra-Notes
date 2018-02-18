@@ -1,10 +1,5 @@
 package uk.me.jasset.examples
 
-// spark conf and context libraries
-import org.apache.spark.SparkContext
-import org.apache.spark.SparkContext._
-import org.apache.spark.SparkConf
-
 // datastax Cassandra Connector
 import com.datastax.spark.connector._
 import com.datastax.spark.connector.cql.CassandraConnectorConf
@@ -13,6 +8,7 @@ import com.datastax.spark.connector.cql.CassandraConnector
 // spark sql libraries
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.cassandra._
+import org.apache.spark.sql.SaveMode
 
 /**
  Computes an example joining two tables People with car owned and save to specific Cassandra table
@@ -62,6 +58,7 @@ object DatasetJoin02 {
 
     // select ok columns
     val dsDrinkers = dsJoin.select("id","email","car_id","car_make","car_model")
+
     // create table
     try {
       dsDrinkers
@@ -72,6 +69,7 @@ object DatasetJoin02 {
     // write back to cassandra
     dsDrinkers
       .write
+      .mode(SaveMode.Append)
       .format("org.apache.spark.sql.cassandra")
       .options(Map( "table" -> "cars_owned_by_drinkers", "keyspace" -> "examples"))
       .save()
@@ -85,7 +83,7 @@ object DatasetJoin02 {
       .load()
 
     // showing
-    println("Records saved")
+    println("Records saved.")
     dsCarsDrinkers.show(200,false)
 
     // finish

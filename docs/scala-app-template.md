@@ -1,10 +1,18 @@
+[< Back Home](./)
+
 # Scala Apps Template
 
-## A possible template of [directories](http://www.scala-sbt.org/1.x/docs/Directories.html) with a particular structure and files to compile Scala applications. 
+## Template of [directories](http://www.scala-sbt.org/1.x/docs/Directories.html)
 
-To launch scala applications in Spark Cluster you can use spark-submit utility which is part of Spark tools. This is the alternative to spark-shell that is better for interactive mode.
+This is a particular structure of files and folders with which to compile Scala applications. 
+
+## Spark Submit
+
+To launch scala applications in Spark Cluster you could use spark-submit utility which is part of Spark tools. This is the alternative to spark-shell that is better for interactive mode.
 
 The spark-submit executable an entry point class with main method. You can submit with option `--class`. But if this app has more dependencies or need packaged apps, normally in jar format for Java and Scala.
+
+## Compilation
 
 A compiler like sbt is necessary to build jars which could be submitted. And this compilation require some settings and a particular folder structure for our applications.
 
@@ -25,6 +33,7 @@ Folder tree:
 - Below **src->main->scala** we could deploy Scala Scripts which are part of the project
 - **lib** folder is used to place dependencies; normally unmanaged jars (managed dependencies can be declared into built.sbt)
 - **built.sbt**: you can place your app configuration here. For instance:
+
 ```scala
 name := <app_name>
 version := <app_version>
