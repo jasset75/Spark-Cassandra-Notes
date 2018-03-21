@@ -1,4 +1,4 @@
-> Author: Juan Antonio Aguilar Jiménez.
+> Author: Juan A. Aguilar-Jiménez.
 
 # Notes about Cassandra data computing with Apache Spark
 
