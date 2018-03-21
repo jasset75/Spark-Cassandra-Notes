@@ -1,6 +1,6 @@
 [< Back Home](./)
 
-> Autor: Juan Antonio Aguilar Jiménez.
+> Author: Juan Antonio Aguilar Jiménez.
 
 # Setting up the Environment
 
