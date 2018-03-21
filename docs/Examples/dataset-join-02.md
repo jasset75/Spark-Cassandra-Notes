@@ -53,7 +53,7 @@ val connector = CassandraConnector(spark.sparkContext.getConf)
 val session = connector.openSession()
 ```
 
-- The form to load data from Cassandra is a different between Dataset and RDD. It is quite easier and conforting. It is more optimal filtering at this point.
+- The way to load data from Cassandra is different between Dataset and RDD. It is quite easier and conforting.
 ```scala
     // reading datasets to join
     val dsPeople = spark
