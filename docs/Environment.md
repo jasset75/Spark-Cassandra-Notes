@@ -1,5 +1,7 @@
 [< Back Home](./)
 
+Autor: Juan Antonio Aguilar Jiménez.
+
 # Setting up the Environment
 
 > **“There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.**
