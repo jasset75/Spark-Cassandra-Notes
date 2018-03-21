@@ -85,6 +85,7 @@ try {
   case e: Exception => 
 }
 ```
+> This example doesn't work using pyspark, I have reported the [issue](https://datastax-oss.atlassian.net/projects/SPARKC/issues/SPARKC-525?filter=allissues).
 
 - Dataset API supplies conforting write back as well. `SaveMode.Append` is used to append data.
 ```scala
