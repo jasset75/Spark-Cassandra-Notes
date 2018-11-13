@@ -142,14 +142,6 @@ Script execution
 
 > `requirements.txt` has python libraries that are dependencies for all the examples
 
-### Jupyter 
-*optional*
-
-```sh
-$ pip install findspark
-$ pip install jupyter
-````
-
 ### Datastax Spark-Cassandra Connector
 > Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)
 ```sh
