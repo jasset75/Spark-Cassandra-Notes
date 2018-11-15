@@ -1,3 +1,5 @@
+> Author: Juan A. Aguilar-Jiménez.
+
 # Notes about Cassandra data computing with Apache Spark
 
 1. [Setting up the Environment](Environment.md)

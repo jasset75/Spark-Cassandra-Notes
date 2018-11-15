@@ -1,5 +1,7 @@
 [< Back Home](./)
 
+> Author: Juan A. Aguilar-Jiménez.
+
 # Setting up the Environment
 
 > **“There are not more than five musical notes, yet the combinations of these five give rise to more melodies than can ever be heard.**
@@ -139,14 +141,6 @@ Script execution
 ``` 
 
 > `requirements.txt` has python libraries that are dependencies for all the examples
-
-### Jupyter 
-*optional*
-
-```sh
-$ pip install findspark
-$ pip install jupyter
-````
 
 ### Datastax Spark-Cassandra Connector
 > Source [Datastax Blog. (2018, January 1).](https://www.datastax.com/dev/blog/kindling-an-introduction-to-spark-with-cassandra-part-1)

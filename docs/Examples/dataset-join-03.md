@@ -36,50 +36,59 @@ from pyspark.sql import SQLContext, SparkSession
 Setting up Cassandra-ready spark session
 
 ```py
-spark = SparkSession.builder \
-  .appName('SparkCassandraApp') \
-  .config('spark.cassandra.connection.host', 'localhost') \
-  .config('spark.cassandra.connection.port', '9042') \
-  .config('spark.cassandra.output.consistency.level','ONE') \
-  .master('local[2]') \
-  .getOrCreate()
+spark = (
+  SparkSession.builder
+    .appName('SparkCassandraApp')
+    .config('spark.cassandra.connection.host', 'localhost')
+    .config('spark.cassandra.connection.port', '9042')
+    .config('spark.cassandra.output.consistency.level','ONE')
+    .master('local[2]')
+    .getOrCreate()
+)
 ```
 
 Loading data of people
 
 ```py
-ds_people = sqlContext \
-  .read \
-  .format('org.apache.spark.sql.cassandra') \
-  .options(table='mock_data', keyspace='examples') \
-  .load() \
-  .filter('drinker == "Daily"')
+ds_people = ( 
+  sqlContext
+    .read
+    .format('org.apache.spark.sql.cassandra')
+    .options(table='mock_data', keyspace='examples')
+    .load()
+    .filter('drinker == "Daily"')
+)
 ```
 
 The same with cars
 
 ```py
-ds_cars = sqlContext \
-  .read \
-  .format('org.apache.spark.sql.cassandra') \
-  .options(table='mock_cars', keyspace='examples') \
-  .load()
+ds_cars = (
+  sqlContext
+    .read
+    .format('org.apache.spark.sql.cassandra')
+    .options(table='mock_cars', keyspace='examples')
+    .load()
+)
 ```
 
 Join cars with owners
 
 ```py
-ds_drinkers = ds_people \
-  .join(ds_cars,ds_people['id'] == ds_cars['id_owner']) \
-  .select('id','email','car_id','car_make','car_model')
+ds_drinkers = (
+  ds_people
+    .join(ds_cars,ds_people['id'] == ds_cars['id_owner'])
+    .select('id','email','car_id','car_make','car_model')
+)
 ```
 
-Table is created if no exists, otherwise exception is raise but silenced
+~~Table is created if no exists, otherwise exception is raise but silenced~~
+Nowadays it doesn't work, but in Scala [dataset-join-02](./dataset-join-02.md) it works flawlessly. I reported to maintener at  [datastax](https://datastax-oss.atlassian.net/browse/SPARKC-525)
 
 ```py
 try:
-  ds_drinkers \
-    .createCassandraTable('examples', 'cars_owned_by_drinkers', partitionKeyColumns = ['id','car_id'])
+  # this method doesn't work with pyspark (in scala works fine) 
+  ds_drinkers.createCassandraTable('examples', 'cars_owned_by_drinkers', partitionKeyColumns = ['id','car_id'])
 except:
   None
 ```
@@ -87,22 +96,26 @@ except:
 Saving joined dataset back to Cassandra
 
 ```py
-ds_drinkers \
-  .write \
-  .mode('append') \
-  .format('org.apache.spark.sql.cassandra') \
-  .options(table = 'cars_owned_by_drinkers', keyspace = 'examples') \
-  .save()
+(
+  ds_drinkers
+    .write
+    .mode('append')
+    .format('org.apache.spark.sql.cassandra')
+    .options(table = 'cars_owned_by_drinkers', keyspace = 'examples')
+    .save()
+)
 ```
 
 To test the result, it loads again new data into Spark's DataFrame
 
 ```py
-ds_cars = sqlContext \
-  .read \
-  .format('org.apache.spark.sql.cassandra') \
-  .options(table='cars_owned_by_drinkers', keyspace='examples') \
-  .load()
+ds_cars = (
+  sqlContext
+    .read
+    .format('org.apache.spark.sql.cassandra')
+    .options(table='cars_owned_by_drinkers', keyspace='examples')
+    .load()
+)
 ```
 
 Loading data into pandas in order to save to file system, although It could be post in an HTTP connection or something else
