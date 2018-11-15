@@ -8,7 +8,7 @@ from cassandra.cqlengine.management import sync_table, create_keyspace_simple
 
 # Apache Cassandra connection
 list_of_ip = ['127.0.0.1']
-cluster = Cluster(list_of_ip,load_balancing_policy=TokenAwarePolicy(RoundRobinPolicy()))
+cluster = Cluster(list_of_ip, load_balancing_policy=TokenAwarePolicy(RoundRobinPolicy()))
 session = cluster.connect()
 connection.set_session(session)
 
