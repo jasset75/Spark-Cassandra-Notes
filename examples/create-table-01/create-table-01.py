@@ -1,3 +1,5 @@
+import os
+
 from cassandra.cluster import Cluster
 from cassandra.policies import TokenAwarePolicy, RoundRobinPolicy
 
@@ -5,6 +7,9 @@ from cassandra.cqlengine import connection
 from cassandra.cqlengine.models import Model
 from cassandra.cqlengine.columns import *
 from cassandra.cqlengine.management import sync_table, create_keyspace_simple
+
+# setting up CQLENG_ALLOW_SCHEMA_MANAGEMENT to avoid warnings
+os.environ['CQLENG_ALLOW_SCHEMA_MANAGEMENT'] = 'yes'
 
 # Apache Cassandra connection
 list_of_ip = ['127.0.0.1']
